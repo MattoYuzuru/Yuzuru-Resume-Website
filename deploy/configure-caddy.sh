@@ -15,6 +15,7 @@ restore_on_error() {
   trap - EXIT
   if [[ "$result" != 0 ]]; then
     cp -p "$backup_dir/Caddyfile" /etc/caddy/Caddyfile
+    rm -f /etc/caddy/sites/keykomi.caddy
     caddy validate --config /etc/caddy/Caddyfile
     systemctl reload caddy
     echo "Restored Caddyfile from $backup_dir" >&2
