@@ -34,7 +34,7 @@ CI checks types, tests and atlas references, then builds the static site. A push
 For a manual deployment after `pnpm verify` and `pnpm build`:
 
 ```sh
-KEYKOMI_DEPLOY_TARGET=keykomi-deploy@your-server pnpm deploy
+KEYKOMI_DEPLOY_TARGET=keykomi-deploy@your-server pnpm run deploy
 ```
 
 Files go to `/srv/keykomi/releases/COMMIT-RUN-ATTEMPT/web`. The receiver verifies every hash before an atomic switch of `/srv/keykomi/current`. Old hashed JS and CSS remain in `shared/_astro` for open browser tabs. Caddy needs no reload for normal releases.
