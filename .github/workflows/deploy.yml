@@ -45,5 +45,5 @@ jobs:
           printf '%s\n' "$DEPLOY_KNOWN_HOSTS" > "$HOME/.ssh/known_hosts"
           chmod 600 "$HOME/.ssh/keykomi_deploy" "$HOME/.ssh/known_hosts"
           printf 'Host site-deploy\n  HostName %s\n  User %s\n  IdentityFile ~/.ssh/keykomi_deploy\n  IdentitiesOnly yes\n  StrictHostKeyChecking yes\n' "$DEPLOY_HOST" "$DEPLOY_USER" > "$HOME/.ssh/config"
-          KEYKOMI_DEPLOY_TARGET=site-deploy pnpm deploy
+          KEYKOMI_DEPLOY_TARGET=site-deploy pnpm run deploy
           rm -f "$HOME/.ssh/keykomi_deploy"
