@@ -1,0 +1,36 @@
+---
+import ru from '../i18n/ru.json';
+import en from '../i18n/en.json';
+import LocalText from './LocalText.astro';
+import manifest from '../../public/art/atlas/manifest.json';
+interface Props { locale: 'ru' | 'en'; gallery?: boolean; }
+const { locale, gallery = false } = Astro.props;
+const t = locale === 'ru' ? ru.minimal : en.minimal;
+const first = manifest[0]!;
+---
+<figure class:list={['postcard', { 'postcard-gallery': gallery }]} data-postcard data-mode={gallery ? 'gallery' : 'home'} data-view="ascii">
+  <div class="postcard-viewport">
+    <button class="postcard-surface"  data-ripple aria-label={t.ripple} data-aria-ru={ru.minimal.ripple} data-aria-en={en.minimal.ripple}>
+      <picture><source type="image/webp" media={gallery ? '(min-width: 0px)' : '(min-width: 701px)'}/><img class="postcard-poster" width={first.width} height={first.height} alt="" draggable="false" aria-hidden="true"/></picture>
+      <canvas data-atlas-canvas aria-hidden="true"></canvas>
+      <img class="postcard-original" data-original alt="" draggable="false" aria-hidden="true"/>
+    </button>
+  </div>
+  <figcaption>
+    <div class="postcard-caption">
+      <details class="photo-credit">
+        <summary title={t.photoCredit} data-title-ru={ru.minimal.photoCredit} data-title-en={en.minimal.photoCredit}><span data-place-name>{first.name[locale]}</span><span class="sr-only"> — <LocalText ru={ru.minimal.photoCredit} en={en.minimal.photoCredit}/></span></summary>
+        <div class="credit-panel">
+          <a data-source href={first.source.page} target="_blank" rel="noopener noreferrer">{first.source.author}</a>
+          <span data-source-title>{first.source.file}</span>
+          <a data-license href={first.source.licenseUrl || first.source.page} target="_blank" rel="noopener noreferrer">{first.source.license}</a>
+          <LocalText tag="p" ru={ru.minimal.photoAdaptation} en={en.minimal.photoAdaptation}/>
+        </div>
+      </details>
+      <span data-place-location>{first.location[locale]}</span>
+    </div>
+  </figcaption>
+  <div class="postcard-hint"><LocalText ru={ru.minimal.interaction} en={en.minimal.interaction}/></div>
+  <span class="sr-only" role="status" data-art-status></span>
+  <noscript><style is:inline>.postcard > .postcard-viewport, .postcard > figcaption, .postcard > .postcard-hint {display:none}</style><img src={first.poster} alt={`${first.name[locale]}, ${first.location[locale]}`} width="960" height="720"/><p><a href={first.source.page}>{first.source.author}</a> · <a href={first.source.licenseUrl}>{first.source.license}</a> · <LocalText ru={ru.minimal.photoAdaptation} en={en.minimal.photoAdaptation}/></p></noscript>
+</figure>

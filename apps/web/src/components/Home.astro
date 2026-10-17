@@ -1,0 +1,29 @@
+---
+import MinimalShell from './MinimalShell.astro';
+import Postcard from './Postcard.astro';
+import LocalText from './LocalText.astro';
+import LinkIcon from './LinkIcon.astro';
+import copy from '../../../../content/minimal.json';
+import { getHome, type Locale } from '../lib/content';
+interface Props { locale: Locale; }
+const { locale } = Astro.props;
+const { person } = getHome(locale);
+const r = copy.ru, e = copy.en;
+---
+<MinimalShell locale={locale}>
+  <main id="main" class="paper-home">
+    <div class="art-column"><Postcard locale={locale}/></div>
+    <section class="introduction" aria-labelledby="intro-title">
+      <h1 id="intro-title"><a class="hello-link" href={person.telegram} target="_blank" rel="noopener noreferrer"><LocalText ru={r.heading} en={e.heading}/><span class="heading-period" aria-hidden="true">.</span><LinkIcon name="telegram" class="hello-icon"/></a></h1>
+      <LocalText tag="p" class="intro-line" ru={r.intro} en={e.intro}/>
+      <ul class="personal-lines">
+        <li><LocalText ru={r.product} en={e.product}/></li>
+        <li><LocalText ru={r.ai} en={e.ai}/></li>
+        <li><LocalText ru={r.studyBefore} en={e.studyBefore}/><a class="ink-link" href="https://www.hse.ru/en/ba/drip/" target="_blank" rel="noopener noreferrer"><LocalText ru={r.hse} en={e.hse}/></a><span class="university-cross"> × </span><a class="ink-link" href="https://cu.ru/about-eng" target="_blank" rel="noopener noreferrer"><LocalText ru={r.cu} en={e.cu}/></a><LocalText ru={r.studyAfter} en={e.studyAfter}/></li>
+        <li><LocalText ru={r.mnemaBefore} en={e.mnemaBefore}/><a class="ink-link" href="https://mnema.app" target="_blank" rel="noopener noreferrer">Mnema</a><LocalText ru={r.mnemaAfter} en={e.mnemaAfter}/></li>
+      </ul>
+      <hr class="profile-divider" aria-hidden="true"/>
+      <div class="profile-links"><a class="ink-link" data-cv href={locale === 'ru' ? '/cv.pdf' : '/en/cv.pdf'} download={locale === 'ru' ? 'Matvei-Riabushkin-CV-RU.pdf' : 'Matvei-Riabushkin-CV-EN.pdf'}><LocalText ru={r.cv} en={e.cv}/><LinkIcon name="cv" class="profile-icon"/></a><a class="ink-link" href={person.github} target="_blank" rel="noopener noreferrer"><LocalText ru={r.github} en={e.github}/><LinkIcon name="github" class="profile-icon"/></a></div>
+    </section>
+  </main>
+</MinimalShell>

@@ -1,0 +1,65 @@
+# Single source for site and PDFs. Facts: owner's PDFs and request of 2026-10-17.
+basics:
+  name: { en: Matvei Riabushkin, ru: Матвей Рябушкин }
+  headline: { en: Software Development Engineer, ru: Software Development Engineer }
+  location: { en: 'Moscow, Russia', ru: Москва }
+  email: matveyryabushkin@gmail.com
+  phone: '+7 929 665-35-08'
+  links:
+    - { label: GitHub, url: 'https://github.com/MattoYuzuru' }
+    - { label: Telegram, url: 'https://t.me/Keyko_Mi' }
+    - { label: keykomi.com, url: 'https://keykomi.com' }
+  profile:
+    ru: Backend-разработчик с продуктовым мышлением и опытом в AI-native команде Т-Банка. Веду задачи от требований и архитектуры до тестирования, выпуска и эксплуатации. За три месяца стажировки прошёл внутреннюю оценку с 11-го на 13-й грейд.
+    en: Product-minded backend engineer with experience on an AI-native team at T-Bank. Own work from requirements and architecture through testing, release and operations. Advanced from grade 11 to grade 13 in the bank's internal assessment during a three-month internship.
+education:
+  - school: { en: 'HSE University, Faculty of Computer Science × Central University', ru: 'НИУ ВШЭ, ФКН × Центральный университет' }
+    degree: { en: "Bachelor's in Information Product Design and Development", ru: Бакалавриат «Дизайн и разработка информационных продуктов» }
+    location: { en: Moscow, ru: Москва }
+    start: '2024'
+    end: '2028'
+    details:
+      - { en: 'Third-year student; full-time joint programme.', ru: '3-й курс, очная совместная программа.' }
+experience:
+  - company: { en: T-Bank, ru: Т-Банк }
+    role: { en: 'Backend Engineering Intern · Loyalty Platform', ru: 'Backend-разработчик (стажировка) · Платформа лояльности' }
+    location: { en: Moscow, ru: Москва }
+    start: '2026-06'
+    end: '2026-09'
+    dates: { en: Jun 2026 - Sep 2026, ru: Июнь 2026 - сентябрь 2026 }
+    bullets:
+      - ru: 'Для аудиторий в 10–50 млн клиентов реализовал инкрементальный рескоринг в ClickHouse. В delta-сценариях расчётное время сократилось с более суток примерно до часа; изменения коммерческих условий больше не запускали ML-скоринг.'
+        en: 'Implemented incremental audience rescoring in ClickHouse for 10–50 million customers. In delta scenarios, estimated processing time fell from over a day to about an hour; changes to commercial terms no longer triggered ML rescoring.'
+      - ru: 'Перевёл MCP-прототип финансового AI-ассистента с демо-данных на персональные офферы: запросы к API по необходимости и cache-aside в PostgreSQL. Сократил ответ инструмента с 20–30% до 0,5–0,8% контекстного окна LLM при том же лимите выдачи.'
+        en: 'Moved a financial AI assistant’s MCP prototype from demo data to personalised offers using on-demand API calls and PostgreSQL cache-aside. Reduced tool responses from 20–30% to 0.5–0.8% of the LLM context window at the same result limit.'
+      - ru: 'Спроектировал и реализовал выдачу SMB-офферов через единый каталог: связал backend, Airflow, ClickHouse и смежные сервисы, убрав дублирование предложений.'
+        en: 'Designed and implemented SMB offer delivery through a unified catalogue, connecting backend services, Airflow and ClickHouse while eliminating duplicate offers.'
+      - ru: 'Создал AI-скилл для синхронизации тестов с Allure TestOps; опубликовал во внутреннем маркетплейсе, где его используют за пределами команды. Для двух команд настроил E2E-сценарии автономной проверки изменений агентами.'
+        en: 'Built an AI skill to synchronise tests with Allure TestOps; published it on the internal marketplace, with adoption beyond the team. Set up autonomous agent E2E verification scenarios for two teams.'
+      - ru: 'Доработал LLM-шлюз на Go: payload, SSE, безопасные retries и отмену запросов. Добавил учёт токенов и стоимости; для MCP — метрики ошибок, latency, cache hit/miss и дашборд Grafana.'
+        en: 'Improved a Go LLM gateway’s payload handling, SSE streaming, safe retries and cancellation. Added token and cost accounting, plus MCP error, latency and cache hit/miss metrics with a Grafana dashboard.'
+projects:
+  - name: Alamo
+    links: { repo: 'https://github.com/MattoYuzuru', demo: null }
+    subtitle: { ru: Agent harness для локальных моделей, en: Agent harness for local models }
+    bullets:
+      - ru: 'Разрабатываю среду для многошаговой автономной работы локальных LLM: долгие сессии, handoff, умное сжатие контекста и делегирование агентных сессий.'
+        en: 'Building a runtime for autonomous, multi-step local LLM workflows: long-running sessions, handoff, smart context compaction and agent session delegation.'
+  - name: Mnema
+    links: { repo: 'https://github.com/MattoYuzuru/Mnema', demo: 'https://mnema.app' }
+    subtitle: { ru: AI-платформа для обучения, en: AI learning platform }
+    bullets:
+      - ru: 'Строю платформу для изучения любых тем с AI, сочетая идеи Anki и Duolingo.'
+        en: 'Building an AI learning platform for any subject, combining ideas from Anki and Duolingo.'
+skills:
+  - category: { en: Languages, ru: Языки }
+    items: [Kotlin, Java, SQL, Python, Go, TypeScript]
+  - category: { en: Backend & data, ru: Backend и данные }
+    items: [Spring Boot, WebFlux, REST, PostgreSQL, ClickHouse, Kafka, Airflow]
+  - category: { en: AI & agents, ru: AI и агенты }
+    items: [MCP, RAG, agent harness, tools, hooks, skills, Codex, Claude Code]
+  - category: { en: Delivery & quality, ru: Выпуск и качество }
+    items: [Kubernetes, CI/CD, JUnit, E2E, Allure TestOps, Grafana, Prometheus]
+pdf:
+  max_pages: 1
+  sections: [education, profile, experience, projects, skills]

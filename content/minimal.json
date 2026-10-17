@@ -1,0 +1,40 @@
+{
+  "ru": {
+    "title": "Матвей Рябушкин — SDE",
+    "description": "Матвей, SDE из Москвы. Продуктовое мышление, AI-native разработка, Mnema.",
+    "heading": "го на созвон",
+    "intro": "Я Матвей, SDE из Москвы.",
+    "product": "Думаю продуктом. Человеческого контекста хватает от гипотезы до первого релиза и поддержки.",
+    "ai": "AI-native. Работа, учёба, повседневность — всё через AI. Осознанно ставлю на такой вектор развития индустрии.",
+    "studyBefore": "Третий курс ",
+    "hse": "Вышки",
+    "cu": "ЦУ",
+    "studyAfter": ". Бакалавриат по дизайну и разработке информационных продуктов.",
+    "mnemaBefore": "Строю ",
+    "mnemaAfter": " — платформу, с которой можно выучить что угодно.",
+    "alamoBefore": "Ещё делаю ",
+    "alamoAfter": " — harness для локальных моделей: долгие сессии, handoff, умное сжатие контекста и делегирование агентам.",
+    "cv": "Мой опыт подробнее",
+    "github": "Мой GitHub",
+    "postcards": "Немного географии, пока мы знакомимся."
+  },
+  "en": {
+    "title": "Matt Riabushkin — SDE",
+    "description": "Matt, an SDE from Moscow. Product-minded, AI-native. Building Mnema.",
+    "heading": "hire me",
+    "intro": "I’m Matt, an SDE from Moscow, Russia.",
+    "product": "Product-minded. From \"why\" to shipping and keeping the project running.",
+    "ai": "AI-native. Work, learning, everyday life. Literally an obsession.",
+    "studyBefore": "Third-year undergrad at ",
+    "hse": "HSE",
+    "cu": "CU",
+    "studyAfter": ", studying Information Product Design & Development.",
+    "mnemaBefore": "Building ",
+    "mnemaAfter": ". Think Anki meets Duolingo, with AI.",
+    "alamoBefore": "Also building ",
+    "alamoAfter": " — a harness for local models: long-running sessions, handoff, smart compaction and agent delegation.",
+    "cv": "My CV",
+    "github": "My GitHub",
+    "postcards": "A little geography while we get acquainted."
+  }
+}

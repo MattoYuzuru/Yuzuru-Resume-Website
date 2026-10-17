@@ -1,0 +1,1560 @@
+{
+  "source": "downloadfile.xlsx",
+  "sha256": "622703dd701c369e8b4d4449e6f17b127c7ebc6567e7e5304b37c24fa4987e2b",
+  "places": [
+    {
+      "country": "Китай (САР)",
+      "destination": "Гонконг",
+      "name": "Пик Виктория и Peak Tram",
+      "id": "place-2ca31824ba73",
+      "sourceRow": 2
+    },
+    {
+      "country": "Китай (САР)",
+      "destination": "Гонконг",
+      "name": "Star Ferry и бухта Виктория",
+      "id": "place-98b2539ed3a1",
+      "sourceRow": 3
+    },
+    {
+      "country": "Китай (САР)",
+      "destination": "Гонконг",
+      "name": "Аллея звёзд и набережная Цим Ша Цуй",
+      "id": "place-47f839feef9b",
+      "sourceRow": 4
+    },
+    {
+      "country": "Китай (САР)",
+      "destination": "Гонконг",
+      "name": "Большой Будда Тяньтань и Нгонг-Пинг",
+      "id": "place-21f53b8fbfb8",
+      "sourceRow": 5
+    },
+    {
+      "country": "Китай (САР)",
+      "destination": "Гонконг",
+      "name": "Рыбацкая деревня Тай-О",
+      "id": "place-e82706c62c10",
+      "sourceRow": 6
+    },
+    {
+      "country": "Китай (САР)",
+      "destination": "Гонконг",
+      "name": "Район Central и эскалаторы Mid-Levels",
+      "id": "place-10ab29bfd139",
+      "sourceRow": 7
+    },
+    {
+      "country": "Китай (САР)",
+      "destination": "Гонконг",
+      "name": "Тропа Dragon’s Back",
+      "id": "place-a0732e01e5b0",
+      "sourceRow": 8
+    },
+    {
+      "country": "Япония",
+      "destination": "Токио",
+      "name": "Храм Сэнсо-дзи и Асакуса",
+      "id": "place-4a5cc8d648ac",
+      "sourceRow": 9
+    },
+    {
+      "country": "Япония",
+      "destination": "Токио",
+      "name": "Перекрёсток Сибуя и Hachiko",
+      "id": "place-19ab0ea48521",
+      "sourceRow": 10
+    },
+    {
+      "country": "Япония",
+      "destination": "Токио",
+      "name": "Святилище Мэйдзи и Ёёги",
+      "id": "place-67af6ffa693c",
+      "sourceRow": 11
+    },
+    {
+      "country": "Япония",
+      "destination": "Токио",
+      "name": "Район Синдзюку и смотровые",
+      "id": "place-73c3991c8241",
+      "sourceRow": 12
+    },
+    {
+      "country": "Япония",
+      "destination": "Токио",
+      "name": "Токийский Скайтри",
+      "id": "place-218da43ad3bb",
+      "sourceRow": 13
+    },
+    {
+      "country": "Япония",
+      "destination": "Токио",
+      "name": "Внешний рынок Цукидзи",
+      "id": "place-0a98f85b2590",
+      "sourceRow": 14
+    },
+    {
+      "country": "Япония",
+      "destination": "Токио",
+      "name": "Парк Синдзюку-гёэн",
+      "id": "place-e6a3b62824c4",
+      "sourceRow": 15
+    },
+    {
+      "country": "Япония",
+      "destination": "Токио",
+      "name": "teamLab Planets (Тоёсу)",
+      "id": "place-2285074d2494",
+      "sourceRow": 16
+    },
+    {
+      "country": "Япония",
+      "destination": "Эносима",
+      "name": "Святилище Эносима-дзиндзя",
+      "id": "place-e79dfc1b4dc3",
+      "sourceRow": 17
+    },
+    {
+      "country": "Япония",
+      "destination": "Эносима",
+      "name": "Маяк Enoshima Sea Candle",
+      "id": "place-e0310f261212",
+      "sourceRow": 18
+    },
+    {
+      "country": "Япония",
+      "destination": "Эносима",
+      "name": "Пещеры Ивая",
+      "id": "place-b233722a14d6",
+      "sourceRow": 19
+    },
+    {
+      "country": "Япония",
+      "destination": "Эносима",
+      "name": "Сад Самуэля Кокинга",
+      "id": "place-7cc59f2c0c7a",
+      "sourceRow": 20
+    },
+    {
+      "country": "Япония",
+      "destination": "Эносима",
+      "name": "Побережье Катасэ и аквариум",
+      "id": "place-7131f793acf9",
+      "sourceRow": 21
+    },
+    {
+      "country": "Япония",
+      "destination": "Камакура",
+      "name": "Большой Будда (Котоку-ин)",
+      "id": "place-6fc9a106d14b",
+      "sourceRow": 22
+    },
+    {
+      "country": "Япония",
+      "destination": "Камакура",
+      "name": "Храм Хасэ-дэра",
+      "id": "place-aa7b918bfde7",
+      "sourceRow": 23
+    },
+    {
+      "country": "Япония",
+      "destination": "Камакура",
+      "name": "Святилище Цуругаока Хатимангу",
+      "id": "place-7f4c3ac3b7f1",
+      "sourceRow": 24
+    },
+    {
+      "country": "Япония",
+      "destination": "Камакура",
+      "name": "Улица Комати-дори",
+      "id": "place-0186a6819e54",
+      "sourceRow": 25
+    },
+    {
+      "country": "Япония",
+      "destination": "Камакура",
+      "name": "Бамбуковая роща Хококу-дзи",
+      "id": "place-83ca7e15e863",
+      "sourceRow": 26
+    },
+    {
+      "country": "Япония",
+      "destination": "Камакура",
+      "name": "Храм Кэнчо-дзи",
+      "id": "place-825297c2d3f2",
+      "sourceRow": 27
+    },
+    {
+      "country": "Германия",
+      "destination": "Мюнхен",
+      "name": "Мариенплац и Новая ратуша",
+      "id": "place-07206caf17b0",
+      "sourceRow": 28
+    },
+    {
+      "country": "Германия",
+      "destination": "Мюнхен",
+      "name": "Мюнхенская резиденция",
+      "id": "place-d67906f19207",
+      "sourceRow": 29
+    },
+    {
+      "country": "Германия",
+      "destination": "Мюнхен",
+      "name": "Английский сад и Eisbach",
+      "id": "place-33217e7552b6",
+      "sourceRow": 30
+    },
+    {
+      "country": "Германия",
+      "destination": "Мюнхен",
+      "name": "Дворец Нимфенбург",
+      "id": "place-a59f09bfe0ae",
+      "sourceRow": 31
+    },
+    {
+      "country": "Германия",
+      "destination": "Мюнхен",
+      "name": "Немецкий музей",
+      "id": "place-efcc76c5f8d4",
+      "sourceRow": 32
+    },
+    {
+      "country": "Германия",
+      "destination": "Мюнхен",
+      "name": "Фрауэнкирхе",
+      "id": "place-29865d6420cb",
+      "sourceRow": 33
+    },
+    {
+      "country": "Германия",
+      "destination": "Мюнхен",
+      "name": "BMW Welt и Олимпийский парк",
+      "id": "place-c7098b38655f",
+      "sourceRow": 34
+    },
+    {
+      "country": "Грузия",
+      "destination": "Тбилиси",
+      "name": "Старый Тбилиси и район Сололаки",
+      "id": "place-0b94eb8d8cd5",
+      "sourceRow": 35
+    },
+    {
+      "country": "Грузия",
+      "destination": "Тбилиси",
+      "name": "Крепость Нарикала и Мать Грузии",
+      "id": "place-4c579bd20ac3",
+      "sourceRow": 36
+    },
+    {
+      "country": "Грузия",
+      "destination": "Тбилиси",
+      "name": "Серные бани Абанотубани",
+      "id": "place-6bb95cb2b818",
+      "sourceRow": 37
+    },
+    {
+      "country": "Грузия",
+      "destination": "Тбилиси",
+      "name": "Мост Мира и парк Рике",
+      "id": "place-38e4bb2020eb",
+      "sourceRow": 38
+    },
+    {
+      "country": "Грузия",
+      "destination": "Тбилиси",
+      "name": "Кафедральный собор Самеба",
+      "id": "place-6ecf70c7d937",
+      "sourceRow": 39
+    },
+    {
+      "country": "Грузия",
+      "destination": "Тбилиси",
+      "name": "Проспект Руставели",
+      "id": "place-35ff4c028c37",
+      "sourceRow": 40
+    },
+    {
+      "country": "Грузия",
+      "destination": "Тбилиси",
+      "name": "Фуникулёр и парк Мтацминда",
+      "id": "place-4004656c8e46",
+      "sourceRow": 41
+    },
+    {
+      "country": "Грузия",
+      "destination": "Грузия — другие места",
+      "name": "Мцхета: Светицховели и Джвари",
+      "id": "place-768547e531ea",
+      "sourceRow": 42
+    },
+    {
+      "country": "Грузия",
+      "destination": "Грузия — другие места",
+      "name": "Казбеги: церковь Гергети",
+      "id": "place-a831d2b94f4a",
+      "sourceRow": 43
+    },
+    {
+      "country": "Грузия",
+      "destination": "Грузия — другие места",
+      "name": "Кахетия: Сигнахи и виноградники",
+      "id": "place-d27de1b29b5e",
+      "sourceRow": 44
+    },
+    {
+      "country": "Грузия",
+      "destination": "Грузия — другие места",
+      "name": "Пещерный город Уплисцихе",
+      "id": "place-9b5e3202b4b6",
+      "sourceRow": 45
+    },
+    {
+      "country": "Грузия",
+      "destination": "Грузия — другие места",
+      "name": "Пещерный монастырь Вардзия",
+      "id": "place-b79716c68a1a",
+      "sourceRow": 46
+    },
+    {
+      "country": "Грузия",
+      "destination": "Грузия — другие места",
+      "name": "Кутаиси: Прометеевы пещеры",
+      "id": "place-bd63b473b4f1",
+      "sourceRow": 47
+    },
+    {
+      "country": "Грузия",
+      "destination": "Грузия — другие места",
+      "name": "Сванетия: Местия и Ушгули",
+      "id": "place-91e0aba1e886",
+      "sourceRow": 48
+    },
+    {
+      "country": "Россия",
+      "destination": "Москва",
+      "name": "Красная площадь и Кремль",
+      "id": "place-81bc780d0c25",
+      "sourceRow": 49
+    },
+    {
+      "country": "Россия",
+      "destination": "Москва",
+      "name": "Собор Василия Блаженного",
+      "id": "place-aa409f85260c",
+      "sourceRow": 50
+    },
+    {
+      "country": "Россия",
+      "destination": "Москва",
+      "name": "Третьяковская галерея",
+      "id": "place-bc9e5ee78946",
+      "sourceRow": 51
+    },
+    {
+      "country": "Россия",
+      "destination": "Москва",
+      "name": "Парк Зарядье и Парящий мост",
+      "id": "place-40e811b84631",
+      "sourceRow": 52
+    },
+    {
+      "country": "Россия",
+      "destination": "Москва",
+      "name": "ВДНХ",
+      "id": "place-a9920f271f1c",
+      "sourceRow": 53
+    },
+    {
+      "country": "Россия",
+      "destination": "Москва",
+      "name": "Парк Горького и Нескучный сад",
+      "id": "place-db438c78d6d4",
+      "sourceRow": 54
+    },
+    {
+      "country": "Россия",
+      "destination": "Москва",
+      "name": "Москва-Сити и смотровая",
+      "id": "place-5c45ff714217",
+      "sourceRow": 55
+    },
+    {
+      "country": "Россия",
+      "destination": "Санкт-Петербург",
+      "name": "Эрмитаж и Дворцовая площадь",
+      "id": "place-e5d8e3ab516d",
+      "sourceRow": 56
+    },
+    {
+      "country": "Россия",
+      "destination": "Санкт-Петербург",
+      "name": "Исаакиевский собор и колоннада",
+      "id": "place-7ba358afdf37",
+      "sourceRow": 57
+    },
+    {
+      "country": "Россия",
+      "destination": "Санкт-Петербург",
+      "name": "Спас на Крови",
+      "id": "place-5d791c1835ae",
+      "sourceRow": 58
+    },
+    {
+      "country": "Россия",
+      "destination": "Санкт-Петербург",
+      "name": "Невский проспект и каналы",
+      "id": "place-b5f2079ed82a",
+      "sourceRow": 59
+    },
+    {
+      "country": "Россия",
+      "destination": "Санкт-Петербург",
+      "name": "Петергоф и Нижний парк",
+      "id": "place-2c8a5181ea81",
+      "sourceRow": 60
+    },
+    {
+      "country": "Россия",
+      "destination": "Санкт-Петербург",
+      "name": "Петропавловская крепость",
+      "id": "place-b3073de4fb2d",
+      "sourceRow": 61
+    },
+    {
+      "country": "Россия",
+      "destination": "Санкт-Петербург",
+      "name": "Царское Село и Екатерининский дворец",
+      "id": "place-72e2464e8efb",
+      "sourceRow": 62
+    },
+    {
+      "country": "Испания",
+      "destination": "Майорка",
+      "name": "Собор Ла-Сеу в Пальме",
+      "id": "place-6ec92eb3b223",
+      "sourceRow": 63
+    },
+    {
+      "country": "Испания",
+      "destination": "Майорка",
+      "name": "Вальдемосса",
+      "id": "place-7aad8cd33aa2",
+      "sourceRow": 64
+    },
+    {
+      "country": "Испания",
+      "destination": "Майорка",
+      "name": "Серра-де-Трамунтана",
+      "id": "place-ab8c862c458c",
+      "sourceRow": 65
+    },
+    {
+      "country": "Испания",
+      "destination": "Майорка",
+      "name": "Сольер и Порт-де-Сольер",
+      "id": "place-89b5e6f8d7a9",
+      "sourceRow": 66
+    },
+    {
+      "country": "Испания",
+      "destination": "Майорка",
+      "name": "Мыс Форментор",
+      "id": "place-28619a356ff7",
+      "sourceRow": 67
+    },
+    {
+      "country": "Испания",
+      "destination": "Майорка",
+      "name": "Бухта Кала-д'Ор / Мондаго",
+      "id": "place-ea88fea54fe6",
+      "sourceRow": 68
+    },
+    {
+      "country": "Испания",
+      "destination": "Майорка",
+      "name": "Пещеры Драк",
+      "id": "place-5fa7c119b004",
+      "sourceRow": 69
+    },
+    {
+      "country": "Испания",
+      "destination": "Менорка",
+      "name": "Сьютаделья и старый порт",
+      "id": "place-2765991aaa77",
+      "sourceRow": 70
+    },
+    {
+      "country": "Испания",
+      "destination": "Менорка",
+      "name": "Кала-Макарелья и Макарельета",
+      "id": "place-cde8ac128f9b",
+      "sourceRow": 71
+    },
+    {
+      "country": "Испания",
+      "destination": "Менорка",
+      "name": "Маон (Маó) и гавань",
+      "id": "place-903329159644",
+      "sourceRow": 72
+    },
+    {
+      "country": "Испания",
+      "destination": "Менорка",
+      "name": "Кала-Митхана",
+      "id": "place-e9e3a7d47070",
+      "sourceRow": 73
+    },
+    {
+      "country": "Испания",
+      "destination": "Менорка",
+      "name": "Навета-дес-Тудонс",
+      "id": "place-3592b49f72b4",
+      "sourceRow": 74
+    },
+    {
+      "country": "Испания",
+      "destination": "Менорка",
+      "name": "Ками-де-Кавальс (отрезок тропы)",
+      "id": "place-1c24a67c876e",
+      "sourceRow": 75
+    },
+    {
+      "country": "Испания",
+      "destination": "Гран-Канария",
+      "name": "Дюны Маспаломас",
+      "id": "place-d3817674aa27",
+      "sourceRow": 76
+    },
+    {
+      "country": "Испания",
+      "destination": "Гран-Канария",
+      "name": "Роке-Нубло",
+      "id": "place-dc9df31422d5",
+      "sourceRow": 77
+    },
+    {
+      "country": "Испания",
+      "destination": "Гран-Канария",
+      "name": "Лас-Пальмас: квартал Вегета",
+      "id": "place-56fd7068bfd4",
+      "sourceRow": 78
+    },
+    {
+      "country": "Испания",
+      "destination": "Гран-Канария",
+      "name": "Пляж Лас-Кантерас",
+      "id": "place-ec67bae318d9",
+      "sourceRow": 79
+    },
+    {
+      "country": "Испания",
+      "destination": "Гран-Канария",
+      "name": "Деревня Терор",
+      "id": "place-6070d9643c16",
+      "sourceRow": 80
+    },
+    {
+      "country": "Испания",
+      "destination": "Гран-Канария",
+      "name": "Пуэрто-де-Моган",
+      "id": "place-9898fcf57418",
+      "sourceRow": 81
+    },
+    {
+      "country": "Испания",
+      "destination": "Барселона",
+      "name": "Саграда Фамилия",
+      "id": "place-4555b15f7e27",
+      "sourceRow": 82
+    },
+    {
+      "country": "Испания",
+      "destination": "Барселона",
+      "name": "Парк Гуэль",
+      "id": "place-fd3e687ae3f2",
+      "sourceRow": 83
+    },
+    {
+      "country": "Испания",
+      "destination": "Барселона",
+      "name": "Дом Бальо",
+      "id": "place-8afa41f80f1b",
+      "sourceRow": 84
+    },
+    {
+      "country": "Испания",
+      "destination": "Барселона",
+      "name": "Готический квартал и собор",
+      "id": "place-0de1cfcccb5f",
+      "sourceRow": 85
+    },
+    {
+      "country": "Испания",
+      "destination": "Барселона",
+      "name": "Каса-Мила (Ла-Педрера)",
+      "id": "place-f570790cfa91",
+      "sourceRow": 86
+    },
+    {
+      "country": "Испания",
+      "destination": "Барселона",
+      "name": "Гора Монжуик и MNAC",
+      "id": "place-24dbdb1adbcc",
+      "sourceRow": 87
+    },
+    {
+      "country": "Испания",
+      "destination": "Барселона",
+      "name": "Музей Пикассо",
+      "id": "place-1d3b1d08062d",
+      "sourceRow": 88
+    },
+    {
+      "country": "Испания",
+      "destination": "Барселона",
+      "name": "Рынок Бокерия и Рамбла",
+      "id": "place-6bd909a4cbf6",
+      "sourceRow": 89
+    },
+    {
+      "country": "Испания",
+      "destination": "Мадрид",
+      "name": "Музей Прадо",
+      "id": "place-a4888f9f61eb",
+      "sourceRow": 90
+    },
+    {
+      "country": "Испания",
+      "destination": "Мадрид",
+      "name": "Королевский дворец",
+      "id": "place-afd3e4bfe018",
+      "sourceRow": 91
+    },
+    {
+      "country": "Испания",
+      "destination": "Мадрид",
+      "name": "Парк Ретиро и Хрустальный дворец",
+      "id": "place-6d1db23ba005",
+      "sourceRow": 92
+    },
+    {
+      "country": "Испания",
+      "destination": "Мадрид",
+      "name": "Пласа-Майор и Пуэрта-дель-Соль",
+      "id": "place-1a6401e2d123",
+      "sourceRow": 93
+    },
+    {
+      "country": "Испания",
+      "destination": "Мадрид",
+      "name": "Музей королевы Софии",
+      "id": "place-ed89c4201d85",
+      "sourceRow": 94
+    },
+    {
+      "country": "Испания",
+      "destination": "Мадрид",
+      "name": "Гран-Виа",
+      "id": "place-4e14c197aba5",
+      "sourceRow": 95
+    },
+    {
+      "country": "Испания",
+      "destination": "Мадрид",
+      "name": "Музей Тиссена-Борнемисы",
+      "id": "place-49b6c2a99dd9",
+      "sourceRow": 96
+    },
+    {
+      "country": "Испания",
+      "destination": "Кастилия и Леон",
+      "name": "Сеговия: римский акведук",
+      "id": "place-9b5ec060bd09",
+      "sourceRow": 97
+    },
+    {
+      "country": "Испания",
+      "destination": "Кастилия и Леон",
+      "name": "Сеговия: Алькасар",
+      "id": "place-1d0e8f85eb36",
+      "sourceRow": 98
+    },
+    {
+      "country": "Испания",
+      "destination": "Кастилия и Леон",
+      "name": "Авила: городские стены",
+      "id": "place-7f901cc95e74",
+      "sourceRow": 99
+    },
+    {
+      "country": "Испания",
+      "destination": "Кастилия и Леон",
+      "name": "Бургос: кафедральный собор",
+      "id": "place-975dc7015c30",
+      "sourceRow": 100
+    },
+    {
+      "country": "Испания",
+      "destination": "Кастилия и Леон",
+      "name": "Леон: кафедральный собор",
+      "id": "place-6216939d4c66",
+      "sourceRow": 101
+    },
+    {
+      "country": "Испания",
+      "destination": "Кастилия и Леон",
+      "name": "Вальядолид: старый город",
+      "id": "place-b069720accdb",
+      "sourceRow": 102
+    },
+    {
+      "country": "Испания",
+      "destination": "Кастилия и Леон",
+      "name": "Атапуэрка: археологические памятники",
+      "id": "place-6c046d39b847",
+      "sourceRow": 103
+    },
+    {
+      "country": "Испания",
+      "destination": "Тенерифе",
+      "name": "Национальный парк Тейде",
+      "id": "place-5d7802764ff7",
+      "sourceRow": 104
+    },
+    {
+      "country": "Испания",
+      "destination": "Тенерифе",
+      "name": "Сан-Кристобаль-де-ла-Лагуна",
+      "id": "place-bf54e1da777b",
+      "sourceRow": 105
+    },
+    {
+      "country": "Испания",
+      "destination": "Тенерифе",
+      "name": "Горы и леса Анаги",
+      "id": "place-675ff7e7fdfa",
+      "sourceRow": 106
+    },
+    {
+      "country": "Испания",
+      "destination": "Тенерифе",
+      "name": "Гарачико и природные бассейны",
+      "id": "place-68426c8617da",
+      "sourceRow": 107
+    },
+    {
+      "country": "Испания",
+      "destination": "Тенерифе",
+      "name": "Лос-Гигантес",
+      "id": "place-399028a1cee4",
+      "sourceRow": 108
+    },
+    {
+      "country": "Испания",
+      "destination": "Тенерифе",
+      "name": "Пляж Лас-Тереситас",
+      "id": "place-327f5f9d918a",
+      "sourceRow": 109
+    },
+    {
+      "country": "Испания",
+      "destination": "Тенерифе",
+      "name": "Маска: деревня и ущелье",
+      "id": "place-a235ae23420c",
+      "sourceRow": 110
+    },
+    {
+      "country": "Испания",
+      "destination": "Бенидорм",
+      "name": "Балкон Средиземноморья",
+      "id": "place-c17baef9b192",
+      "sourceRow": 111
+    },
+    {
+      "country": "Испания",
+      "destination": "Бенидорм",
+      "name": "Старый город",
+      "id": "place-99851d7fa214",
+      "sourceRow": 112
+    },
+    {
+      "country": "Испания",
+      "destination": "Бенидорм",
+      "name": "Пляж Леванте",
+      "id": "place-9bab90a00a2d",
+      "sourceRow": 113
+    },
+    {
+      "country": "Испания",
+      "destination": "Бенидорм",
+      "name": "Пляж Поньенте",
+      "id": "place-7b2f0f0dc514",
+      "sourceRow": 114
+    },
+    {
+      "country": "Испания",
+      "destination": "Бенидорм",
+      "name": "Остров Бенидорм (морская экскурсия)",
+      "id": "place-55524f0c0ff8",
+      "sourceRow": 115
+    },
+    {
+      "country": "Испания",
+      "destination": "Саламанка",
+      "name": "Пласа-Майор",
+      "id": "place-aafa2e8c5576",
+      "sourceRow": 116
+    },
+    {
+      "country": "Испания",
+      "destination": "Саламанка",
+      "name": "Старый и Новый кафедральные соборы",
+      "id": "place-af6177f96b70",
+      "sourceRow": 117
+    },
+    {
+      "country": "Испания",
+      "destination": "Саламанка",
+      "name": "Исторический университет Саламанки",
+      "id": "place-094eb82ad3da",
+      "sourceRow": 118
+    },
+    {
+      "country": "Испания",
+      "destination": "Саламанка",
+      "name": "Дом ракушек (Casa de las Conchas)",
+      "id": "place-869ea054b0ae",
+      "sourceRow": 119
+    },
+    {
+      "country": "Испания",
+      "destination": "Саламанка",
+      "name": "Монастырь Сан-Эстебан",
+      "id": "place-92ec3c0826c5",
+      "sourceRow": 120
+    },
+    {
+      "country": "Испания",
+      "destination": "Саламанка",
+      "name": "Римский мост через Тормес",
+      "id": "place-e4f0d6d8d2ab",
+      "sourceRow": 121
+    },
+    {
+      "country": "Чехия",
+      "destination": "Прага",
+      "name": "Пражский Град и собор Святого Вита",
+      "id": "place-0733b07eda9e",
+      "sourceRow": 122
+    },
+    {
+      "country": "Чехия",
+      "destination": "Прага",
+      "name": "Карлов мост",
+      "id": "place-9937d5b77f81",
+      "sourceRow": 123
+    },
+    {
+      "country": "Чехия",
+      "destination": "Прага",
+      "name": "Староместская площадь и Орлой",
+      "id": "place-fee9487a8b46",
+      "sourceRow": 124
+    },
+    {
+      "country": "Чехия",
+      "destination": "Прага",
+      "name": "Мала-Страна и Кампа",
+      "id": "place-a35dbfac501b",
+      "sourceRow": 125
+    },
+    {
+      "country": "Чехия",
+      "destination": "Прага",
+      "name": "Еврейский квартал Йозефов",
+      "id": "place-d5c57963868a",
+      "sourceRow": 126
+    },
+    {
+      "country": "Чехия",
+      "destination": "Прага",
+      "name": "Петршинская башня и сады",
+      "id": "place-9aef5e1722cb",
+      "sourceRow": 127
+    },
+    {
+      "country": "Чехия",
+      "destination": "Прага",
+      "name": "Вышеград",
+      "id": "place-62b016f570a5",
+      "sourceRow": 128
+    },
+    {
+      "country": "Чехия",
+      "destination": "Чехия — другие места",
+      "name": "Чески-Крумлов: старый город и замок",
+      "id": "place-749671596ddb",
+      "sourceRow": 129
+    },
+    {
+      "country": "Чехия",
+      "destination": "Чехия — другие места",
+      "name": "Кутна-Гора: собор Святой Варвары",
+      "id": "place-71f8b095dab6",
+      "sourceRow": 130
+    },
+    {
+      "country": "Чехия",
+      "destination": "Чехия — другие места",
+      "name": "Кутна-Гора: костница Седлец",
+      "id": "place-5893475bffe2",
+      "sourceRow": 131
+    },
+    {
+      "country": "Чехия",
+      "destination": "Чехия — другие места",
+      "name": "Карловы Вары",
+      "id": "place-cf576b045bc8",
+      "sourceRow": 132
+    },
+    {
+      "country": "Чехия",
+      "destination": "Чехия — другие места",
+      "name": "Замок Карлштейн",
+      "id": "place-5ea6e9f2a5d5",
+      "sourceRow": 133
+    },
+    {
+      "country": "Чехия",
+      "destination": "Чехия — другие места",
+      "name": "Нацпарк «Чешская Швейцария»",
+      "id": "place-d21f287b9e13",
+      "sourceRow": 134
+    },
+    {
+      "country": "Австрия",
+      "destination": "Вена",
+      "name": "Дворец Шёнбрунн",
+      "id": "place-ed60448907f5",
+      "sourceRow": 135
+    },
+    {
+      "country": "Австрия",
+      "destination": "Вена",
+      "name": "Собор Святого Стефана",
+      "id": "place-5313e3612ef4",
+      "sourceRow": 136
+    },
+    {
+      "country": "Австрия",
+      "destination": "Вена",
+      "name": "Хофбург",
+      "id": "place-18e616fa7726",
+      "sourceRow": 137
+    },
+    {
+      "country": "Австрия",
+      "destination": "Вена",
+      "name": "Бельведер",
+      "id": "place-0e3b97061e4f",
+      "sourceRow": 138
+    },
+    {
+      "country": "Австрия",
+      "destination": "Вена",
+      "name": "Венская государственная опера",
+      "id": "place-1d9a69f9aaae",
+      "sourceRow": 139
+    },
+    {
+      "country": "Австрия",
+      "destination": "Вена",
+      "name": "Музей истории искусств",
+      "id": "place-8dc2fb171814",
+      "sourceRow": 140
+    },
+    {
+      "country": "Австрия",
+      "destination": "Вена",
+      "name": "Пратер и колесо обозрения",
+      "id": "place-63af2aae5039",
+      "sourceRow": 141
+    },
+    {
+      "country": "Австрия",
+      "destination": "Австрия — другие места",
+      "name": "Зальцбург: крепость Хоэнзальцбург",
+      "id": "place-ee4f241848dd",
+      "sourceRow": 142
+    },
+    {
+      "country": "Австрия",
+      "destination": "Австрия — другие места",
+      "name": "Зальцбург: исторический центр",
+      "id": "place-1412c2f187e8",
+      "sourceRow": 143
+    },
+    {
+      "country": "Австрия",
+      "destination": "Австрия — другие места",
+      "name": "Гальштат и озеро",
+      "id": "place-e7346f83f0e4",
+      "sourceRow": 144
+    },
+    {
+      "country": "Австрия",
+      "destination": "Австрия — другие места",
+      "name": "Инсбрук: старый город и Нордкетте",
+      "id": "place-86df7c978c35",
+      "sourceRow": 145
+    },
+    {
+      "country": "Австрия",
+      "destination": "Австрия — другие места",
+      "name": "Долина Вахау и аббатство Мельк",
+      "id": "place-cefbb7a7b266",
+      "sourceRow": 146
+    },
+    {
+      "country": "Австрия",
+      "destination": "Австрия — другие места",
+      "name": "Высокогорная дорога Гросглокнер",
+      "id": "place-a47256b07ae5",
+      "sourceRow": 147
+    },
+    {
+      "country": "Австрия",
+      "destination": "Австрия — другие места",
+      "name": "Водопад Кримль",
+      "id": "place-957511bb348e",
+      "sourceRow": 148
+    },
+    {
+      "country": "Венгрия",
+      "destination": "Будапешт",
+      "name": "Парламент Венгрии",
+      "id": "place-adb1860ad3e4",
+      "sourceRow": 149
+    },
+    {
+      "country": "Венгрия",
+      "destination": "Будапешт",
+      "name": "Рыбацкий бастион и храм Матьяша",
+      "id": "place-b0fc8c68e651",
+      "sourceRow": 150
+    },
+    {
+      "country": "Венгрия",
+      "destination": "Будапешт",
+      "name": "Будайская крепость",
+      "id": "place-552880e67499",
+      "sourceRow": 151
+    },
+    {
+      "country": "Венгрия",
+      "destination": "Будапешт",
+      "name": "Купальни Сечени",
+      "id": "place-6a7758ad0d1d",
+      "sourceRow": 152
+    },
+    {
+      "country": "Венгрия",
+      "destination": "Будапешт",
+      "name": "Цепной мост и берега Дуная",
+      "id": "place-b368ecf70e1d",
+      "sourceRow": 153
+    },
+    {
+      "country": "Венгрия",
+      "destination": "Будапешт",
+      "name": "Базилика Святого Иштвана",
+      "id": "place-172b07344c40",
+      "sourceRow": 154
+    },
+    {
+      "country": "Венгрия",
+      "destination": "Будапешт",
+      "name": "Центральный рынок",
+      "id": "place-17552f76cf6f",
+      "sourceRow": 155
+    },
+    {
+      "country": "Мальдивы",
+      "destination": "Мальдивы",
+      "name": "Бухта Ханифару (атолл Баа)",
+      "id": "place-67848edc4b6b",
+      "sourceRow": 156
+    },
+    {
+      "country": "Мальдивы",
+      "destination": "Мальдивы",
+      "name": "Южный Ари: китовые акулы",
+      "id": "place-ea142feec59f",
+      "sourceRow": 157
+    },
+    {
+      "country": "Мальдивы",
+      "destination": "Мальдивы",
+      "name": "Домашний риф и снорклинг",
+      "id": "place-938694ac381b",
+      "sourceRow": 158
+    },
+    {
+      "country": "Мальдивы",
+      "destination": "Мальдивы",
+      "name": "Песчаная коса или необитаемый остров",
+      "id": "place-d3d495975a65",
+      "sourceRow": 159
+    },
+    {
+      "country": "Мальдивы",
+      "destination": "Мальдивы",
+      "name": "Мале: мечеть и рыбный рынок",
+      "id": "place-92e2e3f5b6c7",
+      "sourceRow": 160
+    },
+    {
+      "country": "Мальдивы",
+      "destination": "Мальдивы",
+      "name": "Круиз на закате и наблюдение за дельфинами",
+      "id": "place-1a2b06c51dc5",
+      "sourceRow": 161
+    },
+    {
+      "country": "Южная Корея",
+      "destination": "Сеул",
+      "name": "Дворец Кёнбоккун",
+      "id": "place-404621350474",
+      "sourceRow": 162
+    },
+    {
+      "country": "Южная Корея",
+      "destination": "Сеул",
+      "name": "Букчон и Инсадон",
+      "id": "place-6167202bb368",
+      "sourceRow": 163
+    },
+    {
+      "country": "Южная Корея",
+      "destination": "Сеул",
+      "name": "Башня N Seoul и Намсан",
+      "id": "place-db0c6b10848e",
+      "sourceRow": 164
+    },
+    {
+      "country": "Южная Корея",
+      "destination": "Сеул",
+      "name": "Дворец Чхандоккун и тайный сад",
+      "id": "place-987c84e9e90c",
+      "sourceRow": 165
+    },
+    {
+      "country": "Южная Корея",
+      "destination": "Сеул",
+      "name": "Ручей Чхонгечхон",
+      "id": "place-9b4e791c193b",
+      "sourceRow": 166
+    },
+    {
+      "country": "Южная Корея",
+      "destination": "Сеул",
+      "name": "Рынок Кванчжан",
+      "id": "place-2ae42a4e6847",
+      "sourceRow": 167
+    },
+    {
+      "country": "Южная Корея",
+      "destination": "Сеул",
+      "name": "Район Хондэ и Ённам-дон",
+      "id": "place-a22b142e04cd",
+      "sourceRow": 168
+    },
+    {
+      "country": "Южная Корея",
+      "destination": "Пусан",
+      "name": "Культурная деревня Камчхон",
+      "id": "place-588491d3ab3d",
+      "sourceRow": 169
+    },
+    {
+      "country": "Южная Корея",
+      "destination": "Пусан",
+      "name": "Храм Хэдон Ёнгунса",
+      "id": "place-e30ecc80cabb",
+      "sourceRow": 170
+    },
+    {
+      "country": "Южная Корея",
+      "destination": "Пусан",
+      "name": "Пляж Хэундэ",
+      "id": "place-547c6032043a",
+      "sourceRow": 171
+    },
+    {
+      "country": "Южная Корея",
+      "destination": "Пусан",
+      "name": "Пляж Кваналли и мост Кванан",
+      "id": "place-6540bcfcc41e",
+      "sourceRow": 172
+    },
+    {
+      "country": "Южная Корея",
+      "destination": "Пусан",
+      "name": "Рынок Чагальчхи",
+      "id": "place-f8ff9b0922fb",
+      "sourceRow": 173
+    },
+    {
+      "country": "Южная Корея",
+      "destination": "Пусан",
+      "name": "Парк Игидэ / Oryukdo Skywalk",
+      "id": "place-8626067a5ed7",
+      "sourceRow": 174
+    },
+    {
+      "country": "Южная Корея",
+      "destination": "Пусан",
+      "name": "Парк Тхэджондэ",
+      "id": "place-5dad1f549538",
+      "sourceRow": 175
+    },
+    {
+      "country": "Южная Корея",
+      "destination": "Чеджу",
+      "name": "Вулканический конус Сонсан Ильчхульбон",
+      "id": "place-56e010e5a09c",
+      "sourceRow": 176
+    },
+    {
+      "country": "Южная Корея",
+      "destination": "Чеджу",
+      "name": "Гора Халласан",
+      "id": "place-cf222f661de0",
+      "sourceRow": 177
+    },
+    {
+      "country": "Южная Корея",
+      "destination": "Чеджу",
+      "name": "Водопад Чхонджиеон",
+      "id": "place-db7582249ffa",
+      "sourceRow": 178
+    },
+    {
+      "country": "Южная Корея",
+      "destination": "Чеджу",
+      "name": "Побережье Чунмун и скалы Чусанчолли",
+      "id": "place-8f0ba5b28e89",
+      "sourceRow": 179
+    },
+    {
+      "country": "Южная Корея",
+      "destination": "Чеджу",
+      "name": "Мыс Сопчхикоджи",
+      "id": "place-fc8d79bd7d49",
+      "sourceRow": 180
+    },
+    {
+      "country": "Южная Корея",
+      "destination": "Чеджу",
+      "name": "Остров Удо",
+      "id": "place-207529aed5e9",
+      "sourceRow": 181
+    },
+    {
+      "country": "Южная Корея",
+      "destination": "Чеджу",
+      "name": "Пещера Манджанггуль",
+      "id": "place-eb8e1a0b6d7a",
+      "sourceRow": 182
+    },
+    {
+      "country": "Китай",
+      "destination": "Хайнань",
+      "name": "Пляж Ялунвань (Yalong Bay)",
+      "id": "place-b3808b67cd13",
+      "sourceRow": 183
+    },
+    {
+      "country": "Китай",
+      "destination": "Хайнань",
+      "name": "Парк Наньшань и статуя Гуаньинь",
+      "id": "place-00009de2e4ba",
+      "sourceRow": 184
+    },
+    {
+      "country": "Китай",
+      "destination": "Хайнань",
+      "name": "Остров Учжичжоу",
+      "id": "place-d1e88ddeac8e",
+      "sourceRow": 185
+    },
+    {
+      "country": "Китай",
+      "destination": "Хайнань",
+      "name": "Парк Лухуэйтоу",
+      "id": "place-f7e8693ab44f",
+      "sourceRow": 186
+    },
+    {
+      "country": "Китай",
+      "destination": "Хайнань",
+      "name": "Тянья-Хайцзяо",
+      "id": "place-27ea2978430f",
+      "sourceRow": 187
+    },
+    {
+      "country": "Китай",
+      "destination": "Хайнань",
+      "name": "Дождевой лес Янода",
+      "id": "place-eaae80b698f9",
+      "sourceRow": 188
+    },
+    {
+      "country": "Китай",
+      "destination": "Хайнань",
+      "name": "Хайкоу: исторические улицы Цилоу",
+      "id": "place-e254d9eab063",
+      "sourceRow": 189
+    },
+    {
+      "country": "Китай",
+      "destination": "Пекин",
+      "name": "Запретный город (Гугун)",
+      "id": "place-96877b6f5bab",
+      "sourceRow": 190
+    },
+    {
+      "country": "Китай",
+      "destination": "Пекин",
+      "name": "Великая Китайская стена: Мутяньюй",
+      "id": "place-745d4ad01a0b",
+      "sourceRow": 191
+    },
+    {
+      "country": "Китай",
+      "destination": "Пекин",
+      "name": "Храм Неба",
+      "id": "place-5b9b2dc7c3af",
+      "sourceRow": 192
+    },
+    {
+      "country": "Китай",
+      "destination": "Пекин",
+      "name": "Летний дворец Ихэюань",
+      "id": "place-97b2c73ec23a",
+      "sourceRow": 193
+    },
+    {
+      "country": "Китай",
+      "destination": "Пекин",
+      "name": "Парк Цзиншань",
+      "id": "place-c843fc54b5f3",
+      "sourceRow": 194
+    },
+    {
+      "country": "Китай",
+      "destination": "Пекин",
+      "name": "Хутуны и озеро Хоухай",
+      "id": "place-68d3631675f3",
+      "sourceRow": 195
+    },
+    {
+      "country": "Китай",
+      "destination": "Пекин",
+      "name": "Площадь Тяньаньмэнь",
+      "id": "place-d2aea2746078",
+      "sourceRow": 196
+    },
+    {
+      "country": "Испания",
+      "destination": "Севилья",
+      "name": "Королевский Алькасар",
+      "id": "place-dec60fdc8e98",
+      "sourceRow": 197
+    },
+    {
+      "country": "Испания",
+      "destination": "Севилья",
+      "name": "Севильский кафедральный собор и Хиральда",
+      "id": "place-ee11f6031536",
+      "sourceRow": 198
+    },
+    {
+      "country": "Испания",
+      "destination": "Севилья",
+      "name": "Площадь Испании",
+      "id": "place-fd47f44eb373",
+      "sourceRow": 199
+    },
+    {
+      "country": "Испания",
+      "destination": "Севилья",
+      "name": "Квартал Санта-Крус",
+      "id": "place-a5da53358e6a",
+      "sourceRow": 200
+    },
+    {
+      "country": "Испания",
+      "destination": "Севилья",
+      "name": "Метрополь Парасоль",
+      "id": "place-8786d87541ea",
+      "sourceRow": 201
+    },
+    {
+      "country": "Испания",
+      "destination": "Гранада",
+      "name": "Альгамбра и Хенералифе",
+      "id": "place-4fb52105eb9e",
+      "sourceRow": 202
+    },
+    {
+      "country": "Испания",
+      "destination": "Гранада",
+      "name": "Альбайсин",
+      "id": "place-672fc9359013",
+      "sourceRow": 203
+    },
+    {
+      "country": "Испания",
+      "destination": "Гранада",
+      "name": "Смотровая Сан-Николас",
+      "id": "place-6541438ddfd2",
+      "sourceRow": 204
+    },
+    {
+      "country": "Испания",
+      "destination": "Гранада",
+      "name": "Гранадский кафедральный собор",
+      "id": "place-9978e9ab2cd3",
+      "sourceRow": 205
+    },
+    {
+      "country": "Испания",
+      "destination": "Гранада",
+      "name": "Сакромонте",
+      "id": "place-1753111b65de",
+      "sourceRow": 206
+    },
+    {
+      "country": "Испания",
+      "destination": "Валенсия",
+      "name": "Город искусств и наук",
+      "id": "place-3d650a69f3f3",
+      "sourceRow": 207
+    },
+    {
+      "country": "Испания",
+      "destination": "Валенсия",
+      "name": "Старый город и собор Валенсии",
+      "id": "place-88c13e49c12a",
+      "sourceRow": 208
+    },
+    {
+      "country": "Испания",
+      "destination": "Валенсия",
+      "name": "Рынок Mercado Central",
+      "id": "place-1c23e3db7711",
+      "sourceRow": 209
+    },
+    {
+      "country": "Испания",
+      "destination": "Валенсия",
+      "name": "Сады Турии",
+      "id": "place-8f71477870bf",
+      "sourceRow": 210
+    },
+    {
+      "country": "Испания",
+      "destination": "Валенсия",
+      "name": "Альбуфера",
+      "id": "place-facfa1ba1af3",
+      "sourceRow": 211
+    },
+    {
+      "country": "Азербайджан",
+      "destination": "Баку",
+      "name": "Старый город Ичери-шехер",
+      "id": "place-0ca57d3fd4ac",
+      "sourceRow": 212
+    },
+    {
+      "country": "Азербайджан",
+      "destination": "Баку",
+      "name": "Девичья башня (Гыз Галасы)",
+      "id": "place-44c7b07d1994",
+      "sourceRow": 213
+    },
+    {
+      "country": "Азербайджан",
+      "destination": "Баку",
+      "name": "Дворец Ширваншахов",
+      "id": "place-94721dc58921",
+      "sourceRow": 214
+    },
+    {
+      "country": "Азербайджан",
+      "destination": "Баку",
+      "name": "Центр Гейдара Алиева",
+      "id": "place-14ab85d0cfbb",
+      "sourceRow": 215
+    },
+    {
+      "country": "Азербайджан",
+      "destination": "Баку",
+      "name": "Нагорный парк и Пламенные башни",
+      "id": "place-43a4aefe523e",
+      "sourceRow": 216
+    },
+    {
+      "country": "Азербайджан",
+      "destination": "Баку",
+      "name": "Бакинский бульвар",
+      "id": "place-6c7d0e241de9",
+      "sourceRow": 217
+    },
+    {
+      "country": "Азербайджан",
+      "destination": "Баку",
+      "name": "Азербайджанский музей ковра",
+      "id": "place-260c6ce6a023",
+      "sourceRow": 218
+    },
+    {
+      "country": "Азербайджан",
+      "destination": "Баку",
+      "name": "Улица Низами и площадь Фонтанов",
+      "id": "place-e06b4eaf63f0",
+      "sourceRow": 219
+    },
+    {
+      "country": "Азербайджан",
+      "destination": "Баку",
+      "name": "Гобустанский заповедник",
+      "id": "place-781d4ad6a3eb",
+      "sourceRow": 220
+    },
+    {
+      "country": "Азербайджан",
+      "destination": "Баку",
+      "name": "Грязевые вулканы Гобустана",
+      "id": "place-5205c00a60e7",
+      "sourceRow": 221
+    },
+    {
+      "country": "Азербайджан",
+      "destination": "Баку",
+      "name": "Храм огня Атешгях",
+      "id": "place-ffeddb7375a4",
+      "sourceRow": 222
+    },
+    {
+      "country": "Азербайджан",
+      "destination": "Баку",
+      "name": "Горящая гора Янардаг",
+      "id": "place-1fccaf33f1dd",
+      "sourceRow": 223
+    }
+  ]
+}

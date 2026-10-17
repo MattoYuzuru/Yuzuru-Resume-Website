@@ -1,9 +1,0 @@
-services:
-  landing-backend:
-    container_name: landing-backend
-    env_file:
-      - .env
-    build: ./backend
-    ports:
-      - "8082:8082"
-    restart: always
