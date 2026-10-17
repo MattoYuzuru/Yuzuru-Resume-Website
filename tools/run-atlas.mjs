@@ -1,0 +1,12 @@
+import { spawnSync } from 'node:child_process';
+import { existsSync } from 'node:fs';
+import { fileURLToPath } from 'node:url';
+const root = fileURLToPath(new URL('../', import.meta.url));
+const venv = `${root}.venv-atlas/bin/python`;
+const python = process.env.KEYKOMI_ATLAS_PYTHON || (existsSync(venv) ? venv : 'python3');
+const args = process.argv.slice(2);
+const utility = { acquire: 'expand-atlas.py', review: 'review-atlas.py' }[args[0]];
+if (utility) args.shift();
+const result = spawnSync(python, [`${root}tools/${utility || 'atlas.py'}`, ...args], { cwd: root, stdio: 'inherit' });
+if (result.error) console.error(result.error.message);
+process.exit(result.status ?? 1);

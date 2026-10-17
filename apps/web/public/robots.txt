@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /art/
+Disallow: /ru/art/
+Disallow: /en/art/
+Sitemap: https://keykomi.com/sitemap.xml

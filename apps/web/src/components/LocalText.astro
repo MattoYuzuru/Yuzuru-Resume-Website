@@ -1,0 +1,6 @@
+---
+import { minimalLocale } from '../lib/minimal-routes';
+interface Props { ru: string; en: string; tag?: 'span' | 'p' | 'h1' | 'h2'; class?: string; }
+const { ru, en, tag: Tag = 'span', class: className } = Astro.props;
+---
+<Tag class={className} data-l10n data-ru={ru} data-en={en}>{minimalLocale(Astro.url.pathname) === 'en' ? en : ru}</Tag>

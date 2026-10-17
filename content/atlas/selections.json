@@ -1,0 +1,4666 @@
+[
+  {
+    "id": "neuschwanstein",
+    "wiki": "Neuschwanstein_Castle",
+    "name": {
+      "ru": "Замок Нойшванштайн",
+      "en": "Neuschwanstein Castle"
+    },
+    "location": {
+      "ru": "Швангау, Германия",
+      "en": "Schwangau, Germany"
+    },
+    "color": "#42587a",
+    "origin": "owner-request",
+    "crop": [
+      0.06,
+      0,
+      0.94,
+      1
+    ],
+    "coordinates": {
+      "latitude": 47.5575,
+      "longitude": 10.74944444,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Neuschwanstein_Castle"
+    }
+  },
+  {
+    "id": "landmark-victoria-peak",
+    "wiki": "Victoria_Peak",
+    "name": {
+      "ru": "Пик Виктория и Peak Tram",
+      "en": "Victoria Peak"
+    },
+    "location": {
+      "ru": "Гонконг, Китай (САР)",
+      "en": "Hong Kong"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-2ca31824ba73",
+    "sourceRow": 2,
+    "commons": "High_West_and_Victoria_Peak_from_Victoria_Gap_(crop1).jpg",
+    "coordinates": {
+      "latitude": 22.27555556,
+      "longitude": 114.14388889,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Victoria_Peak"
+    }
+  },
+  {
+    "id": "hongkong",
+    "wiki": "Victoria_Harbour",
+    "name": {
+      "ru": "Бухта Виктория",
+      "en": "Victoria Harbour"
+    },
+    "location": {
+      "ru": "Гонконг",
+      "en": "Hong Kong"
+    },
+    "color": "#4b6183",
+    "origin": "catalogue",
+    "catalogueId": "place-98b2539ed3a1",
+    "sourceRow": 3,
+    "commons": "Night view of Hong Kong from Tsim Sha Tsui.jpg",
+    "coordinates": {
+      "latitude": 22.29,
+      "longitude": 114.17,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Victoria_Harbour"
+    }
+  },
+  {
+    "id": "landmark-avenue-of-stars-hong-kong",
+    "wiki": "Avenue_of_Stars,_Hong_Kong",
+    "name": {
+      "ru": "Аллея звёзд и набережная Цим Ша Цуй",
+      "en": "Avenue of Stars, Hong Kong"
+    },
+    "location": {
+      "ru": "Гонконг, Китай (САР)",
+      "en": "Hong Kong"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-47f839feef9b",
+    "sourceRow": 4,
+    "commons": "Avenue_of_Stars_201901.jpg",
+    "coordinates": {
+      "latitude": 22.29309722,
+      "longitude": 114.17476111,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Avenue_of_Stars%2C_Hong_Kong"
+    }
+  },
+  {
+    "id": "landmark-tian-tan-buddha",
+    "wiki": "Tian_Tan_Buddha",
+    "name": {
+      "ru": "Большой Будда Тяньтань и Нгонг-Пинг",
+      "en": "The Big Buddha (Hong Kong)"
+    },
+    "location": {
+      "ru": "Гонконг, Китай (САР)",
+      "en": "Hong Kong"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-21f53b8fbfb8",
+    "sourceRow": 5,
+    "commons": "Tian_Tan_Buddha_2023081302.jpg",
+    "coordinates": {
+      "latitude": 22.254106,
+      "longitude": 113.905144,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Tian_Tan_Buddha"
+    }
+  },
+  {
+    "id": "landmark-tai-o",
+    "wiki": "Tai_O",
+    "name": {
+      "ru": "Рыбацкая деревня Тай-О",
+      "en": "Tai O"
+    },
+    "location": {
+      "ru": "Гонконг, Китай (САР)",
+      "en": "Hong Kong"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-e82706c62c10",
+    "sourceRow": 6,
+    "commons": "1_tai_o_hong_kong_2013.jpg",
+    "coordinates": {
+      "latitude": 22.25444444,
+      "longitude": 113.86416667,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Tai_O"
+    }
+  },
+  {
+    "id": "landmark-centralmid-levels-escalator",
+    "wiki": "Central–Mid-Levels_escalator",
+    "name": {
+      "ru": "Район Central и эскалаторы Mid-Levels",
+      "en": "Central–Mid-Levels escalator"
+    },
+    "location": {
+      "ru": "Гонконг, Китай (САР)",
+      "en": "Hong Kong"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-10ab29bfd139",
+    "sourceRow": 7,
+    "commons": "Central-Mid-Levels_Escalator_and_Walkway_System_2017.jpg",
+    "coordinates": {
+      "latitude": 22.28366389,
+      "longitude": 114.15483333,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Central%E2%80%93Mid-Levels_escalator"
+    }
+  },
+  {
+    "id": "landmark-dragon-s-back",
+    "wiki": "Dragon's_Back",
+    "name": {
+      "ru": "Тропа Dragon’s Back",
+      "en": "Dragon's Back"
+    },
+    "location": {
+      "ru": "Гонконг, Китай (САР)",
+      "en": "Hong Kong"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-a0732e01e5b0",
+    "sourceRow": 8,
+    "commons": "Dragon's Back, Hong Kong 02.jpg",
+    "coordinates": {
+      "latitude": 22.2357,
+      "longitude": 114.2437,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Dragon%27s_Back"
+    }
+  },
+  {
+    "id": "sensoji",
+    "wiki": "Sensō-ji",
+    "name": {
+      "ru": "Сэнсо-дзи",
+      "en": "Sensō-ji"
+    },
+    "location": {
+      "ru": "Токио, Япония",
+      "en": "Tokyo, Japan"
+    },
+    "color": "#8c5143",
+    "origin": "catalogue",
+    "catalogueId": "place-4a5cc8d648ac",
+    "sourceRow": 9,
+    "coordinates": {
+      "latitude": 35.71472222,
+      "longitude": 139.79675,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Sens%C5%8D-ji"
+    }
+  },
+  {
+    "id": "landmark-shibuya-crossing",
+    "wiki": "Shibuya_Crossing",
+    "name": {
+      "ru": "Перекрёсток Сибуя и Hachiko",
+      "en": "Shibuya Crossing"
+    },
+    "location": {
+      "ru": "Токио, Япония",
+      "en": "Tokyo, Japan"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-19ab0ea48521",
+    "sourceRow": 10,
+    "commons": "Shibuya_Crossing,_Aerial.jpg",
+    "coordinates": {
+      "latitude": 35.6595,
+      "longitude": 139.70056,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Shibuya_Crossing"
+    }
+  },
+  {
+    "id": "landmark-meiji-shrine",
+    "wiki": "Meiji_Shrine",
+    "name": {
+      "ru": "Святилище Мэйдзи и Ёёги",
+      "en": "Meiji Shrine"
+    },
+    "location": {
+      "ru": "Токио, Япония",
+      "en": "Tokyo, Japan"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-67af6ffa693c",
+    "sourceRow": 11,
+    "commons": "Meiji_Jingu_2023-3.jpg",
+    "coordinates": {
+      "latitude": 35.67611111,
+      "longitude": 139.69916667,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Meiji_Shrine"
+    }
+  },
+  {
+    "id": "landmark-tokyo-metropolitan-government-building",
+    "wiki": "Tokyo_Metropolitan_Government_Building",
+    "name": {
+      "ru": "Район Синдзюку и смотровые",
+      "en": "Tokyo Metropolitan Government Building"
+    },
+    "location": {
+      "ru": "Токио, Япония",
+      "en": "Tokyo, Japan"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-73c3991c8241",
+    "sourceRow": 12,
+    "commons": "Tokyo_Metropolitan_Government_Building_2024.jpg",
+    "coordinates": {
+      "latitude": 35.68972222,
+      "longitude": 139.69222222,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Tokyo_Metropolitan_Government_Building"
+    }
+  },
+  {
+    "id": "landmark-tokyo-skytree",
+    "wiki": "Tokyo_Skytree",
+    "name": {
+      "ru": "Токийский Скайтри",
+      "en": "Tokyo Skytree"
+    },
+    "location": {
+      "ru": "Токио, Япония",
+      "en": "Tokyo, Japan"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-218da43ad3bb",
+    "sourceRow": 13,
+    "commons": "Tokyo_Skytree_2014_Ⅲ.jpg",
+    "coordinates": {
+      "latitude": 35.7101,
+      "longitude": 139.8107,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Tokyo_Skytree"
+    }
+  },
+  {
+    "id": "landmark-tsukiji-fish-market",
+    "wiki": "Tsukiji_fish_market",
+    "name": {
+      "ru": "Внешний рынок Цукидзи",
+      "en": "Tsukiji fish market"
+    },
+    "location": {
+      "ru": "Токио, Япония",
+      "en": "Tokyo, Japan"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-0a98f85b2590",
+    "sourceRow": 14,
+    "commons": "2018_Tsukiji_fish_market.jpg",
+    "coordinates": {
+      "latitude": 35.66138889,
+      "longitude": 139.76972222,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Tsukiji_fish_market"
+    }
+  },
+  {
+    "id": "landmark-shinjuku-gyo-en",
+    "wiki": "Shinjuku_Gyo-en",
+    "name": {
+      "ru": "Парк Синдзюку-гёэн",
+      "en": "Shinjuku Gyo-en"
+    },
+    "location": {
+      "ru": "Токио, Япония",
+      "en": "Tokyo, Japan"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-e6a3b62824c4",
+    "sourceRow": 15,
+    "commons": "Shinjuku_Gyoen_National_Garden_-_sakura_3.JPG",
+    "coordinates": {
+      "latitude": 35.685,
+      "longitude": 139.71,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Shinjuku_Gyo-en"
+    }
+  },
+  {
+    "id": "landmark-teamlab-planets",
+    "wiki": "TeamLab_Planets",
+    "name": {
+      "ru": "teamLab Planets (Тоёсу)",
+      "en": "teamLab Planets TOKYO DMM.com"
+    },
+    "location": {
+      "ru": "Токио, Япония",
+      "en": "Tokyo, Japan"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-2285074d2494",
+    "sourceRow": 16,
+    "wikidata": "Q97613610",
+    "commons": "Teamlab toyosu.jpg",
+    "coordinates": {
+      "latitude": 35.6492,
+      "longitude": 139.7897,
+      "source": "https://www.wikidata.org/wiki/Special:EntityData/Q97613610.json"
+    }
+  },
+  {
+    "id": "landmark-enoshima-shrine",
+    "wiki": "Enoshima_Shrine",
+    "name": {
+      "ru": "Святилище Эносима-дзиндзя",
+      "en": "Enoshima Shrine"
+    },
+    "location": {
+      "ru": "Эносима, Япония",
+      "en": "Fujisawa, Japan"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-e79dfc1b4dc3",
+    "sourceRow": 17,
+    "commons": "Enoshimajinja_-05.jpg",
+    "coordinates": {
+      "latitude": 35.30055556,
+      "longitude": 139.47972222,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Enoshima_Shrine"
+    }
+  },
+  {
+    "id": "landmark-enoshima-sea-candle",
+    "wiki": "Enoshima_Sea_Candle",
+    "name": {
+      "ru": "Маяк Enoshima Sea Candle",
+      "en": "Enoshima Sea Candle"
+    },
+    "location": {
+      "ru": "Эносима, Япония",
+      "en": "Fujisawa, Japan"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-e0310f261212",
+    "sourceRow": 18,
+    "commons": "Enoshima_Sea_Candle_1.jpg",
+    "coordinates": {
+      "latitude": 35.29972,
+      "longitude": 139.47855,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Enoshima_Sea_Candle"
+    }
+  },
+  {
+    "id": "landmark-enoshima-iwaya-caves",
+    "wiki": "Enoshima_Iwaya_Caves",
+    "name": {
+      "ru": "Пещеры Ивая",
+      "en": "Iwaya Caves"
+    },
+    "location": {
+      "ru": "Эносима, Япония",
+      "en": "Fujisawa, Japan"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-b233722a14d6",
+    "sourceRow": 19,
+    "commons": "Iwaya Caves - Enoshima, Japan - DSC07962.jpg",
+    "displayName": "Iwaya Caves",
+    "coordinates": {
+      "latitude": 35.2980301,
+      "longitude": 139.4761641,
+      "source": "https://www.japan47go.travel/ja/detail/49fa3a7d-2f6d-455a-9ae6-e073124c55b6"
+    }
+  },
+  {
+    "id": "landmark-samuel-cocking-garden",
+    "wiki": "Samuel_Cocking_Garden",
+    "name": {
+      "ru": "Сад Самуэля Кокинга",
+      "en": "Samuel Cocking Garden"
+    },
+    "location": {
+      "ru": "Эносима, Япония",
+      "en": "Fujisawa, Japan"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-7cc59f2c0c7a",
+    "sourceRow": 20,
+    "wikidata": "Q10749928",
+    "commons": "Enoshima Samuel Cocking Garden from the Enoshima Sea Candle (Feb 2022).jpg",
+    "coordinates": {
+      "latitude": 35.29972222,
+      "longitude": 139.47833333,
+      "source": "https://www.wikidata.org/wiki/Special:EntityData/Q10749928.json"
+    }
+  },
+  {
+    "id": "landmark-enoshima-aquarium",
+    "wiki": "Enoshima_Aquarium",
+    "name": {
+      "ru": "Побережье Катасэ и аквариум",
+      "en": "Enoshima Aquarium"
+    },
+    "location": {
+      "ru": "Эносима, Япония",
+      "en": "Fujisawa, Japan"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-7131f793acf9",
+    "sourceRow": 21,
+    "commons": "Enoshima_Aquarium_front_2025_March_21_various_19_35_29_446000.jpeg",
+    "coordinates": {
+      "latitude": 36.7985,
+      "longitude": 137.3881,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Enoshima_Aquarium"
+    }
+  },
+  {
+    "id": "kamakura",
+    "wiki": "Kōtoku-in",
+    "name": {
+      "ru": "Большой Будда",
+      "en": "The Great Buddha"
+    },
+    "location": {
+      "ru": "Камакура, Япония",
+      "en": "Kamakura, Japan"
+    },
+    "color": "#506b63",
+    "origin": "catalogue",
+    "catalogueId": "place-6fc9a106d14b",
+    "sourceRow": 22,
+    "coordinates": {
+      "latitude": 35.31686,
+      "longitude": 139.53572,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/K%C5%8Dtoku-in"
+    }
+  },
+  {
+    "id": "landmark-hase-dera-kamakura",
+    "wiki": "Hase-dera_(Kamakura)",
+    "name": {
+      "ru": "Храм Хасэ-дэра",
+      "en": "Hase-dera (Kamakura)"
+    },
+    "location": {
+      "ru": "Камакура, Япония",
+      "en": "Kamakura, Japan"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-aa7b918bfde7",
+    "sourceRow": 23,
+    "commons": "HasederaKannondo20120716.jpg",
+    "coordinates": {
+      "latitude": 35.3125,
+      "longitude": 139.53305556,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Hase-dera_%28Kamakura%29"
+    }
+  },
+  {
+    "id": "landmark-tsurugaoka-hachimangu",
+    "wiki": "Tsurugaoka_Hachimangū",
+    "name": {
+      "ru": "Святилище Цуругаока Хатимангу",
+      "en": "Tsurugaoka Hachimangū"
+    },
+    "location": {
+      "ru": "Камакура, Япония",
+      "en": "Kamakura, Japan"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-7f4c3ac3b7f1",
+    "sourceRow": 24,
+    "commons": "TsurugaokaHachiman-M8867.jpg",
+    "coordinates": {
+      "latitude": 35.32472222,
+      "longitude": 139.55583333,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Tsurugaoka_Hachimang%C5%AB"
+    }
+  },
+  {
+    "id": "landmark-komachi-street",
+    "wiki": "Komachi_Street",
+    "name": {
+      "ru": "Улица Комати-дори",
+      "en": "Komachi Street"
+    },
+    "location": {
+      "ru": "Камакура, Япония",
+      "en": "Kamakura, Japan"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-0186a6819e54",
+    "sourceRow": 25,
+    "wikidata": "Q65263822",
+    "commons": "Komachi Dori-Kamakura.jpg",
+    "coordinates": {
+      "latitude": 35.32153,
+      "longitude": 139.55232,
+      "source": "https://www.wikidata.org/wiki/Special:EntityData/Q65263822.json"
+    }
+  },
+  {
+    "id": "landmark-hokoku-ji",
+    "wiki": "Hōkoku-ji",
+    "name": {
+      "ru": "Бамбуковая роща Хококу-дзи",
+      "en": "Hōkoku-ji"
+    },
+    "location": {
+      "ru": "Камакура, Япония",
+      "en": "Kamakura, Japan"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-83ca7e15e863",
+    "sourceRow": 26,
+    "commons": "Hokokuji Bamboo Forest Kamakura.jpg",
+    "coordinates": {
+      "latitude": 35.32,
+      "longitude": 139.5693,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/H%C5%8Dkoku-ji"
+    }
+  },
+  {
+    "id": "landmark-kencho-ji",
+    "wiki": "Kenchō-ji",
+    "name": {
+      "ru": "Храм Кэнчо-дзи",
+      "en": "Kenchō-ji"
+    },
+    "location": {
+      "ru": "Камакура, Япония",
+      "en": "Kamakura, Japan"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-825297c2d3f2",
+    "sourceRow": 27,
+    "commons": "Kenchoji_Sanmon_2009.jpg",
+    "coordinates": {
+      "latitude": 35.33178889,
+      "longitude": 139.55534722,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Kench%C5%8D-ji"
+    }
+  },
+  {
+    "id": "landmark-new-town-hall-munich",
+    "wiki": "New_Town_Hall_(Munich)",
+    "name": {
+      "ru": "Мариенплац и Новая ратуша",
+      "en": "New Town Hall (Munich)"
+    },
+    "location": {
+      "ru": "Мюнхен, Германия",
+      "en": "Munich, Germany"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-07206caf17b0",
+    "sourceRow": 28,
+    "commons": "Neues_Rathaus_München_2018.jpg",
+    "coordinates": {
+      "latitude": 48.1375,
+      "longitude": 11.57555556,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/New_Town_Hall_%28Munich%29"
+    }
+  },
+  {
+    "id": "landmark-munich-residenz",
+    "wiki": "Munich_Residenz",
+    "name": {
+      "ru": "Мюнхенская резиденция",
+      "en": "Munich Residenz"
+    },
+    "location": {
+      "ru": "Мюнхен, Германия",
+      "en": "Munich, Germany"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-d67906f19207",
+    "sourceRow": 29,
+    "commons": "Münchner Residenz 2014-08-02 Pano.jpg",
+    "coordinates": {
+      "latitude": 48.14111111,
+      "longitude": 11.57805556,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Munich_Residenz"
+    }
+  },
+  {
+    "id": "landmark-englischer-garten",
+    "wiki": "Englischer_Garten",
+    "name": {
+      "ru": "Английский сад и Eisbach",
+      "en": "Englischer Garten"
+    },
+    "location": {
+      "ru": "Мюнхен, Германия",
+      "en": "Munich, Germany"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-33217e7552b6",
+    "sourceRow": 30,
+    "commons": "Aerial_image_of_Englischer_Garten_in_Munich_(view_from_the_southwest).jpg",
+    "coordinates": {
+      "latitude": 48.15277778,
+      "longitude": 11.59194444,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Englischer_Garten"
+    }
+  },
+  {
+    "id": "landmark-nymphenburg-palace",
+    "wiki": "Nymphenburg_Palace",
+    "name": {
+      "ru": "Дворец Нимфенбург",
+      "en": "Nymphenburg Palace"
+    },
+    "location": {
+      "ru": "Мюнхен, Германия",
+      "en": "Munich, Germany"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-a59f09bfe0ae",
+    "sourceRow": 31,
+    "commons": "Image-Schloss_Nymphenburg_Munich_CC_edit3.jpg",
+    "coordinates": {
+      "latitude": 48.158056,
+      "longitude": 11.503611,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Nymphenburg_Palace"
+    }
+  },
+  {
+    "id": "landmark-deutsches-museum",
+    "wiki": "Deutsches_Museum",
+    "name": {
+      "ru": "Немецкий музей",
+      "en": "Deutsches Museum"
+    },
+    "location": {
+      "ru": "Мюнхен, Германия",
+      "en": "Munich, Germany"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-efcc76c5f8d4",
+    "sourceRow": 32,
+    "commons": "Deutsches Museum Portrait 4.jpg",
+    "coordinates": {
+      "latitude": 48.13,
+      "longitude": 11.5833,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Deutsches_Museum"
+    }
+  },
+  {
+    "id": "landmark-frauenkirche-munich",
+    "wiki": "Frauenkirche,_Munich",
+    "name": {
+      "ru": "Фрауэнкирхе",
+      "en": "Frauenkirche, Munich"
+    },
+    "location": {
+      "ru": "Мюнхен, Германия",
+      "en": "Munich, Germany"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-29865d6420cb",
+    "sourceRow": 33,
+    "commons": "Frauenkirche_Munich_-_View_from_Peterskirche_Tower2.jpg",
+    "coordinates": {
+      "latitude": 48.13861111,
+      "longitude": 11.57388889,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Frauenkirche%2C_Munich"
+    }
+  },
+  {
+    "id": "landmark-bmw-welt",
+    "wiki": "BMW_Welt",
+    "name": {
+      "ru": "BMW Welt и Олимпийский парк",
+      "en": "BMW Welt"
+    },
+    "location": {
+      "ru": "Мюнхен, Германия",
+      "en": "Munich, Germany"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-c7098b38655f",
+    "sourceRow": 34,
+    "commons": "BMW_Welt,_Múnich,_Alemania16.jpg",
+    "coordinates": {
+      "latitude": 48.17694444,
+      "longitude": 11.55666667,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/BMW_Welt"
+    }
+  },
+  {
+    "id": "landmark-old-tbilisi",
+    "wiki": "Old_Tbilisi",
+    "name": {
+      "ru": "Старый Тбилиси и район Сололаки",
+      "en": "Old Tbilisi"
+    },
+    "location": {
+      "ru": "Тбилиси, Грузия",
+      "en": "Tbilisi, Georgia"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-0b94eb8d8cd5",
+    "sourceRow": 35,
+    "commons": "Old Tbilisi, Georgia.jpg",
+    "coordinates": {
+      "latitude": 41.69277778,
+      "longitude": 44.80638889,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Old_Tbilisi"
+    }
+  },
+  {
+    "id": "landmark-narikala",
+    "wiki": "Narikala",
+    "name": {
+      "ru": "Крепость Нарикала и Мать Грузии",
+      "en": "Narikala"
+    },
+    "location": {
+      "ru": "Тбилиси, Грузия",
+      "en": "Tbilisi, Georgia"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-4c579bd20ac3",
+    "sourceRow": 36,
+    "commons": "Tbilisi_IMG_8846_1920.jpg",
+    "coordinates": {
+      "latitude": 41.68777778,
+      "longitude": 44.80861111,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Narikala"
+    }
+  },
+  {
+    "id": "landmark-abanotubani",
+    "wiki": "Abanotubani",
+    "name": {
+      "ru": "Серные бани Абанотубани",
+      "en": "Abanotubani"
+    },
+    "location": {
+      "ru": "Тбилиси, Грузия",
+      "en": "Tbilisi, Georgia"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-6bb95cb2b818",
+    "sourceRow": 37,
+    "commons": "2014_Tbilisi,_Łaźnie_siarkowe_w_Abanotubani_(04).jpg",
+    "coordinates": {
+      "latitude": 41.68777778,
+      "longitude": 44.81111111,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Abanotubani"
+    }
+  },
+  {
+    "id": "landmark-bridge-of-peace",
+    "wiki": "Bridge_of_Peace",
+    "name": {
+      "ru": "Мост Мира и парк Рике",
+      "en": "Bridge of Peace"
+    },
+    "location": {
+      "ru": "Тбилиси, Грузия",
+      "en": "Tbilisi, Georgia"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-38e4bb2020eb",
+    "sourceRow": 38,
+    "commons": "Mtkvari_-_panoramio.jpg",
+    "coordinates": {
+      "latitude": 41.6929,
+      "longitude": 44.8082,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Bridge_of_Peace"
+    }
+  },
+  {
+    "id": "landmark-holy-trinity-cathedral-of-tbilisi",
+    "wiki": "Holy_Trinity_Cathedral_of_Tbilisi",
+    "name": {
+      "ru": "Кафедральный собор Самеба",
+      "en": "Holy Trinity Cathedral of Tbilisi"
+    },
+    "location": {
+      "ru": "Тбилиси, Грузия",
+      "en": "Tbilisi, Georgia"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-6ecf70c7d937",
+    "sourceRow": 39,
+    "wikidata": "Q36996",
+    "commons": "Tbilisi Holy Trinity Cathedral (Sameba) IMG 8956 1920.jpg",
+    "coordinates": {
+      "latitude": 41.6975,
+      "longitude": 44.816666666667,
+      "source": "https://www.wikidata.org/wiki/Special:EntityData/Q36996.json"
+    }
+  },
+  {
+    "id": "landmark-rustaveli-avenue",
+    "wiki": "Rustaveli_Avenue",
+    "name": {
+      "ru": "Проспект Руставели",
+      "en": "Rustaveli Avenue"
+    },
+    "location": {
+      "ru": "Тбилиси, Грузия",
+      "en": "Tbilisi, Georgia"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-35ff4c028c37",
+    "sourceRow": 40,
+    "commons": "Rustaveli_theatre.jpg",
+    "coordinates": {
+      "latitude": 41.69416667,
+      "longitude": 44.79972222,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Rustaveli_Avenue"
+    }
+  },
+  {
+    "id": "landmark-mtatsminda-park",
+    "wiki": "Mtatsminda_Park",
+    "name": {
+      "ru": "Фуникулёр и парк Мтацминда",
+      "en": "Mtatsminda Park"
+    },
+    "location": {
+      "ru": "Тбилиси, Грузия",
+      "en": "Tbilisi, Georgia"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-4004656c8e46",
+    "sourceRow": 41,
+    "commons": "Mtatsminda_park_January_2013_11.jpg",
+    "coordinates": {
+      "latitude": 41.6933,
+      "longitude": 44.7802,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Mtatsminda_Park"
+    }
+  },
+  {
+    "id": "landmark-svetitskhoveli-cathedral",
+    "wiki": "Svetitskhoveli_Cathedral",
+    "name": {
+      "ru": "Мцхета: Светицховели и Джвари",
+      "en": "Svetitskhoveli Cathedral"
+    },
+    "location": {
+      "ru": "Грузия",
+      "en": "Georgia"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-768547e531ea",
+    "sourceRow": 42,
+    "credit": "Supanut Arunoprayote",
+    "commons": "Svetitskhoveli_Cathedral_09.23_(3).jpg",
+    "coordinates": {
+      "latitude": 41.8419,
+      "longitude": 44.7211,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Svetitskhoveli_Cathedral"
+    }
+  },
+  {
+    "id": "gergeti",
+    "wiki": "Gergeti_Trinity_Church",
+    "name": {
+      "ru": "Троицкая церковь Гергети",
+      "en": "Gergeti Trinity Church"
+    },
+    "location": {
+      "ru": "Степанцминда, Грузия",
+      "en": "Stepantsminda, Georgia"
+    },
+    "color": "#576b61",
+    "origin": "catalogue",
+    "catalogueId": "place-a831d2b94f4a",
+    "sourceRow": 43,
+    "credit": "Supanut Arunoprayote",
+    "coordinates": {
+      "latitude": 42.6625,
+      "longitude": 44.62027778,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Gergeti_Trinity_Church"
+    }
+  },
+  {
+    "id": "landmark-sighnaghi",
+    "wiki": "Sighnaghi",
+    "name": {
+      "ru": "Кахетия: Сигнахи и виноградники",
+      "en": "Signagi"
+    },
+    "location": {
+      "ru": "Грузия",
+      "en": "Georgia"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-d27de1b29b5e",
+    "sourceRow": 44,
+    "commons": "Sighnagi_2009.jpg",
+    "coordinates": {
+      "latitude": 41.618611111111115,
+      "longitude": 45.92166666666667,
+      "source": "https://www.wikidata.org/wiki/Special:EntityData/Q946143.json"
+    }
+  },
+  {
+    "id": "landmark-uplistsikhe",
+    "wiki": "Uplistsikhe",
+    "name": {
+      "ru": "Пещерный город Уплисцихе",
+      "en": "Uplistsikhe"
+    },
+    "location": {
+      "ru": "Грузия",
+      "en": "Georgia"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-9b5e3202b4b6",
+    "sourceRow": 45,
+    "credit": "Supanut Arunoprayote",
+    "commons": "Middle_ages_Basilica_on_the_top_of_the_cave,_Uplistsikhe_20230920_(II).jpg",
+    "coordinates": {
+      "latitude": 41.96833333,
+      "longitude": 44.20416667,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Uplistsikhe"
+    }
+  },
+  {
+    "id": "landmark-vardzia",
+    "wiki": "Vardzia",
+    "name": {
+      "ru": "Пещерный монастырь Вардзия",
+      "en": "Vardzia"
+    },
+    "location": {
+      "ru": "Грузия",
+      "en": "Georgia"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-b79716c68a1a",
+    "sourceRow": 46,
+    "commons": "2025-05-25_Vardzia_9.jpg",
+    "coordinates": {
+      "latitude": 41.38091667,
+      "longitude": 43.28376111,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Vardzia"
+    }
+  },
+  {
+    "id": "landmark-prometheus-cave-natural-monument",
+    "wiki": "Prometheus_Cave_Natural_Monument",
+    "name": {
+      "ru": "Кутаиси: Прометеевы пещеры",
+      "en": "Prometheus Cave Natural Monument"
+    },
+    "location": {
+      "ru": "Грузия",
+      "en": "Georgia"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-bd63b473b4f1",
+    "sourceRow": 47,
+    "commons": "2014_Imeretia,_Jaskinia_Prometeusza_(16).jpg",
+    "coordinates": {
+      "latitude": 42.37666667,
+      "longitude": 42.60055556,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Prometheus_Cave_Natural_Monument"
+    }
+  },
+  {
+    "id": "landmark-ushguli",
+    "wiki": "Ushguli",
+    "name": {
+      "ru": "Сванетия: Местия и Ушгули",
+      "en": "Ushguli"
+    },
+    "location": {
+      "ru": "Грузия",
+      "en": "Georgia"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-91e0aba1e886",
+    "sourceRow": 48,
+    "commons": "Ushguli_Svaneti_Georgia.JPG",
+    "coordinates": {
+      "latitude": 42.917797,
+      "longitude": 43.015672,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Ushguli"
+    }
+  },
+  {
+    "id": "landmark-moscow-kremlin",
+    "wiki": "Moscow_Kremlin",
+    "name": {
+      "ru": "Красная площадь и Кремль",
+      "en": "Kremlin"
+    },
+    "location": {
+      "ru": "Москва, Россия",
+      "en": "Moscow, Russia"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-81bc780d0c25",
+    "sourceRow": 49,
+    "commons": "Moscow_Kremlin_(8281675670).jpg",
+    "coordinates": {
+      "latitude": 55.75166667,
+      "longitude": 37.61777778,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Moscow_Kremlin"
+    }
+  },
+  {
+    "id": "moscow",
+    "wiki": "Saint_Basil's_Cathedral",
+    "name": {
+      "ru": "Собор Василия Блаженного",
+      "en": "Saint Basil’s Cathedral"
+    },
+    "location": {
+      "ru": "Москва, Россия",
+      "en": "Moscow, Russia"
+    },
+    "color": "#88584f",
+    "origin": "catalogue",
+    "catalogueId": "place-aa409f85260c",
+    "sourceRow": 50,
+    "coordinates": {
+      "latitude": 55.7525,
+      "longitude": 37.62305556,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Saint_Basil%27s_Cathedral"
+    }
+  },
+  {
+    "id": "landmark-tretyakov-gallery",
+    "wiki": "Tretyakov_Gallery",
+    "name": {
+      "ru": "Третьяковская галерея",
+      "en": "Tretyakov Gallery"
+    },
+    "location": {
+      "ru": "Москва, Россия",
+      "en": "Moscow, Russia"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-bc9e5ee78946",
+    "sourceRow": 51,
+    "commons": "Moscow_05-2012_TretyakovGallery.jpg",
+    "coordinates": {
+      "latitude": 55.74138889,
+      "longitude": 37.62086389,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Tretyakov_Gallery"
+    }
+  },
+  {
+    "id": "landmark-zaryadye-park",
+    "wiki": "Zaryadye_Park",
+    "name": {
+      "ru": "Парк Зарядье и Парящий мост",
+      "en": "Zaryadye Park"
+    },
+    "location": {
+      "ru": "Москва, Россия",
+      "en": "Moscow, Russia"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-40e811b84631",
+    "sourceRow": 52,
+    "commons": "Zaryadye25.jpg",
+    "coordinates": {
+      "latitude": 55.751,
+      "longitude": 37.629,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Zaryadye_Park"
+    }
+  },
+  {
+    "id": "landmark-vdnkh-russia",
+    "wiki": "VDNKh_(Russia)",
+    "name": {
+      "ru": "ВДНХ",
+      "en": "Exhibition of Achievements of National Economy"
+    },
+    "location": {
+      "ru": "Москва, Россия",
+      "en": "Moscow, Russia"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-a9920f271f1c",
+    "sourceRow": 53,
+    "commons": "Арка_Главного_входа_ВДНХ,_Москва.jpg",
+    "coordinates": {
+      "latitude": 55.82972222,
+      "longitude": 37.63222222,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/VDNKh_%28Russia%29"
+    }
+  },
+  {
+    "id": "landmark-gorky-park-moscow",
+    "wiki": "Gorky_Park_(Moscow)",
+    "name": {
+      "ru": "Парк Горького и Нескучный сад",
+      "en": "Gorky Park (Moscow)"
+    },
+    "location": {
+      "ru": "Москва, Россия",
+      "en": "Moscow, Russia"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-db438c78d6d4",
+    "sourceRow": 54,
+    "commons": "Moscow_Gorky_Park_main_portal_08-2016_img1.jpg",
+    "coordinates": {
+      "latitude": 55.72833333,
+      "longitude": 37.6,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Gorky_Park_%28Moscow%29"
+    }
+  },
+  {
+    "id": "landmark-moscow-international-business-center",
+    "wiki": "Moscow_International_Business_Center",
+    "name": {
+      "ru": "Москва-Сити и смотровая",
+      "en": "Moscow International Business Center"
+    },
+    "location": {
+      "ru": "Москва, Россия",
+      "en": "Moscow, Russia"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-5c45ff714217",
+    "sourceRow": 55,
+    "commons": "Moscow-City_2025.jpg",
+    "coordinates": {
+      "latitude": 55.74666667,
+      "longitude": 37.53694444,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Moscow_International_Business_Center"
+    }
+  },
+  {
+    "id": "landmark-winter-palace",
+    "wiki": "Winter_Palace",
+    "name": {
+      "ru": "Эрмитаж и Дворцовая площадь",
+      "en": "Winter Palace"
+    },
+    "location": {
+      "ru": "Санкт-Петербург, Россия",
+      "en": "Saint Petersburg, Russia"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-e5d8e3ab516d",
+    "sourceRow": 56,
+    "commons": "Winter Palace Panorama 3.jpg",
+    "coordinates": {
+      "latitude": 59.9404,
+      "longitude": 30.3139,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Winter_Palace"
+    }
+  },
+  {
+    "id": "landmark-saint-isaac-s-cathedral",
+    "wiki": "Saint_Isaac's_Cathedral",
+    "name": {
+      "ru": "Исаакиевский собор и колоннада",
+      "en": "Saint Isaac's Cathedral"
+    },
+    "location": {
+      "ru": "Санкт-Петербург, Россия",
+      "en": "Saint Petersburg, Russia"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-7ba358afdf37",
+    "sourceRow": 57,
+    "commons": "Saint_Isaac's_Cathedral_in_SPB.jpeg",
+    "coordinates": {
+      "latitude": 59.9341,
+      "longitude": 30.3062,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Saint_Isaac%27s_Cathedral"
+    }
+  },
+  {
+    "id": "landmark-church-of-the-savior-on-blood",
+    "wiki": "Church_of_the_Savior_on_Blood",
+    "name": {
+      "ru": "Спас на Крови",
+      "en": "Church of the Savior on Blood"
+    },
+    "location": {
+      "ru": "Санкт-Петербург, Россия",
+      "en": "Saint Petersburg, Russia"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-5d791c1835ae",
+    "sourceRow": 58,
+    "commons": "Auferstehungskirche_(Sankt_Petersburg).JPG",
+    "coordinates": {
+      "latitude": 59.94,
+      "longitude": 30.32861111,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Church_of_the_Savior_on_Blood"
+    }
+  },
+  {
+    "id": "landmark-nevsky-prospect",
+    "wiki": "Nevsky_Prospect",
+    "name": {
+      "ru": "Невский проспект и каналы",
+      "en": "Nevsky Prospect"
+    },
+    "location": {
+      "ru": "Санкт-Петербург, Россия",
+      "en": "Saint Petersburg, Russia"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-b5f2079ed82a",
+    "sourceRow": 59,
+    "commons": "Nevsky Prospekt 20240912 114912 MP.jpg",
+    "coordinates": {
+      "latitude": 59.9318,
+      "longitude": 30.3528,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Nevsky_Prospect"
+    }
+  },
+  {
+    "id": "landmark-peterhof-palace",
+    "wiki": "Peterhof_Palace",
+    "name": {
+      "ru": "Петергоф и Нижний парк",
+      "en": "Peterhof Palace"
+    },
+    "location": {
+      "ru": "Санкт-Петербург, Россия",
+      "en": "Saint Petersburg, Russia"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-2c8a5181ea81",
+    "sourceRow": 60,
+    "commons": "Peterhof_Palace,_Saint_Petersburg,_Russia_(44408938295).jpg",
+    "coordinates": {
+      "latitude": 59.88444444,
+      "longitude": 29.90888889,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Peterhof_Palace"
+    }
+  },
+  {
+    "id": "landmark-peter-and-paul-fortress",
+    "wiki": "Peter_and_Paul_Fortress",
+    "name": {
+      "ru": "Петропавловская крепость",
+      "en": "Peter and Paul Fortress"
+    },
+    "location": {
+      "ru": "Санкт-Петербург, Россия",
+      "en": "Saint Petersburg, Russia"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-b3073de4fb2d",
+    "sourceRow": 61,
+    "commons": "RUS-2016-Aerial-SPB-Peter_and_Paul_Fortress_02.jpg",
+    "coordinates": {
+      "latitude": 59.95,
+      "longitude": 30.317,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Peter_and_Paul_Fortress"
+    }
+  },
+  {
+    "id": "landmark-catherine-palace",
+    "wiki": "Catherine_Palace",
+    "name": {
+      "ru": "Царское Село и Екатерининский дворец",
+      "en": "Catherine Palace"
+    },
+    "location": {
+      "ru": "Санкт-Петербург, Россия",
+      "en": "Saint Petersburg, Russia"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-72e2464e8efb",
+    "sourceRow": 62,
+    "commons": "Царское_Село._Екатерининский_дворец_1.jpg",
+    "coordinates": {
+      "latitude": 59.71611111,
+      "longitude": 30.39555556,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Catherine_Palace"
+    }
+  },
+  {
+    "id": "landmark-palma-cathedral",
+    "wiki": "Palma_Cathedral",
+    "name": {
+      "ru": "Собор Ла-Сеу в Пальме",
+      "en": "Palma Cathedral"
+    },
+    "location": {
+      "ru": "Майорка, Испания",
+      "en": "Mallorca, Spain"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-6ec92eb3b223",
+    "sourceRow": 63,
+    "commons": "Kathedrale_von_Palma_II.jpg",
+    "coordinates": {
+      "latitude": 39.56737778,
+      "longitude": 2.64813611,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Palma_Cathedral"
+    }
+  },
+  {
+    "id": "landmark-valldemossa",
+    "wiki": "Valldemossa",
+    "name": {
+      "ru": "Вальдемосса",
+      "en": "Valldemossa"
+    },
+    "location": {
+      "ru": "Майорка, Испания",
+      "en": "Mallorca, Spain"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-7aad8cd33aa2",
+    "sourceRow": 64,
+    "commons": "Valldemossa_2003.jpg",
+    "coordinates": {
+      "latitude": 39.71167778,
+      "longitude": 2.62258056,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Valldemossa"
+    }
+  },
+  {
+    "id": "landmark-serra-de-tramuntana",
+    "wiki": "Serra_de_Tramuntana",
+    "name": {
+      "ru": "Серра-де-Трамунтана",
+      "en": "Serra de Tramuntana"
+    },
+    "location": {
+      "ru": "Майорка, Испания",
+      "en": "Mallorca, Spain"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-ab8c862c458c",
+    "sourceRow": 65,
+    "commons": "SerraTramuntana2.jpg",
+    "coordinates": {
+      "latitude": 39.73083333,
+      "longitude": 2.69472222,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Serra_de_Tramuntana"
+    }
+  },
+  {
+    "id": "landmark-port-de-soller",
+    "wiki": "Port_de_Sóller",
+    "name": {
+      "ru": "Сольер и Порт-де-Сольер",
+      "en": "Port de Sóller"
+    },
+    "location": {
+      "ru": "Майорка, Испания",
+      "en": "Mallorca, Spain"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-89b5e6f8d7a9",
+    "sourceRow": 66,
+    "commons": "Port_de_Sóller.JPG",
+    "coordinates": {
+      "latitude": 39.79861111,
+      "longitude": 2.69361111,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Port_de_S%C3%B3ller"
+    }
+  },
+  {
+    "id": "landmark-cap-de-formentor",
+    "wiki": "Cap_de_Formentor",
+    "name": {
+      "ru": "Мыс Форментор",
+      "en": "Cap de Formentor"
+    },
+    "location": {
+      "ru": "Майорка, Испания",
+      "en": "Mallorca, Spain"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-28619a356ff7",
+    "sourceRow": 67,
+    "wikidata": "Q1034144",
+    "commons": "To The Lighthouse...-5167842680.jpg",
+    "coordinates": {
+      "latitude": 39.962222,
+      "longitude": 3.213611,
+      "source": "https://www.wikidata.org/wiki/Special:EntityData/Q1034144.json"
+    }
+  },
+  {
+    "id": "landmark-mondrago-natural-park",
+    "wiki": "Parque_natural_de_Mondragón",
+    "name": {
+      "ru": "Бухта Кала-д'Ор / Мондаго",
+      "en": "Mondragó Natural Park"
+    },
+    "location": {
+      "ru": "Майорка, Испания",
+      "en": "Mallorca, Spain"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-ea88fea54fe6",
+    "sourceRow": 68,
+    "wikiLang": "es",
+    "displayName": "Mondragó Natural Park",
+    "commons": "Mallorca_schönste_Strände_Cala_Amarador_(30182046834).jpg",
+    "coordinates": {
+      "latitude": 39.355803,
+      "longitude": 3.177794,
+      "source": "https://es.wikipedia.org/api/rest_v1/page/summary/Parque_natural_de_Mondrag%C3%B3n"
+    }
+  },
+  {
+    "id": "landmark-caves-of-drach",
+    "wiki": "Caves_of_Drach",
+    "name": {
+      "ru": "Пещеры Драк",
+      "en": "Cuevas del Drach"
+    },
+    "location": {
+      "ru": "Майорка, Испания",
+      "en": "Mallorca, Spain"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-5fa7c119b004",
+    "sourceRow": 69,
+    "commons": "Interior_de_las_Cuevas_del_Drach.jpg",
+    "coordinates": {
+      "latitude": 39.5359,
+      "longitude": 3.3304,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Caves_of_Drach"
+    }
+  },
+  {
+    "id": "landmark-ciutadella-de-menorca",
+    "wiki": "Ciutadella_de_Menorca",
+    "name": {
+      "ru": "Сьютаделья и старый порт",
+      "en": "Ciutadella de Menorca"
+    },
+    "location": {
+      "ru": "Менорка, Испания",
+      "en": "Menorca, Spain"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-2765991aaa77",
+    "sourceRow": 70,
+    "commons": "Ciudadela_(Menorca).jpg",
+    "coordinates": {
+      "latitude": 40.001388888889,
+      "longitude": 3.8363888888889,
+      "source": "https://www.wikidata.org/wiki/Special:EntityData/Q899884.json"
+    }
+  },
+  {
+    "id": "landmark-cala-macarella",
+    "wiki": "Cala_Macarella",
+    "name": {
+      "ru": "Кала-Макарелья и Макарельета",
+      "en": "Cala Macarella"
+    },
+    "location": {
+      "ru": "Менорка, Испания",
+      "en": "Menorca, Spain"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-cde8ac128f9b",
+    "sourceRow": 71,
+    "wikidata": "Q28119279",
+    "commons": "Cala Macarella.jpg",
+    "coordinates": {
+      "latitude": 39.938100000253,
+      "longitude": 3.9370000004211,
+      "source": "https://www.wikidata.org/wiki/Special:EntityData/Q28119279.json"
+    }
+  },
+  {
+    "id": "landmark-port-of-mao",
+    "wiki": "Port_of_Maó",
+    "name": {
+      "ru": "Маон (Маó) и гавань",
+      "en": "Port of Maó-Mahón"
+    },
+    "location": {
+      "ru": "Менорка, Испания",
+      "en": "Menorca, Spain"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-903329159644",
+    "sourceRow": 72,
+    "wikidata": "Q9064595",
+    "commons": "Maó.jpg",
+    "coordinates": {
+      "latitude": 39.891667,
+      "longitude": 4.266667,
+      "source": "https://www.wikidata.org/wiki/Special:EntityData/Q9064595.json"
+    }
+  },
+  {
+    "id": "landmark-cala-mitjana",
+    "wiki": "Cala_Mitjana",
+    "name": {
+      "ru": "Кала-Митхана",
+      "en": "Cala Mitjana"
+    },
+    "location": {
+      "ru": "Менорка, Испания",
+      "en": "Menorca, Spain"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-e9e3a7d47070",
+    "sourceRow": 73,
+    "commons": "Cala_Mitjana_(29503984994).jpg",
+    "coordinates": {
+      "latitude": 39.9344,
+      "longitude": 3.97267,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Cala_Mitjana"
+    }
+  },
+  {
+    "id": "landmark-naveta-d-es-tudons",
+    "wiki": "Naveta_d'Es_Tudons",
+    "name": {
+      "ru": "Навета-дес-Тудонс",
+      "en": "Naveta d'Es Tudons"
+    },
+    "location": {
+      "ru": "Менорка, Испания",
+      "en": "Menorca, Spain"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-3592b49f72b4",
+    "sourceRow": 74,
+    "credit": "Albireo386",
+    "commons": "Tudons01.jpg",
+    "coordinates": {
+      "latitude": 40.003128,
+      "longitude": 3.891558,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Naveta_d%27Es_Tudons"
+    }
+  },
+  {
+    "id": "landmark-cami-de-cavalls",
+    "wiki": "Camí_de_Cavalls",
+    "name": {
+      "ru": "Ками-де-Кавальс (отрезок тропы)",
+      "en": "Camí de Cavalls"
+    },
+    "location": {
+      "ru": "Менорка, Испания",
+      "en": "Menorca, Spain"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-1c24a67c876e",
+    "sourceRow": 75,
+    "commons": "Cami de Cavalls - Es Talaier Cala en Turqueta.JPG",
+    "coordinates": {
+      "latitude": 39.92638889,
+      "longitude": 3.90916667,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Cam%C3%AD_de_Cavalls"
+    }
+  },
+  {
+    "id": "landmark-maspalomas-dunes",
+    "wiki": "Maspalomas_Dunes",
+    "name": {
+      "ru": "Дюны Маспаломас",
+      "en": "Maspalomas Dunes"
+    },
+    "location": {
+      "ru": "Гран-Канария, Испания",
+      "en": "Gran Canaria, Spain"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-d3817674aa27",
+    "sourceRow": 76,
+    "commons": "Dunas_de_Maspalomas.jpg",
+    "coordinates": {
+      "latitude": 27.741,
+      "longitude": -15.582,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Maspalomas_Dunes"
+    }
+  },
+  {
+    "id": "landmark-roque-nublo",
+    "wiki": "Roque_Nublo",
+    "name": {
+      "ru": "Роке-Нубло",
+      "en": "Roque Nublo"
+    },
+    "location": {
+      "ru": "Гран-Канария, Испания",
+      "en": "Gran Canaria, Spain"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-dc9df31422d5",
+    "sourceRow": 77,
+    "commons": "Roque_Nublo_2024-12-14.jpg",
+    "coordinates": {
+      "latitude": 27.97083333,
+      "longitude": -15.6125,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Roque_Nublo"
+    }
+  },
+  {
+    "id": "landmark-vegueta",
+    "wiki": "Vegueta",
+    "name": {
+      "ru": "Лас-Пальмас: квартал Вегета",
+      "en": "Vegueta"
+    },
+    "location": {
+      "ru": "Гран-Канария, Испания",
+      "en": "Gran Canaria, Spain"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-56fd7068bfd4",
+    "sourceRow": 78,
+    "wikiLang": "es",
+    "commons": "Columbus_House-Vegueta-Las_Palmas_Gran_Canaria.jpg",
+    "coordinates": {
+      "latitude": 28.09861111,
+      "longitude": -15.415,
+      "source": "https://es.wikipedia.org/api/rest_v1/page/summary/Vegueta"
+    }
+  },
+  {
+    "id": "landmark-playa-de-las-canteras",
+    "wiki": "Playa_de_Las_Canteras",
+    "name": {
+      "ru": "Пляж Лас-Кантерас",
+      "en": "Playa de Las Canteras"
+    },
+    "location": {
+      "ru": "Гран-Канария, Испания",
+      "en": "Gran Canaria, Spain"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-ec67bae318d9",
+    "sourceRow": 79,
+    "credit": "Fernando Carmona González (Fer..)",
+    "commons": "Playa_de_las_canteras_24_Dec2006_palmas_gran_canaria.jpg",
+    "coordinates": {
+      "latitude": 28.14,
+      "longitude": -15.43611111,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Playa_de_Las_Canteras"
+    }
+  },
+  {
+    "id": "landmark-teror",
+    "wiki": "Teror",
+    "name": {
+      "ru": "Деревня Терор",
+      "en": "Teror"
+    },
+    "location": {
+      "ru": "Гран-Канария, Испания",
+      "en": "Gran Canaria, Spain"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-6070d9643c16",
+    "sourceRow": 80,
+    "commons": "Teror_-_Balcones.jpg",
+    "coordinates": {
+      "latitude": 28.05888889,
+      "longitude": -15.5475,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Teror"
+    }
+  },
+  {
+    "id": "landmark-puerto-de-mogan",
+    "wiki": "Puerto_de_Mogán",
+    "name": {
+      "ru": "Пуэрто-де-Моган",
+      "en": "Puerto de Mogán"
+    },
+    "location": {
+      "ru": "Гран-Канария, Испания",
+      "en": "Gran Canaria, Spain"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-9898fcf57418",
+    "sourceRow": 81,
+    "commons": "Puerto_de_Mogán,_May_2018_-02.jpg",
+    "coordinates": {
+      "latitude": 27.81777778,
+      "longitude": -15.76583333,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Puerto_de_Mog%C3%A1n"
+    }
+  },
+  {
+    "id": "barcelona",
+    "wiki": "Sagrada_Família",
+    "name": {
+      "ru": "Саграда Фамилия",
+      "en": "Sagrada Família"
+    },
+    "location": {
+      "ru": "Барселона, Испания",
+      "en": "Barcelona, Spain"
+    },
+    "color": "#92704b",
+    "origin": "catalogue",
+    "catalogueId": "place-4555b15f7e27",
+    "sourceRow": 82,
+    "coordinates": {
+      "latitude": 41.40369,
+      "longitude": 2.17433,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Sagrada_Fam%C3%ADlia"
+    }
+  },
+  {
+    "id": "landmark-park-guell",
+    "wiki": "Park_Güell",
+    "name": {
+      "ru": "Парк Гуэль",
+      "en": "Park Güell"
+    },
+    "location": {
+      "ru": "Барселона, Испания",
+      "en": "Barcelona, Spain"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-fd3e687ae3f2",
+    "sourceRow": 83,
+    "commons": "Parc_guell_-_panoramio.jpg",
+    "coordinates": {
+      "latitude": 41.41361111,
+      "longitude": 2.15277778,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Park_G%C3%BCell"
+    }
+  },
+  {
+    "id": "landmark-casa-batllo",
+    "wiki": "Casa_Batlló",
+    "name": {
+      "ru": "Дом Бальо",
+      "en": "Casa Batlló"
+    },
+    "location": {
+      "ru": "Барселона, Испания",
+      "en": "Barcelona, Spain"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-8afa41f80f1b",
+    "sourceRow": 84,
+    "commons": "Casa_Batllo_Overview_Barcelona_Spain_cut.jpg",
+    "coordinates": {
+      "latitude": 41.39158,
+      "longitude": 2.16492,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Casa_Batll%C3%B3"
+    }
+  },
+  {
+    "id": "landmark-barcelona-cathedral",
+    "wiki": "Barcelona_Cathedral",
+    "name": {
+      "ru": "Готический квартал и собор",
+      "en": "Barcelona Cathedral"
+    },
+    "location": {
+      "ru": "Барселона, Испания",
+      "en": "Barcelona, Spain"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-0de1cfcccb5f",
+    "sourceRow": 85,
+    "commons": "Barcelona_Cathedral_Saint_Eulalia.jpg",
+    "coordinates": {
+      "latitude": 41.38388889,
+      "longitude": 2.17638889,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Barcelona_Cathedral"
+    }
+  },
+  {
+    "id": "landmark-casa-mila",
+    "wiki": "Casa_Milà",
+    "name": {
+      "ru": "Каса-Мила (Ла-Педрера)",
+      "en": "La Pedrera, Barcelona"
+    },
+    "location": {
+      "ru": "Барселона, Испания",
+      "en": "Barcelona, Spain"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-f570790cfa91",
+    "sourceRow": 86,
+    "commons": "Casa_Milà,_general_view.jpg",
+    "coordinates": {
+      "latitude": 41.39527778,
+      "longitude": 2.16166667,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Casa_Mil%C3%A0"
+    }
+  },
+  {
+    "id": "landmark-palau-nacional",
+    "wiki": "Palau_Nacional",
+    "name": {
+      "ru": "Гора Монжуик и MNAC",
+      "en": "Palau Nacional"
+    },
+    "location": {
+      "ru": "Барселона, Испания",
+      "en": "Barcelona, Spain"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-24dbdb1adbcc",
+    "sourceRow": 87,
+    "commons": "Palau_Nacional,_Barcelona.jpg",
+    "coordinates": {
+      "latitude": 41.36833333,
+      "longitude": 2.15333333,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Palau_Nacional"
+    }
+  },
+  {
+    "id": "landmark-museu-picasso",
+    "wiki": "Museu_Picasso",
+    "name": {
+      "ru": "Музей Пикассо",
+      "en": "Museu Picasso"
+    },
+    "location": {
+      "ru": "Барселона, Испания",
+      "en": "Barcelona, Spain"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-1d3b1d08062d",
+    "sourceRow": 88,
+    "commons": "Museu_Picasso_Barcelona.jpg",
+    "coordinates": {
+      "latitude": 41.385216,
+      "longitude": 2.180893,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Museu_Picasso"
+    }
+  },
+  {
+    "id": "landmark-la-boqueria",
+    "wiki": "La_Boqueria",
+    "name": {
+      "ru": "Рынок Бокерия и Рамбла",
+      "en": "La Boqueria"
+    },
+    "location": {
+      "ru": "Барселона, Испания",
+      "en": "Barcelona, Spain"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-6bd909a4cbf6",
+    "sourceRow": 89,
+    "commons": "Barcelona_-_Mercat_de_Sant_Josep_(la_Boqueria)_-_Entrance.jpg",
+    "coordinates": {
+      "latitude": 41.38194444,
+      "longitude": 2.17194444,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/La_Boqueria"
+    }
+  },
+  {
+    "id": "landmark-museo-del-prado",
+    "wiki": "Museo_del_Prado",
+    "name": {
+      "ru": "Музей Прадо",
+      "en": "Museo del Prado"
+    },
+    "location": {
+      "ru": "Мадрид, Испания",
+      "en": "Madrid, Spain"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-a4888f9f61eb",
+    "sourceRow": 90,
+    "commons": "Museo_del_Prado_2016_(25185969599).jpg",
+    "coordinates": {
+      "latitude": 40.4139,
+      "longitude": -3.6922,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Museo_del_Prado"
+    }
+  },
+  {
+    "id": "landmark-royal-palace-of-madrid",
+    "wiki": "Royal_Palace_of_Madrid",
+    "name": {
+      "ru": "Королевский дворец",
+      "en": "Royal Palace of Madrid"
+    },
+    "location": {
+      "ru": "Мадрид, Испания",
+      "en": "Madrid, Spain"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-afd3e4bfe018",
+    "sourceRow": 91,
+    "commons": "Palacio_Real_de_Madrid_Julio_2016_(cropped).jpg",
+    "coordinates": {
+      "latitude": 40.41805556,
+      "longitude": -3.71416667,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Royal_Palace_of_Madrid"
+    }
+  },
+  {
+    "id": "landmark-palacio-de-cristal-del-retiro",
+    "wiki": "Palacio_de_Cristal_del_Retiro",
+    "name": {
+      "ru": "Парк Ретиро и Хрустальный дворец",
+      "en": "Palacio de Cristal del Retiro"
+    },
+    "location": {
+      "ru": "Мадрид, Испания",
+      "en": "Madrid, Spain"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-6d1db23ba005",
+    "sourceRow": 92,
+    "commons": "Palacio_de_Cristal,_Retiro,_Madrid.jpg",
+    "coordinates": {
+      "latitude": 40.41355556,
+      "longitude": -3.68205556,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Palacio_de_Cristal_del_Retiro"
+    }
+  },
+  {
+    "id": "landmark-plaza-mayor-madrid",
+    "wiki": "Plaza_Mayor,_Madrid",
+    "name": {
+      "ru": "Пласа-Майор и Пуэрта-дель-Соль",
+      "en": "Plaza Mayor, Madrid"
+    },
+    "location": {
+      "ru": "Мадрид, Испания",
+      "en": "Madrid, Spain"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-1a6401e2d123",
+    "sourceRow": 93,
+    "commons": "Madrid_Plaza_Mayor_(48733706273).jpg",
+    "coordinates": {
+      "latitude": 40.415364,
+      "longitude": -3.707391,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Plaza_Mayor%2C_Madrid"
+    }
+  },
+  {
+    "id": "landmark-museo-nacional-centro-de-arte-reina-sofia",
+    "wiki": "Museo_Nacional_Centro_de_Arte_Reina_Sofía",
+    "name": {
+      "ru": "Музей королевы Софии",
+      "en": "Museo Nacional Centro de Arte Reina Sofía"
+    },
+    "location": {
+      "ru": "Мадрид, Испания",
+      "en": "Madrid, Spain"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-ed89c4201d85",
+    "sourceRow": 94,
+    "commons": "MNCARS 05.jpg",
+    "coordinates": {
+      "latitude": 40.4086,
+      "longitude": -3.694,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Museo_Nacional_Centro_de_Arte_Reina_Sof%C3%ADa"
+    }
+  },
+  {
+    "id": "landmark-gran-via-madrid",
+    "wiki": "Gran_Vía,_Madrid",
+    "name": {
+      "ru": "Гран-Виа",
+      "en": "Gran Vía, Madrid"
+    },
+    "location": {
+      "ru": "Мадрид, Испания",
+      "en": "Madrid, Spain"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-4e14c197aba5",
+    "sourceRow": 95,
+    "commons": "Gran_Vía_(Madrid)_1.jpg",
+    "coordinates": {
+      "latitude": 40.42,
+      "longitude": -3.70361,
+      "source": "https://www.wikidata.org/wiki/Special:EntityData/Q1324163.json"
+    }
+  },
+  {
+    "id": "landmark-thyssen-bornemisza-museum",
+    "wiki": "Thyssen-Bornemisza_Museum",
+    "name": {
+      "ru": "Музей Тиссена-Борнемисы",
+      "en": "Thyssen-Bornemisza Museum"
+    },
+    "location": {
+      "ru": "Мадрид, Испания",
+      "en": "Madrid, Spain"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-49b6c2a99dd9",
+    "sourceRow": 96,
+    "commons": "Site_of_the_Retiro_and_the_Prado_in_Madrid_49_(29684554308).jpg",
+    "coordinates": {
+      "latitude": 40.41604111,
+      "longitude": -3.694925,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Thyssen-Bornemisza_Museum"
+    }
+  },
+  {
+    "id": "landmark-aqueduct-of-segovia",
+    "wiki": "Aqueduct_of_Segovia",
+    "name": {
+      "ru": "Сеговия: римский акведук",
+      "en": "Aqueduct of Segovia"
+    },
+    "location": {
+      "ru": "Кастилия и Леон, Испания",
+      "en": "Castile and León, Spain"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-9b5ec060bd09",
+    "sourceRow": 97,
+    "commons": "Aqueduct_of_Segovia_08.jpg",
+    "coordinates": {
+      "latitude": 40.9479,
+      "longitude": -4.1178,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Aqueduct_of_Segovia"
+    }
+  },
+  {
+    "id": "landmark-alcazar-of-segovia",
+    "wiki": "Alcázar_of_Segovia",
+    "name": {
+      "ru": "Сеговия: Алькасар",
+      "en": "Alcázar of Segovia"
+    },
+    "location": {
+      "ru": "Кастилия и Леон, Испания",
+      "en": "Castile and León, Spain"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-1d0e8f85eb36",
+    "sourceRow": 98,
+    "commons": "Panorámica_Otoño_Alcázar_de_Segovia.jpg",
+    "coordinates": {
+      "latitude": 40.9525,
+      "longitude": -4.1325,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Alc%C3%A1zar_of_Segovia"
+    }
+  },
+  {
+    "id": "landmark-walls-of-avila",
+    "wiki": "Walls_of_Ávila",
+    "name": {
+      "ru": "Авила: городские стены",
+      "en": "Walls of Ávila"
+    },
+    "location": {
+      "ru": "Кастилия и Леон, Испания",
+      "en": "Castile and León, Spain"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-7f901cc95e74",
+    "sourceRow": 99,
+    "commons": "Ávila_24-8-2002.jpg",
+    "coordinates": {
+      "latitude": 40.65638889,
+      "longitude": -4.7,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Walls_of_%C3%81vila"
+    }
+  },
+  {
+    "id": "landmark-burgos-cathedral",
+    "wiki": "Burgos_Cathedral",
+    "name": {
+      "ru": "Бургос: кафедральный собор",
+      "en": "Burgos Cathedral"
+    },
+    "location": {
+      "ru": "Кастилия и Леон, Испания",
+      "en": "Castile and León, Spain"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-975dc7015c30",
+    "sourceRow": 100,
+    "commons": "Escaleras_a_la_Catedral_--_2023_--_Burgos,_Castilla_y_León,_España.jpg",
+    "coordinates": {
+      "latitude": 42.34080556,
+      "longitude": -3.70447222,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Burgos_Cathedral"
+    }
+  },
+  {
+    "id": "landmark-leon-cathedral",
+    "wiki": "León_Cathedral",
+    "name": {
+      "ru": "Леон: кафедральный собор",
+      "en": "León Cathedral"
+    },
+    "location": {
+      "ru": "Кастилия и Леон, Испания",
+      "en": "Castile and León, Spain"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-6216939d4c66",
+    "sourceRow": 101,
+    "commons": "Catedral_Gótica_de_León.jpg",
+    "coordinates": {
+      "latitude": 42.59944444,
+      "longitude": -5.56666667,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Le%C3%B3n_Cathedral"
+    }
+  },
+  {
+    "id": "landmark-plaza-mayor-valladolid",
+    "wiki": "Plaza_Mayor,_Valladolid",
+    "name": {
+      "ru": "Вальядолид: старый город",
+      "en": "Plaza Mayor, Valladolid"
+    },
+    "location": {
+      "ru": "Кастилия и Леон, Испания",
+      "en": "Castile and León, Spain"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-b069720accdb",
+    "sourceRow": 102,
+    "commons": "ValladolidAyto_20-4-03.JPG",
+    "coordinates": {
+      "latitude": 41.65194444,
+      "longitude": -4.72888889,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Plaza_Mayor%2C_Valladolid"
+    }
+  },
+  {
+    "id": "landmark-archaeological-site-of-atapuerca",
+    "wiki": "Archaeological_site_of_Atapuerca",
+    "name": {
+      "ru": "Атапуэрка: археологические памятники",
+      "en": "Archaeological site of Atapuerca"
+    },
+    "location": {
+      "ru": "Кастилия и Леон, Испания",
+      "en": "Castile and León, Spain"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-6c046d39b847",
+    "sourceRow": 103,
+    "commons": "Dolina-Pano-3.jpg",
+    "coordinates": {
+      "latitude": 42.3525,
+      "longitude": -3.51833333,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Archaeological_site_of_Atapuerca"
+    }
+  },
+  {
+    "id": "teide",
+    "wiki": "Teide",
+    "name": {
+      "ru": "Вулкан Тейде",
+      "en": "Mount Teide"
+    },
+    "location": {
+      "ru": "Тенерифе, Испания",
+      "en": "Tenerife, Spain"
+    },
+    "color": "#86644f",
+    "origin": "catalogue",
+    "catalogueId": "place-5d7802764ff7",
+    "sourceRow": 104,
+    "coordinates": {
+      "latitude": 28.27305556,
+      "longitude": -16.63944444,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Teide"
+    }
+  },
+  {
+    "id": "landmark-san-cristobal-de-la-laguna",
+    "wiki": "San_Cristóbal_de_La_Laguna",
+    "name": {
+      "ru": "Сан-Кристобаль-де-ла-Лагуна",
+      "en": "San Cristóbal de La Laguna"
+    },
+    "location": {
+      "ru": "Тенерифе, Испания",
+      "en": "Tenerife, Spain"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-bf54e1da777b",
+    "sourceRow": 105,
+    "commons": "La Laguna BW 1.JPG",
+    "coordinates": {
+      "latitude": 28.48527778,
+      "longitude": -16.31666667,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/San_Crist%C3%B3bal_de_La_Laguna"
+    }
+  },
+  {
+    "id": "landmark-anaga-rural-park",
+    "wiki": "Anaga_Rural_Park",
+    "name": {
+      "ru": "Горы и леса Анаги",
+      "en": "Anaga Rural Park"
+    },
+    "location": {
+      "ru": "Тенерифе, Испания",
+      "en": "Tenerife, Spain"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-675ff7e7fdfa",
+    "sourceRow": 106,
+    "wikidata": "Q6063215",
+    "commons": "Monte las Mercedes-Llano el Loro.jpg",
+    "coordinates": {
+      "latitude": 28.53333333,
+      "longitude": -16.23333333,
+      "source": "https://www.wikidata.org/wiki/Special:EntityData/Q6063215.json"
+    }
+  },
+  {
+    "id": "landmark-garachico",
+    "wiki": "Garachico",
+    "name": {
+      "ru": "Гарачико и природные бассейны",
+      "en": "Garachico"
+    },
+    "location": {
+      "ru": "Тенерифе, Испания",
+      "en": "Tenerife, Spain"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-68426c8617da",
+    "sourceRow": 107,
+    "commons": "Garachico, en Santa Cruz de Tenerife (España).jpg",
+    "coordinates": {
+      "latitude": 28.37222222,
+      "longitude": -16.76388889,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Garachico"
+    }
+  },
+  {
+    "id": "landmark-acantilados-de-los-gigantes",
+    "wiki": "Acantilados_de_Los_Gigantes",
+    "name": {
+      "ru": "Лос-Гигантес",
+      "en": "Acantilados de Los Gigantes"
+    },
+    "location": {
+      "ru": "Тенерифе, Испания",
+      "en": "Tenerife, Spain"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-399028a1cee4",
+    "sourceRow": 108,
+    "commons": "Punta_teno.jpg",
+    "coordinates": {
+      "latitude": 28.29638889,
+      "longitude": -16.85583333,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Acantilados_de_Los_Gigantes"
+    }
+  },
+  {
+    "id": "landmark-playa-de-las-teresitas",
+    "wiki": "Playa_de_Las_Teresitas",
+    "name": {
+      "ru": "Пляж Лас-Тереситас",
+      "en": "Playa de Las Teresitas"
+    },
+    "location": {
+      "ru": "Тенерифе, Испания",
+      "en": "Tenerife, Spain"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-327f5f9d918a",
+    "sourceRow": 109,
+    "commons": "Las_Teresitas2a.jpg",
+    "coordinates": {
+      "latitude": 28.50861111,
+      "longitude": -16.18583333,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Playa_de_Las_Teresitas"
+    }
+  },
+  {
+    "id": "landmark-masca",
+    "wiki": "Masca",
+    "name": {
+      "ru": "Маска: деревня и ущелье",
+      "en": "Masca"
+    },
+    "location": {
+      "ru": "Тенерифе, Испания",
+      "en": "Tenerife, Spain"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-a235ae23420c",
+    "sourceRow": 110,
+    "commons": "Masca_-_Macizo_de_Teno_03.jpg",
+    "coordinates": {
+      "latitude": 28.30527778,
+      "longitude": -16.84027778,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Masca"
+    }
+  },
+  {
+    "id": "landmark-balcon-del-mediterraneo",
+    "wiki": "Balcón_del_Mediterráneo",
+    "name": {
+      "ru": "Балкон Средиземноморья",
+      "en": "Balcón del Mediterráneo"
+    },
+    "location": {
+      "ru": "Бенидорм, Испания",
+      "en": "Benidorm, Spain"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-c17baef9b192",
+    "sourceRow": 111,
+    "wikidata": "Q24023821",
+    "commons": "Benidorm (2023-02-17) 02.jpg",
+    "coordinates": {
+      "latitude": 38.53342,
+      "longitude": -0.1313,
+      "source": "https://www.wikidata.org/wiki/Special:EntityData/Q24023821.json"
+    }
+  },
+  {
+    "id": "landmark-benidorm",
+    "wiki": "Benidorm",
+    "name": {
+      "ru": "Старый город",
+      "en": "Benidorm"
+    },
+    "location": {
+      "ru": "Бенидорм, Испания",
+      "en": "Benidorm, Spain"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-99851d7fa214",
+    "sourceRow": 112,
+    "commons": "Benidorm-pano-160410.jpg",
+    "coordinates": {
+      "latitude": 38.53416667,
+      "longitude": -0.13138889,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Benidorm"
+    }
+  },
+  {
+    "id": "landmark-levante-beach",
+    "wiki": "Playa_de_Levante_(Benidorm)",
+    "name": {
+      "ru": "Пляж Леванте",
+      "en": "Levante Beach"
+    },
+    "location": {
+      "ru": "Бенидорм, Испания",
+      "en": "Benidorm, Spain"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-9bab90a00a2d",
+    "sourceRow": 113,
+    "wikiLang": "es",
+    "displayName": "Levante Beach",
+    "commons": "Playa_de_Levante,_Benidorm,_España,_2014-07-02,_DD_01.JPG",
+    "coordinates": {
+      "latitude": 38.53528,
+      "longitude": -0.11889,
+      "source": "https://www.wikidata.org/wiki/Special:EntityData/Q3380106.json"
+    }
+  },
+  {
+    "id": "landmark-poniente-beach",
+    "wiki": "Playa_de_Poniente_(Benidorm)",
+    "name": {
+      "ru": "Пляж Поньенте",
+      "en": "Poniente Beach"
+    },
+    "location": {
+      "ru": "Бенидорм, Испания",
+      "en": "Benidorm, Spain"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-7b2f0f0dc514",
+    "sourceRow": 114,
+    "wikiLang": "es",
+    "displayName": "Poniente Beach",
+    "commons": "Playa_de_Poniente,_Benidorm,_España,_2014-07-02,_DD_26.JPG",
+    "coordinates": {
+      "latitude": 38.5361,
+      "longitude": -0.1487,
+      "source": "https://www.wikidata.org/wiki/Special:EntityData/Q4887949.json"
+    }
+  },
+  {
+    "id": "landmark-benidorm-island",
+    "wiki": "Benidorm_Island",
+    "name": {
+      "ru": "Остров Бенидорм (морская экскурсия)",
+      "en": "Benidorm Island"
+    },
+    "location": {
+      "ru": "Бенидорм, Испания",
+      "en": "Benidorm, Spain"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-55524f0c0ff8",
+    "sourceRow": 115,
+    "commons": "Isla_de_Benidorm,_España,_2014-07-02,_DD_58.JPG",
+    "coordinates": {
+      "latitude": 38.50222222,
+      "longitude": -0.13027778,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Benidorm_Island"
+    }
+  },
+  {
+    "id": "landmark-plaza-mayor-salamanca",
+    "wiki": "Plaza_Mayor,_Salamanca",
+    "name": {
+      "ru": "Пласа-Майор",
+      "en": "Plaza Mayor, Salamanca"
+    },
+    "location": {
+      "ru": "Саламанка, Испания",
+      "en": "Salamanca, Spain"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-aafa2e8c5576",
+    "sourceRow": 116,
+    "commons": "Plaza_Mayor,_Salamanca.JPG",
+    "coordinates": {
+      "latitude": 40.965,
+      "longitude": -5.66416667,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Plaza_Mayor%2C_Salamanca"
+    }
+  },
+  {
+    "id": "landmark-new-cathedral-of-salamanca",
+    "wiki": "New_Cathedral_of_Salamanca",
+    "name": {
+      "ru": "Старый и Новый кафедральные соборы",
+      "en": "New Cathedral of Salamanca"
+    },
+    "location": {
+      "ru": "Саламанка, Испания",
+      "en": "Salamanca, Spain"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-af6177f96b70",
+    "sourceRow": 117,
+    "commons": "WLM14ES_-_Catedral_Nueva_de_Salamanca._-_julianrdc_edited.jpg",
+    "coordinates": {
+      "latitude": 40.96055556,
+      "longitude": -5.66583333,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/New_Cathedral_of_Salamanca"
+    }
+  },
+  {
+    "id": "landmark-university-of-salamanca",
+    "wiki": "University_of_Salamanca",
+    "name": {
+      "ru": "Исторический университет Саламанки",
+      "en": "University of Salamanca"
+    },
+    "location": {
+      "ru": "Саламанка, Испания",
+      "en": "Salamanca, Spain"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-094eb82ad3da",
+    "sourceRow": 118,
+    "commons": "University of Salamanca Fray Luis de Leon.jpg",
+    "coordinates": {
+      "latitude": 40.96138889,
+      "longitude": -5.66666667,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/University_of_Salamanca"
+    }
+  },
+  {
+    "id": "landmark-casa-de-las-conchas",
+    "wiki": "Casa_de_las_Conchas",
+    "name": {
+      "ru": "Дом ракушек (Casa de las Conchas)",
+      "en": "Casa de las Conchas"
+    },
+    "location": {
+      "ru": "Саламанка, Испания",
+      "en": "Salamanca, Spain"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-869ea054b0ae",
+    "sourceRow": 119,
+    "commons": "Salamanca_-_Casa_de_las_Conchas_04.jpg",
+    "coordinates": {
+      "latitude": 40.962931,
+      "longitude": -5.665814,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Casa_de_las_Conchas"
+    }
+  },
+  {
+    "id": "landmark-convent-of-san-esteban-salamanca",
+    "wiki": "Convento_de_San_Esteban_(Salamanca)",
+    "name": {
+      "ru": "Монастырь Сан-Эстебан",
+      "en": "Convent of San Esteban"
+    },
+    "location": {
+      "ru": "Саламанка, Испания",
+      "en": "Salamanca, Spain"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-92ec3c0826c5",
+    "sourceRow": 120,
+    "wikiLang": "es",
+    "displayName": "Convent of San Esteban",
+    "commons": "Iglesia_San_Esteban_Salamanca.jpg",
+    "coordinates": {
+      "latitude": 40.96082111,
+      "longitude": -5.66255111,
+      "source": "https://es.wikipedia.org/api/rest_v1/page/summary/Convento_de_San_Esteban_%28Salamanca%29"
+    }
+  },
+  {
+    "id": "landmark-roman-bridge-of-salamanca",
+    "wiki": "Roman_bridge_of_Salamanca",
+    "name": {
+      "ru": "Римский мост через Тормес",
+      "en": "Roman bridge of Salamanca"
+    },
+    "location": {
+      "ru": "Саламанка, Испания",
+      "en": "Salamanca, Spain"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-e4f0d6d8d2ab",
+    "sourceRow": 121,
+    "commons": "Pont_romain_et_cathédrales_vieille_et_nouvelle_de_Salamanque_(1967-08-07).jpg",
+    "coordinates": {
+      "latitude": 40.95777,
+      "longitude": -5.67018,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Roman_bridge_of_Salamanca"
+    }
+  },
+  {
+    "id": "landmark-prague-castle",
+    "wiki": "Prague_Castle",
+    "name": {
+      "ru": "Пражский Град и собор Святого Вита",
+      "en": "Prague Castle"
+    },
+    "location": {
+      "ru": "Прага, Чехия",
+      "en": "Prague, Czechia"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-0733b07eda9e",
+    "sourceRow": 122,
+    "commons": "Karlův_most_Praha,_Staré_Město_20170810_007.jpg",
+    "coordinates": {
+      "latitude": 50.09,
+      "longitude": 14.4,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Prague_Castle"
+    }
+  },
+  {
+    "id": "prague",
+    "wiki": "Charles_Bridge",
+    "name": {
+      "ru": "Карлов мост",
+      "en": "Charles Bridge"
+    },
+    "location": {
+      "ru": "Прага, Чехия",
+      "en": "Prague, Czechia"
+    },
+    "color": "#626783",
+    "origin": "catalogue",
+    "catalogueId": "place-9937d5b77f81",
+    "sourceRow": 123,
+    "coordinates": {
+      "latitude": 50.08638889,
+      "longitude": 14.41194444,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Charles_Bridge"
+    }
+  },
+  {
+    "id": "landmark-prague-astronomical-clock",
+    "wiki": "Prague_astronomical_clock",
+    "name": {
+      "ru": "Староместская площадь и Орлой",
+      "en": "Prague astronomical clock"
+    },
+    "location": {
+      "ru": "Прага, Чехия",
+      "en": "Prague, Czechia"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-fee9487a8b46",
+    "sourceRow": 124,
+    "commons": "Astronomical_Clock_(8341899828).jpg",
+    "coordinates": {
+      "latitude": 50.08700833,
+      "longitude": 14.42091667,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Prague_astronomical_clock"
+    }
+  },
+  {
+    "id": "landmark-mala-strana",
+    "wiki": "Malá_Strana",
+    "name": {
+      "ru": "Мала-Страна и Кампа",
+      "en": "Malá Strana"
+    },
+    "location": {
+      "ru": "Прага, Чехия",
+      "en": "Prague, Czechia"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-a35dbfac501b",
+    "sourceRow": 125,
+    "commons": "19.7.16_Prague_Castle_12_(28395711206).jpg",
+    "coordinates": {
+      "latitude": 50.08805556,
+      "longitude": 14.40388889,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Mal%C3%A1_Strana"
+    }
+  },
+  {
+    "id": "landmark-josefov",
+    "wiki": "Josefov",
+    "name": {
+      "ru": "Еврейский квартал Йозефов",
+      "en": "Josefov"
+    },
+    "location": {
+      "ru": "Прага, Чехия",
+      "en": "Prague, Czechia"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-d5c57963868a",
+    "sourceRow": 126,
+    "commons": "Jewish_tawnhall_(Prague).jpg",
+    "coordinates": {
+      "latitude": 50.08972222,
+      "longitude": 14.41861111,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Josefov"
+    }
+  },
+  {
+    "id": "landmark-petrin-lookout-tower",
+    "wiki": "Petřín_Lookout_Tower",
+    "name": {
+      "ru": "Петршинская башня и сады",
+      "en": "Petřín Lookout Tower"
+    },
+    "location": {
+      "ru": "Прага, Чехия",
+      "en": "Prague, Czechia"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-9aef5e1722cb",
+    "sourceRow": 127,
+    "commons": "Petřínská_rozhledna,_Prague.jpg",
+    "coordinates": {
+      "latitude": 50.08354444,
+      "longitude": 14.39505,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Pet%C5%99%C3%ADn_Lookout_Tower"
+    }
+  },
+  {
+    "id": "landmark-vysehrad",
+    "wiki": "Vyšehrad",
+    "name": {
+      "ru": "Вышеград",
+      "en": "Vyšehrad"
+    },
+    "location": {
+      "ru": "Прага, Чехия",
+      "en": "Prague, Czechia"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-62b016f570a5",
+    "sourceRow": 128,
+    "commons": "Parník_Vyšehrad_pod_Vyšehradem.jpg",
+    "coordinates": {
+      "latitude": 50.06416667,
+      "longitude": 14.41944444,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Vy%C5%A1ehrad"
+    }
+  },
+  {
+    "id": "landmark-cesky-krumlov-castle",
+    "wiki": "Český_Krumlov_Castle",
+    "name": {
+      "ru": "Чески-Крумлов: старый город и замок",
+      "en": "Český Krumlov Castle"
+    },
+    "location": {
+      "ru": "Чехия",
+      "en": "Czechia"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-749671596ddb",
+    "sourceRow": 129,
+    "commons": "Český_Krumlov,_zámek_celý_z_vyhlídky.jpg",
+    "coordinates": {
+      "latitude": 48.8125,
+      "longitude": 14.31527778,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/%C4%8Cesk%C3%BD_Krumlov_Castle"
+    }
+  },
+  {
+    "id": "landmark-st-barbara-s-church-kutna-hora",
+    "wiki": "St._Barbara's_Church,_Kutná_Hora",
+    "name": {
+      "ru": "Кутна-Гора: собор Святой Варвары",
+      "en": "St. Barbara's Church, Kutná Hora"
+    },
+    "location": {
+      "ru": "Чехия",
+      "en": "Czechia"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-71f8b095dab6",
+    "sourceRow": 130,
+    "commons": "KUTNA_HORA_(js)_11.jpg",
+    "coordinates": {
+      "latitude": 49.945,
+      "longitude": 15.26361111,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/St._Barbara%27s_Church%2C_Kutn%C3%A1_Hora"
+    }
+  },
+  {
+    "id": "landmark-sedlec-ossuary",
+    "wiki": "Sedlec_Ossuary",
+    "name": {
+      "ru": "Кутна-Гора: костница Седлец",
+      "en": "Sedlec Ossuary"
+    },
+    "location": {
+      "ru": "Чехия",
+      "en": "Czechia"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-5893475bffe2",
+    "sourceRow": 131,
+    "commons": "Kostnice_Sedlec.JPG",
+    "coordinates": {
+      "latitude": 49.96194444,
+      "longitude": 15.28833333,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Sedlec_Ossuary"
+    }
+  },
+  {
+    "id": "landmark-karlovy-vary",
+    "wiki": "Karlovy_Vary",
+    "name": {
+      "ru": "Карловы Вары",
+      "en": "Karlovy Vary"
+    },
+    "location": {
+      "ru": "Чехия",
+      "en": "Czechia"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-cf576b045bc8",
+    "sourceRow": 132,
+    "commons": "Karlovy Vary - 2021 2.jpg",
+    "coordinates": {
+      "latitude": 50.23055556,
+      "longitude": 12.8725,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Karlovy_Vary"
+    }
+  },
+  {
+    "id": "landmark-karlstejn",
+    "wiki": "Karlštejn",
+    "name": {
+      "ru": "Замок Карлштейн",
+      "en": "Karlštejn"
+    },
+    "location": {
+      "ru": "Чехия",
+      "en": "Czechia"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-5ea6e9f2a5d5",
+    "sourceRow": 133,
+    "commons": "Burg_Karlstein_-_Karlštejn_-_panoramio.jpg",
+    "coordinates": {
+      "latitude": 49.93944444,
+      "longitude": 14.18805556,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Karl%C5%A1tejn"
+    }
+  },
+  {
+    "id": "landmark-bohemian-switzerland",
+    "wiki": "Bohemian_Switzerland",
+    "name": {
+      "ru": "Нацпарк «Чешская Швейцария»",
+      "en": "Bohemian Switzerland"
+    },
+    "location": {
+      "ru": "Чехия",
+      "en": "Czechia"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-d21f287b9e13",
+    "sourceRow": 134,
+    "commons": "Pravcicka_brana_001.jpg",
+    "coordinates": {
+      "latitude": 50.83333333,
+      "longitude": 14.25,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Bohemian_Switzerland"
+    }
+  },
+  {
+    "id": "landmark-schonbrunn-palace",
+    "wiki": "Schönbrunn_Palace",
+    "name": {
+      "ru": "Дворец Шёнбрунн",
+      "en": "Schönbrunn Palace"
+    },
+    "location": {
+      "ru": "Вена, Австрия",
+      "en": "Vienna, Austria"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-ed60448907f5",
+    "sourceRow": 135,
+    "commons": "Wien_-_Schloss_Schönbrunn.JPG",
+    "coordinates": {
+      "latitude": 48.184516,
+      "longitude": 16.311865,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Sch%C3%B6nbrunn_Palace"
+    }
+  },
+  {
+    "id": "landmark-st-stephen-s-cathedral-vienna",
+    "wiki": "St._Stephen's_Cathedral,_Vienna",
+    "name": {
+      "ru": "Собор Святого Стефана",
+      "en": "St. Stephen's Cathedral, Vienna"
+    },
+    "location": {
+      "ru": "Вена, Австрия",
+      "en": "Vienna, Austria"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-5313e3612ef4",
+    "sourceRow": 136,
+    "commons": "Wien_-_Stephansdom_(1).JPG",
+    "coordinates": {
+      "latitude": 48.2085,
+      "longitude": 16.373,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/St._Stephen%27s_Cathedral%2C_Vienna"
+    }
+  },
+  {
+    "id": "landmark-hofburg",
+    "wiki": "Hofburg",
+    "name": {
+      "ru": "Хофбург",
+      "en": "Hofburg"
+    },
+    "location": {
+      "ru": "Вена, Австрия",
+      "en": "Vienna, Austria"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-18e616fa7726",
+    "sourceRow": 137,
+    "commons": "Wien_-_Neue_Hofburg.JPG",
+    "coordinates": {
+      "latitude": 48.20638889,
+      "longitude": 16.36527778,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Hofburg"
+    }
+  },
+  {
+    "id": "landmark-belvedere-vienna",
+    "wiki": "Belvedere,_Vienna",
+    "name": {
+      "ru": "Бельведер",
+      "en": "Belvedere, Vienna"
+    },
+    "location": {
+      "ru": "Вена, Австрия",
+      "en": "Vienna, Austria"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-0e3b97061e4f",
+    "sourceRow": 138,
+    "commons": "Palacio_Belvedere,_Viena,_Austria,_2020-02-01,_DD_93-95_HDR.jpg",
+    "coordinates": {
+      "latitude": 48.19416667,
+      "longitude": 16.38027778,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Belvedere%2C_Vienna"
+    }
+  },
+  {
+    "id": "landmark-vienna-state-opera",
+    "wiki": "Vienna_State_Opera",
+    "name": {
+      "ru": "Венская государственная опера",
+      "en": "Vienna State Opera"
+    },
+    "location": {
+      "ru": "Вена, Австрия",
+      "en": "Vienna, Austria"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-1d9a69f9aaae",
+    "sourceRow": 139,
+    "commons": "Wiener_Staatsoper_Front.jpg",
+    "coordinates": {
+      "latitude": 48.203333333333,
+      "longitude": 16.369166666667,
+      "source": "https://www.wikidata.org/wiki/Special:EntityData/Q209937.json"
+    }
+  },
+  {
+    "id": "landmark-kunsthistorisches-museum",
+    "wiki": "Kunsthistorisches_Museum",
+    "name": {
+      "ru": "Музей истории искусств",
+      "en": "Kunsthistorisches Museum"
+    },
+    "location": {
+      "ru": "Вена, Австрия",
+      "en": "Vienna, Austria"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-8dc2fb171814",
+    "sourceRow": 140,
+    "commons": "Wien Kunsthistorisches Museum.jpg",
+    "coordinates": {
+      "latitude": 48.20388056,
+      "longitude": 16.3616,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Kunsthistorisches_Museum"
+    }
+  },
+  {
+    "id": "landmark-wiener-riesenrad",
+    "wiki": "Wiener_Riesenrad",
+    "name": {
+      "ru": "Пратер и колесо обозрения",
+      "en": "Wiener Riesenrad"
+    },
+    "location": {
+      "ru": "Вена, Австрия",
+      "en": "Vienna, Austria"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-63af2aae5039",
+    "sourceRow": 141,
+    "commons": "Wien_Riesenrad.jpg",
+    "coordinates": {
+      "latitude": 48.2166505,
+      "longitude": 16.3959494,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Wiener_Riesenrad"
+    }
+  },
+  {
+    "id": "landmark-hohensalzburg-fortress",
+    "wiki": "Hohensalzburg_Fortress",
+    "name": {
+      "ru": "Зальцбург: крепость Хоэнзальцбург",
+      "en": "Hohensalzburg Fortress"
+    },
+    "location": {
+      "ru": "Австрия",
+      "en": "Austria"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-ee4f241848dd",
+    "sourceRow": 142,
+    "commons": "Salzburg_-_Festung_Hohensalzburg.JPG",
+    "coordinates": {
+      "latitude": 47.795,
+      "longitude": 13.04722222,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Hohensalzburg_Fortress"
+    }
+  },
+  {
+    "id": "landmark-salzburg",
+    "wiki": "Salzburg",
+    "name": {
+      "ru": "Зальцбург: исторический центр",
+      "en": "Salzburg"
+    },
+    "location": {
+      "ru": "Австрия",
+      "en": "Austria"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-1412c2f187e8",
+    "sourceRow": 143,
+    "commons": "Salzburg_(48489551981).jpg",
+    "coordinates": {
+      "latitude": 47.8,
+      "longitude": 13.045,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Salzburg"
+    }
+  },
+  {
+    "id": "landmark-hallstatt",
+    "wiki": "Hallstatt",
+    "name": {
+      "ru": "Гальштат и озеро",
+      "en": "Hallstatt"
+    },
+    "location": {
+      "ru": "Австрия",
+      "en": "Austria"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-e7346f83f0e4",
+    "sourceRow": 144,
+    "commons": "Hallstatt_-_Zentrum_.JPG",
+    "coordinates": {
+      "latitude": 47.562,
+      "longitude": 13.649,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Hallstatt"
+    }
+  },
+  {
+    "id": "landmark-golden-roof",
+    "wiki": "Golden_Roof",
+    "name": {
+      "ru": "Инсбрук: старый город и Нордкетте",
+      "en": "Goldenes Dachl"
+    },
+    "location": {
+      "ru": "Австрия",
+      "en": "Austria"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-86df7c978c35",
+    "sourceRow": 145,
+    "commons": "IA_GoldenesDachl-A.jpg",
+    "coordinates": {
+      "latitude": 47.268583,
+      "longitude": 11.393264,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Golden_Roof"
+    }
+  },
+  {
+    "id": "landmark-melk-abbey",
+    "wiki": "Melk_Abbey",
+    "name": {
+      "ru": "Долина Вахау и аббатство Мельк",
+      "en": "Melk Abbey"
+    },
+    "location": {
+      "ru": "Австрия",
+      "en": "Austria"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-cefbb7a7b266",
+    "sourceRow": 146,
+    "commons": "Stift_Melk,_Westansicht.jpg",
+    "coordinates": {
+      "latitude": 48.22805556,
+      "longitude": 15.33388889,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Melk_Abbey"
+    }
+  },
+  {
+    "id": "landmark-grossglockner-high-alpine-road",
+    "wiki": "Grossglockner_High_Alpine_Road",
+    "name": {
+      "ru": "Высокогорная дорога Гросглокнер",
+      "en": "Grossglockner High Alpine Road"
+    },
+    "location": {
+      "ru": "Австрия",
+      "en": "Austria"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-a47256b07ae5",
+    "sourceRow": 147,
+    "commons": "Grossglockner_road.jpg",
+    "coordinates": {
+      "latitude": 47.08333333,
+      "longitude": 12.84277778,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Grossglockner_High_Alpine_Road"
+    }
+  },
+  {
+    "id": "landmark-krimml-waterfalls",
+    "wiki": "Krimml_Waterfalls",
+    "name": {
+      "ru": "Водопад Кримль",
+      "en": "Krimml Waterfalls"
+    },
+    "location": {
+      "ru": "Австрия",
+      "en": "Austria"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-957511bb348e",
+    "sourceRow": 148,
+    "commons": "Krimmler Wasserfälle - Wieser Wald, Wald im Pinzgau, Österreich - August 6, 2026 01.jpg",
+    "coordinates": {
+      "latitude": 47.19805556,
+      "longitude": 12.17138889,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Krimml_Waterfalls"
+    }
+  },
+  {
+    "id": "budapest",
+    "wiki": "Hungarian_Parliament_Building",
+    "name": {
+      "ru": "Здание парламента",
+      "en": "Hungarian Parliament"
+    },
+    "location": {
+      "ru": "Будапешт, Венгрия",
+      "en": "Budapest, Hungary"
+    },
+    "color": "#8b6a4d",
+    "origin": "catalogue",
+    "catalogueId": "place-adb1860ad3e4",
+    "sourceRow": 149,
+    "coordinates": {
+      "latitude": 47.50694444,
+      "longitude": 19.04555556,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Hungarian_Parliament_Building"
+    }
+  },
+  {
+    "id": "landmark-fisherman-s-bastion",
+    "wiki": "Fisherman's_Bastion",
+    "name": {
+      "ru": "Рыбацкий бастион и храм Матьяша",
+      "en": "Fisherman's Bastion"
+    },
+    "location": {
+      "ru": "Будапешт, Венгрия",
+      "en": "Budapest, Hungary"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-b0fc8c68e651",
+    "sourceRow": 150,
+    "commons": "Halászbástya_2017.jpg",
+    "coordinates": {
+      "latitude": 47.5027,
+      "longitude": 19.0344,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Fisherman%27s_Bastion"
+    }
+  },
+  {
+    "id": "landmark-buda-castle",
+    "wiki": "Buda_Castle",
+    "name": {
+      "ru": "Будайская крепость",
+      "en": "Buda Castle"
+    },
+    "location": {
+      "ru": "Будапешт, Венгрия",
+      "en": "Budapest, Hungary"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-552880e67499",
+    "sourceRow": 151,
+    "commons": "Budavári_Palota,_ABCDEF_épület.jpg",
+    "coordinates": {
+      "latitude": 47.49611111,
+      "longitude": 19.03972222,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Buda_Castle"
+    }
+  },
+  {
+    "id": "landmark-szechenyi-thermal-bath",
+    "wiki": "Széchenyi_thermal_bath",
+    "name": {
+      "ru": "Купальни Сечени",
+      "en": "Széchenyi thermal bath"
+    },
+    "location": {
+      "ru": "Будапешт, Венгрия",
+      "en": "Budapest, Hungary"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-6a7758ad0d1d",
+    "sourceRow": 152,
+    "commons": "Budapest_Széchenyi_Baths_R02.jpg",
+    "coordinates": {
+      "latitude": 47.51861111,
+      "longitude": 19.08194444,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Sz%C3%A9chenyi_thermal_bath"
+    }
+  },
+  {
+    "id": "landmark-szechenyi-chain-bridge",
+    "wiki": "Széchenyi_Chain_Bridge",
+    "name": {
+      "ru": "Цепной мост и берега Дуная",
+      "en": "Széchenyi Chain Bridge"
+    },
+    "location": {
+      "ru": "Будапешт, Венгрия",
+      "en": "Budapest, Hungary"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-b368ecf70e1d",
+    "sourceRow": 153,
+    "commons": "Széchenyi_Chain_Bridge_in_Budapest_at_night.jpg",
+    "coordinates": {
+      "latitude": 47.49888889,
+      "longitude": 19.04361111,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Sz%C3%A9chenyi_Chain_Bridge"
+    }
+  },
+  {
+    "id": "landmark-st-stephen-s-basilica",
+    "wiki": "St._Stephen's_Basilica",
+    "name": {
+      "ru": "Базилика Святого Иштвана",
+      "en": "St. Stephen's Basilica"
+    },
+    "location": {
+      "ru": "Будапешт, Венгрия",
+      "en": "Budapest, Hungary"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-172b07344c40",
+    "sourceRow": 154,
+    "commons": "Budapest_Szent_Istvan_Bazilika_R01.jpg",
+    "coordinates": {
+      "latitude": 47.500833,
+      "longitude": 19.053889,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/St._Stephen%27s_Basilica"
+    }
+  },
+  {
+    "id": "landmark-great-market-hall-budapest",
+    "wiki": "Great_Market_Hall,_Budapest",
+    "name": {
+      "ru": "Центральный рынок",
+      "en": "Great Market Hall"
+    },
+    "location": {
+      "ru": "Будапешт, Венгрия",
+      "en": "Budapest, Hungary"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-17552f76cf6f",
+    "sourceRow": 155,
+    "commons": "VasarcsarnokFotoThalerTamas.JPG",
+    "coordinates": {
+      "latitude": 47.48666667,
+      "longitude": 19.05888889,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Great_Market_Hall%2C_Budapest"
+    }
+  },
+  {
+    "id": "landmark-hanifaru",
+    "wiki": "Hanifaru",
+    "name": {
+      "ru": "Бухта Ханифару (атолл Баа)",
+      "en": "Hanifaru Bay"
+    },
+    "location": {
+      "ru": "Мальдивы",
+      "en": "Maldives"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-67848edc4b6b",
+    "sourceRow": 156,
+    "commons": "Reef Manta in the Maldives 09347.jpg",
+    "displayName": "Hanifaru Bay",
+    "coordinates": {
+      "latitude": 5.1825,
+      "longitude": 73.13277777777778,
+      "source": "https://www.atollsofmaldives.gov.mv/atolls/Maalhosmadulu-Dhekunuburi-%28Baa-Atoll%29/Hanifaru-%28U%29/349"
+    },
+    "coordinateNote": "Anchor: Hanifaru island from the Maldives government registry; photographed bay surrounds the island."
+  },
+  {
+    "id": "landmark-alif-dhaal-atoll",
+    "wiki": "Alif_Dhaal_Atoll",
+    "name": {
+      "ru": "Южный Ари: китовые акулы",
+      "en": "South Ari Atoll"
+    },
+    "location": {
+      "ru": "Мальдивы",
+      "en": "Maldives"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-ea142feec59f",
+    "sourceRow": 157,
+    "commons": "Walhai Front 2.jpg",
+    "displayName": "South Ari Atoll",
+    "coordinates": {
+      "latitude": 3.65,
+      "longitude": 72.83,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Alif_Dhaal_Atoll"
+    }
+  },
+  {
+    "id": "landmark-male-friday-mosque",
+    "wiki": "Malé_Friday_Mosque",
+    "name": {
+      "ru": "Мале: мечеть и рыбный рынок",
+      "en": "Malé Friday Mosque"
+    },
+    "location": {
+      "ru": "Мальдивы",
+      "en": "Maldives"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-92e2e3f5b6c7",
+    "sourceRow": 160,
+    "commons": "Male'_Hukuru_Miskiy_1.jpg",
+    "coordinates": {
+      "latitude": 4.17805556,
+      "longitude": 73.5125,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Mal%C3%A9_Friday_Mosque"
+    }
+  },
+  {
+    "id": "landmark-gyeongbokgung",
+    "wiki": "Gyeongbokgung",
+    "name": {
+      "ru": "Дворец Кёнбоккун",
+      "en": "Gyeongbokgung"
+    },
+    "location": {
+      "ru": "Сеул, Южная Корея",
+      "en": "Seoul, South Korea"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-404621350474",
+    "sourceRow": 162,
+    "commons": "광화문_월대.jpg",
+    "coordinates": {
+      "latitude": 37.579884,
+      "longitude": 126.9768,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Gyeongbokgung"
+    }
+  },
+  {
+    "id": "landmark-bukchon-hanok-village",
+    "wiki": "Bukchon_Hanok_Village",
+    "name": {
+      "ru": "Букчон и Инсадон",
+      "en": "Bukchon Hanok Village"
+    },
+    "location": {
+      "ru": "Сеул, Южная Корея",
+      "en": "Seoul, South Korea"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-6167202bb368",
+    "sourceRow": 163,
+    "commons": "Bukchon_Hanok_Village_01.jpg",
+    "coordinates": {
+      "latitude": 37.58305556,
+      "longitude": 126.98361111,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Bukchon_Hanok_Village"
+    }
+  },
+  {
+    "id": "landmark-n-seoul-tower",
+    "wiki": "Namsan_Seoul_Tower",
+    "name": {
+      "ru": "Башня N Seoul и Намсан",
+      "en": "Namsan Seoul Tower"
+    },
+    "location": {
+      "ru": "Сеул, Южная Корея",
+      "en": "Seoul, South Korea"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-db0c6b10848e",
+    "sourceRow": 164,
+    "commons": "Seoul Tower from Namsan Park (9595146693).jpg",
+    "coordinates": {
+      "latitude": 37.551216,
+      "longitude": 126.988276,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Namsan_Seoul_Tower"
+    }
+  },
+  {
+    "id": "landmark-changdeokgung",
+    "wiki": "Changdeokgung",
+    "name": {
+      "ru": "Дворец Чхандоккун и тайный сад",
+      "en": "Changdeokgung"
+    },
+    "location": {
+      "ru": "Сеул, Южная Корея",
+      "en": "Seoul, South Korea"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-987c84e9e90c",
+    "sourceRow": 165,
+    "commons": "창덕궁_전경_(2012).jpg",
+    "coordinates": {
+      "latitude": 37.57944444,
+      "longitude": 126.99277778,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Changdeokgung"
+    }
+  },
+  {
+    "id": "landmark-cheonggyecheon",
+    "wiki": "Cheonggyecheon",
+    "name": {
+      "ru": "Ручей Чхонгечхон",
+      "en": "Cheonggyecheon"
+    },
+    "location": {
+      "ru": "Сеул, Южная Корея",
+      "en": "Seoul, South Korea"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-9b4e791c193b",
+    "sourceRow": 166,
+    "commons": "Cheonggyecheon_stream_at_sunrise_with_trees_in_Seoul.jpg",
+    "coordinates": {
+      "latitude": 37.57,
+      "longitude": 127.00638889,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Cheonggyecheon"
+    }
+  },
+  {
+    "id": "landmark-gwangjang-market",
+    "wiki": "Gwangjang_Market",
+    "name": {
+      "ru": "Рынок Кванчжан",
+      "en": "Gwangjang Market"
+    },
+    "location": {
+      "ru": "Сеул, Южная Корея",
+      "en": "Seoul, South Korea"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-2ae42a4e6847",
+    "sourceRow": 167,
+    "commons": "Gwangjang_Market,_Seoul_01.jpg",
+    "coordinates": {
+      "latitude": 37.57,
+      "longitude": 126.999,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Gwangjang_Market"
+    }
+  },
+  {
+    "id": "landmark-hongdae-area",
+    "wiki": "Hongdae_(area)",
+    "name": {
+      "ru": "Район Хондэ и Ённам-дон",
+      "en": "Hongdae (area)"
+    },
+    "location": {
+      "ru": "Сеул, Южная Корея",
+      "en": "Seoul, South Korea"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-a22b142e04cd",
+    "sourceRow": 168,
+    "commons": "Street_hongdae_Seoul.jpg",
+    "coordinates": {
+      "latitude": 37.55527778,
+      "longitude": 126.92333333,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Hongdae_%28area%29"
+    }
+  },
+  {
+    "id": "landmark-gamcheon-culture-village",
+    "wiki": "Gamcheon_Culture_Village",
+    "name": {
+      "ru": "Культурная деревня Камчхон",
+      "en": "Gamcheon Culture Village"
+    },
+    "location": {
+      "ru": "Пусан, Южная Корея",
+      "en": "Busan, South Korea"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-588491d3ab3d",
+    "sourceRow": 169,
+    "commons": "Gamcheon_Houses,_2024.jpg",
+    "coordinates": {
+      "latitude": 35.097,
+      "longitude": 129.009,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Gamcheon_Culture_Village"
+    }
+  },
+  {
+    "id": "landmark-haedong-yonggungsa",
+    "wiki": "Haedong_Yonggungsa",
+    "name": {
+      "ru": "Храм Хэдон Ёнгунса",
+      "en": "Haedong Yonggungsa"
+    },
+    "location": {
+      "ru": "Пусан, Южная Корея",
+      "en": "Busan, South Korea"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-e30ecc80cabb",
+    "sourceRow": 170,
+    "commons": "해동용궁사_사찰_전경.jpg",
+    "coordinates": {
+      "latitude": 35.18833333,
+      "longitude": 129.22333333,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Haedong_Yonggungsa"
+    }
+  },
+  {
+    "id": "landmark-haeundae-beach",
+    "wiki": "Haeundae_Beach",
+    "name": {
+      "ru": "Пляж Хэундэ",
+      "en": "Haeundae Beach"
+    },
+    "location": {
+      "ru": "Пусан, Южная Корея",
+      "en": "Busan, South Korea"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-547c6032043a",
+    "sourceRow": 171,
+    "commons": "Haeundae_Beach_May_2024.jpg",
+    "coordinates": {
+      "latitude": 35.15855,
+      "longitude": 129.16053,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Haeundae_Beach"
+    }
+  },
+  {
+    "id": "landmark-gwangan-bridge",
+    "wiki": "Gwangan_Bridge",
+    "name": {
+      "ru": "Пляж Кваналли и мост Кванан",
+      "en": "Gwangan Bridge"
+    },
+    "location": {
+      "ru": "Пусан, Южная Корея",
+      "en": "Busan, South Korea"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-6540bcfcc41e",
+    "sourceRow": 172,
+    "commons": "Gwangan_Bridge1.jpg",
+    "coordinates": {
+      "latitude": 35.14633333,
+      "longitude": 129.12863889,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Gwangan_Bridge"
+    }
+  },
+  {
+    "id": "landmark-jagalchi-market",
+    "wiki": "Jagalchi_Market",
+    "name": {
+      "ru": "Рынок Чагальчхи",
+      "en": "Jagalchi Market"
+    },
+    "location": {
+      "ru": "Пусан, Южная Корея",
+      "en": "Busan, South Korea"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-f8ff9b0922fb",
+    "sourceRow": 173,
+    "commons": "Jagalchi_Market_20200523_019.jpg",
+    "coordinates": {
+      "latitude": 35.09666667,
+      "longitude": 129.03,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Jagalchi_Market"
+    }
+  },
+  {
+    "id": "landmark-oryukdo",
+    "wiki": "Oryukdo",
+    "name": {
+      "ru": "Парк Игидэ / Oryukdo Skywalk",
+      "en": "Oryukdo"
+    },
+    "location": {
+      "ru": "Пусан, Южная Корея",
+      "en": "Busan, South Korea"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-8626067a5ed7",
+    "sourceRow": 174,
+    "commons": "Oryukdo Skywalk.jpg",
+    "coordinates": {
+      "latitude": 35.09305556,
+      "longitude": 129.12666667,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Oryukdo"
+    }
+  },
+  {
+    "id": "landmark-taejongdae",
+    "wiki": "Taejongdae",
+    "name": {
+      "ru": "Парк Тхэджондэ",
+      "en": "Taejongdae"
+    },
+    "location": {
+      "ru": "Пусан, Южная Корея",
+      "en": "Busan, South Korea"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-5dad1f549538",
+    "sourceRow": 175,
+    "commons": "Korea-Busan-Taejongdae-03.jpg",
+    "coordinates": {
+      "latitude": 35.05,
+      "longitude": 129.08305556,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Taejongdae"
+    }
+  },
+  {
+    "id": "landmark-seongsan-ilchulbong",
+    "wiki": "Seongsan_Ilchulbong",
+    "name": {
+      "ru": "Вулканический конус Сонсан Ильчхульбон",
+      "en": "Seongsan Ilchulbong"
+    },
+    "location": {
+      "ru": "Чеджу, Южная Корея",
+      "en": "Jeju, South Korea"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-56e010e5a09c",
+    "sourceRow": 176,
+    "commons": "Seongsan_Ilchulbong_from_the_air.jpg",
+    "coordinates": {
+      "latitude": 33.4585,
+      "longitude": 126.942,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Seongsan_Ilchulbong"
+    }
+  },
+  {
+    "id": "hallasan",
+    "wiki": "Hallasan",
+    "name": {
+      "ru": "Халласан",
+      "en": "Hallasan"
+    },
+    "location": {
+      "ru": "Чеджу, Южная Корея",
+      "en": "Jeju, South Korea"
+    },
+    "color": "#4f695e",
+    "origin": "catalogue",
+    "catalogueId": "place-cf222f661de0",
+    "sourceRow": 177,
+    "coordinates": {
+      "latitude": 33.36166667,
+      "longitude": 126.52916667,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Hallasan"
+    }
+  },
+  {
+    "id": "landmark-cheonjiyeon-waterfall",
+    "wiki": "Cheonjiyeon_Waterfall",
+    "name": {
+      "ru": "Водопад Чхонджиеон",
+      "en": "Cheonjiyeon Waterfall"
+    },
+    "location": {
+      "ru": "Чеджу, Южная Корея",
+      "en": "Jeju, South Korea"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-db7582249ffa",
+    "sourceRow": 178,
+    "commons": "Korea-Jeju-Cheonjiyeon_Waterfall-01.jpg",
+    "coordinates": {
+      "latitude": 33.24694444,
+      "longitude": 126.55441667,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Cheonjiyeon_Waterfall"
+    }
+  },
+  {
+    "id": "landmark-jusangjeolli",
+    "wiki": "Jusangjeolli",
+    "name": {
+      "ru": "Побережье Чунмун и скалы Чусанчолли",
+      "en": "Daepo Jusangjeolli Cliff"
+    },
+    "location": {
+      "ru": "Чеджу, Южная Корея",
+      "en": "Jeju, South Korea"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-8f0ba5b28e89",
+    "sourceRow": 179,
+    "commons": "Daepo_Jusangjeolli_Cliff_01.jpg",
+    "coordinates": {
+      "latitude": 33.23669444,
+      "longitude": 126.42533333,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Jusangjeolli"
+    }
+  },
+  {
+    "id": "landmark-seopjikoji",
+    "wiki": "Seopjikoji",
+    "name": {
+      "ru": "Мыс Сопчхикоджи",
+      "en": "Seopjikoji"
+    },
+    "location": {
+      "ru": "Чеджу, Южная Корея",
+      "en": "Jeju, South Korea"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-fc8d79bd7d49",
+    "sourceRow": 180,
+    "commons": "Jeju Island Seopjikoji.jpg",
+    "displayName": "Seopjikoji",
+    "coordinates": {
+      "latitude": 33.428611,
+      "longitude": 126.934444,
+      "source": "https://commons.wikimedia.org/wiki/File:Jeju_Island_Seopjikoji.jpg",
+      "kind": "photograph"
+    }
+  },
+  {
+    "id": "landmark-udo-island",
+    "wiki": "Udo_(island)",
+    "name": {
+      "ru": "Остров Удо",
+      "en": "Udo (Jeju Province)"
+    },
+    "location": {
+      "ru": "Чеджу, Южная Корея",
+      "en": "Jeju, South Korea"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-207529aed5e9",
+    "sourceRow": 181,
+    "commons": "Udo Beach and Lighthouse.jpg",
+    "coordinates": {
+      "latitude": 33.50527778,
+      "longitude": 126.95583333,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Udo_%28island%29"
+    }
+  },
+  {
+    "id": "landmark-manjanggul",
+    "wiki": "Manjanggul",
+    "name": {
+      "ru": "Пещера Манджанггуль",
+      "en": "Manjanggul"
+    },
+    "location": {
+      "ru": "Чеджу, Южная Корея",
+      "en": "Jeju, South Korea"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-eb8e1a0b6d7a",
+    "sourceRow": 182,
+    "commons": "Manjanggul_lava_column,_largest_in_the_world.jpg",
+    "coordinates": {
+      "latitude": 33.5282,
+      "longitude": 126.7701,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Manjanggul"
+    }
+  },
+  {
+    "id": "landmark-yalong-bay",
+    "wiki": "Yalong_Bay",
+    "name": {
+      "ru": "Пляж Ялунвань (Yalong Bay)",
+      "en": "Yalong Bay"
+    },
+    "location": {
+      "ru": "Хайнань, Китай",
+      "en": "Hainan, China"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-b3808b67cd13",
+    "sourceRow": 183,
+    "commons": "Yalong_Bay_01.jpg",
+    "coordinates": {
+      "latitude": 18.21083333,
+      "longitude": 109.65444444,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Yalong_Bay"
+    }
+  },
+  {
+    "id": "landmark-guanyin-of-nanshan",
+    "wiki": "Guanyin_of_Nanshan",
+    "name": {
+      "ru": "Парк Наньшань и статуя Гуаньинь",
+      "en": "Guanyin of Nanshan"
+    },
+    "location": {
+      "ru": "Хайнань, Китай",
+      "en": "Hainan, China"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-00009de2e4ba",
+    "sourceRow": 184,
+    "commons": "HainanSanya2.jpg",
+    "coordinates": {
+      "latitude": 18.2924,
+      "longitude": 109.2083,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Guanyin_of_Nanshan"
+    }
+  },
+  {
+    "id": "landmark-wuzhizhou-island",
+    "wiki": "Wuzhizhou_Island",
+    "name": {
+      "ru": "Остров Учжичжоу",
+      "en": "Wuzhizhou Island"
+    },
+    "location": {
+      "ru": "Хайнань, Китай",
+      "en": "Hainan, China"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-d1e88ddeac8e",
+    "sourceRow": 185,
+    "commons": "海棠湾2014春节_liuzusai_-_panoramio_(5).jpg",
+    "coordinates": {
+      "latitude": 18.311521,
+      "longitude": 109.761829,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Wuzhizhou_Island"
+    }
+  },
+  {
+    "id": "landmark-luhuitou-park",
+    "wiki": "Luhuitou_Park",
+    "name": {
+      "ru": "Парк Лухуэйтоу",
+      "en": "Luhuitou Park"
+    },
+    "location": {
+      "ru": "Хайнань, Китай",
+      "en": "Hainan, China"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-f7e8693ab44f",
+    "sourceRow": 186,
+    "wikidata": "Q10567079",
+    "commons": "鹿雕 Deer Sculpture - panoramio.jpg",
+    "coordinates": {
+      "latitude": 18.22714,
+      "longitude": 109.498415,
+      "source": "https://www.wikidata.org/wiki/Special:EntityData/Q10567079.json"
+    }
+  },
+  {
+    "id": "landmark-tianya-haijiao",
+    "wiki": "Tianya_Haijiao",
+    "name": {
+      "ru": "Тянья-Хайцзяо",
+      "en": "Tianya Haijiao"
+    },
+    "location": {
+      "ru": "Хайнань, Китай",
+      "en": "Hainan, China"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-27ea2978430f",
+    "sourceRow": 187,
+    "commons": "Tianya_Haijiao_-_01.jpg",
+    "coordinates": {
+      "latitude": 18.2911,
+      "longitude": 109.3472,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Tianya_Haijiao"
+    }
+  },
+  {
+    "id": "landmark-yanoda",
+    "wiki": "Yanoda",
+    "name": {
+      "ru": "Дождевой лес Янода",
+      "en": "Yanoda"
+    },
+    "location": {
+      "ru": "Хайнань, Китай",
+      "en": "Hainan, China"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-eaae80b698f9",
+    "sourceRow": 188,
+    "commons": "Yanoda.jpg",
+    "coordinates": {
+      "latitude": 18.459086111111112,
+      "longitude": 109.64446944444444,
+      "source": "https://www.wikidata.org/wiki/Special:EntityData/Q8048924.json"
+    }
+  },
+  {
+    "id": "landmark-qilou-old-street",
+    "wiki": "Qilou_Old_Street",
+    "name": {
+      "ru": "Хайкоу: исторические улицы Цилоу",
+      "en": "Haikou Qilou Old Street"
+    },
+    "location": {
+      "ru": "Хайнань, Китай",
+      "en": "Hainan, China"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-e254d9eab063",
+    "sourceRow": 189,
+    "commons": "Zhongshan Road after renovation - 30.jpg",
+    "displayName": "Haikou Qilou Old Street",
+    "coordinates": {
+      "latitude": 20.045454,
+      "longitude": 110.338861,
+      "source": "https://commons.wikimedia.org/wiki/File:Zhongshan_Road_after_renovation_-_30.jpg",
+      "kind": "photograph"
+    },
+    "coordinateNote": "Photographer viewpoint on Zhongshan Road, within the Qilou historical block; coordinate published on the Commons file page."
+  },
+  {
+    "id": "landmark-forbidden-city",
+    "wiki": "Forbidden_City",
+    "name": {
+      "ru": "Запретный город (Гугун)",
+      "en": "Forbidden City"
+    },
+    "location": {
+      "ru": "Пекин, Китай",
+      "en": "Beijing, China"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-96877b6f5bab",
+    "sourceRow": 190,
+    "commons": "The_Forbidden_City_-_View_from_Coal_Hill.jpg",
+    "coordinates": {
+      "latitude": 39.91583333,
+      "longitude": 116.39083333,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Forbidden_City"
+    }
+  },
+  {
+    "id": "landmark-mutianyu",
+    "wiki": "Mutianyu",
+    "name": {
+      "ru": "Великая Китайская стена: Мутяньюй",
+      "en": "Mutianyu"
+    },
+    "location": {
+      "ru": "Пекин, Китай",
+      "en": "Beijing, China"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-745d4ad01a0b",
+    "sourceRow": 191,
+    "commons": "Great_Wall_of_China_July_2006.JPG",
+    "coordinates": {
+      "latitude": 40.43801667,
+      "longitude": 116.5619,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Mutianyu"
+    }
+  },
+  {
+    "id": "landmark-temple-of-heaven",
+    "wiki": "Temple_of_Heaven",
+    "name": {
+      "ru": "Храм Неба",
+      "en": "Temple of Heaven"
+    },
+    "location": {
+      "ru": "Пекин, Китай",
+      "en": "Beijing, China"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-5b9b2dc7c3af",
+    "sourceRow": 192,
+    "commons": "Temple_of_Heaven_20160323_01.jpg",
+    "coordinates": {
+      "latitude": 39.8822,
+      "longitude": 116.4066,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Temple_of_Heaven"
+    }
+  },
+  {
+    "id": "landmark-summer-palace",
+    "wiki": "Summer_Palace",
+    "name": {
+      "ru": "Летний дворец Ихэюань",
+      "en": "Summer Palace"
+    },
+    "location": {
+      "ru": "Пекин, Китай",
+      "en": "Beijing, China"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-97b2c73ec23a",
+    "sourceRow": 193,
+    "commons": "Longevity_Hill_of_the_Summer_Palace.jpg",
+    "coordinates": {
+      "latitude": 39.9975,
+      "longitude": 116.2689,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Summer_Palace"
+    }
+  },
+  {
+    "id": "landmark-jingshan-park",
+    "wiki": "Jingshan_Park",
+    "name": {
+      "ru": "Парк Цзиншань",
+      "en": "Jingshan Park"
+    },
+    "location": {
+      "ru": "Пекин, Китай",
+      "en": "Beijing, China"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-c843fc54b5f3",
+    "sourceRow": 194,
+    "commons": "Jingshan_park.jpg",
+    "coordinates": {
+      "latitude": 39.92361111,
+      "longitude": 116.39055556,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Jingshan_Park"
+    }
+  },
+  {
+    "id": "landmark-houhai",
+    "wiki": "Houhai",
+    "name": {
+      "ru": "Хутуны и озеро Хоухай",
+      "en": "Houhai"
+    },
+    "location": {
+      "ru": "Пекин, Китай",
+      "en": "Beijing, China"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-68d3631675f3",
+    "sourceRow": 195,
+    "commons": "Beijinglakeview.jpg",
+    "coordinates": {
+      "latitude": 39.94111111,
+      "longitude": 116.37888889,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Houhai"
+    }
+  },
+  {
+    "id": "landmark-tiananmen-square",
+    "wiki": "Tiananmen_Square",
+    "name": {
+      "ru": "Площадь Тяньаньмэнь",
+      "en": "Tiananmen Square"
+    },
+    "location": {
+      "ru": "Пекин, Китай",
+      "en": "Beijing, China"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-d2aea2746078",
+    "sourceRow": 196,
+    "commons": "Tiananmen_Square_(54137047250).jpg",
+    "coordinates": {
+      "latitude": 39.90333333,
+      "longitude": 116.39166667,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Tiananmen_Square"
+    }
+  },
+  {
+    "id": "landmark-alcazar-of-seville",
+    "wiki": "Alcázar_of_Seville",
+    "name": {
+      "ru": "Королевский Алькасар",
+      "en": "Alcázar of Seville"
+    },
+    "location": {
+      "ru": "Севилья, Испания",
+      "en": "Seville, Spain"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-dec60fdc8e98",
+    "sourceRow": 197,
+    "commons": "Sevilla-2-2_(48040287512)-edit.jpg",
+    "coordinates": {
+      "latitude": 37.3844261490673,
+      "longitude": -5.99118662585353,
+      "source": "https://www.wikidata.org/wiki/Special:EntityData/Q498261.json"
+    }
+  },
+  {
+    "id": "landmark-seville-cathedral",
+    "wiki": "Seville_Cathedral",
+    "name": {
+      "ru": "Севильский кафедральный собор и Хиральда",
+      "en": "Seville Cathedral"
+    },
+    "location": {
+      "ru": "Севилья, Испания",
+      "en": "Seville, Spain"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-ee11f6031536",
+    "sourceRow": 198,
+    "commons": "Sevilla_Cathedral_-_Southeast.jpg",
+    "coordinates": {
+      "latitude": 37.38589444,
+      "longitude": -5.99305556,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Seville_Cathedral"
+    }
+  },
+  {
+    "id": "landmark-plaza-de-espana-seville",
+    "wiki": "Plaza_de_España,_Seville",
+    "name": {
+      "ru": "Площадь Испании",
+      "en": "Plaza de España, Seville"
+    },
+    "location": {
+      "ru": "Севилья, Испания",
+      "en": "Seville, Spain"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-fd47f44eb373",
+    "sourceRow": 199,
+    "commons": "Plaza_de_España_(Sevilla)_-_01.jpg",
+    "coordinates": {
+      "latitude": 37.37694444,
+      "longitude": -5.98694444,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Plaza_de_Espa%C3%B1a%2C_Seville"
+    }
+  },
+  {
+    "id": "landmark-santa-cruz-seville",
+    "wiki": "Santa_Cruz,_Seville",
+    "name": {
+      "ru": "Квартал Санта-Крус",
+      "en": "Santa Cruz, Seville"
+    },
+    "location": {
+      "ru": "Севилья, Испания",
+      "en": "Seville, Spain"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-a5da53358e6a",
+    "sourceRow": 200,
+    "commons": "Plaza_santa_amrta_sevilla.jpg",
+    "coordinates": {
+      "latitude": 37.385,
+      "longitude": -5.99027778,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Santa_Cruz%2C_Seville"
+    }
+  },
+  {
+    "id": "landmark-metropol-parasol",
+    "wiki": "Metropol_Parasol",
+    "name": {
+      "ru": "Метрополь Парасоль",
+      "en": "Metropol Parasol"
+    },
+    "location": {
+      "ru": "Севилья, Испания",
+      "en": "Seville, Spain"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-8786d87541ea",
+    "sourceRow": 201,
+    "commons": "Metropolparasolnov2011001.jpg",
+    "coordinates": {
+      "latitude": 37.39325278,
+      "longitude": -5.99188056,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Metropol_Parasol"
+    }
+  },
+  {
+    "id": "landmark-alhambra",
+    "wiki": "Alhambra",
+    "name": {
+      "ru": "Альгамбра и Хенералифе",
+      "en": "Alhambra"
+    },
+    "location": {
+      "ru": "Гранада, Испания",
+      "en": "Granada, Spain"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-4fb52105eb9e",
+    "sourceRow": 202,
+    "commons": "Dawn_Charles_V_Palace_Alhambra_Granada_Andalusia_Spain.jpg",
+    "coordinates": {
+      "latitude": 37.1775,
+      "longitude": -3.59,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Alhambra"
+    }
+  },
+  {
+    "id": "landmark-albaicin",
+    "wiki": "Albaicín",
+    "name": {
+      "ru": "Альбайсин",
+      "en": "Albaicín"
+    },
+    "location": {
+      "ru": "Гранада, Испания",
+      "en": "Granada, Spain"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-672fc9359013",
+    "sourceRow": 203,
+    "commons": "El_Albayzín_panorama_(2010).jpg",
+    "coordinates": {
+      "latitude": 37.1817,
+      "longitude": -3.5983,
+      "source": "https://www.wikidata.org/wiki/Special:EntityData/Q576339.json"
+    }
+  },
+  {
+    "id": "landmark-church-of-san-nicolas-granada",
+    "wiki": "Church_of_San_Nicolás,_Granada",
+    "name": {
+      "ru": "Смотровая Сан-Николас",
+      "en": "Mirador de San Nicolas, Granada"
+    },
+    "location": {
+      "ru": "Гранада, Испания",
+      "en": "Granada, Spain"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-6541438ddfd2",
+    "sourceRow": 204,
+    "wikidata": "Q65016208",
+    "commons": "Grenade Alhambra vu du mirador Saint Nicolas - Albaycin.jpg",
+    "coordinates": {
+      "latitude": 37.18112,
+      "longitude": -3.59266,
+      "source": "https://www.wikidata.org/wiki/Special:EntityData/Q65016208.json"
+    }
+  },
+  {
+    "id": "landmark-granada-cathedral",
+    "wiki": "Granada_Cathedral",
+    "name": {
+      "ru": "Гранадский кафедральный собор",
+      "en": "Granada Cathedral"
+    },
+    "location": {
+      "ru": "Гранада, Испания",
+      "en": "Granada, Spain"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-9978e9ab2cd3",
+    "sourceRow": 205,
+    "commons": "Granada_-_Cathedral_Front.jpg",
+    "coordinates": {
+      "latitude": 37.176,
+      "longitude": -3.599,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Granada_Cathedral"
+    }
+  },
+  {
+    "id": "landmark-sacromonte",
+    "wiki": "Sacromonte",
+    "name": {
+      "ru": "Сакромонте",
+      "en": "Sacromonte"
+    },
+    "location": {
+      "ru": "Гранада, Испания",
+      "en": "Granada, Spain"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-1753111b65de",
+    "sourceRow": 206,
+    "commons": "Sacromonte_Nasrid_wall_Granada_Spain.jpg",
+    "coordinates": {
+      "latitude": 37.18083333,
+      "longitude": -3.59277778,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Sacromonte"
+    }
+  },
+  {
+    "id": "landmark-city-of-arts-and-sciences",
+    "wiki": "City_of_Arts_and_Sciences",
+    "name": {
+      "ru": "Город искусств и наук",
+      "en": "City of Arts and Sciences"
+    },
+    "location": {
+      "ru": "Валенсия, Испания",
+      "en": "Valencia, Spain"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-3d650a69f3f3",
+    "sourceRow": 207,
+    "commons": "Valencia, Ciudad de las Ciencias y de las Artes.jpg",
+    "coordinates": {
+      "latitude": 39.45416667,
+      "longitude": -0.35,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/City_of_Arts_and_Sciences"
+    }
+  },
+  {
+    "id": "landmark-valencia-cathedral",
+    "wiki": "Valencia_Cathedral",
+    "name": {
+      "ru": "Старый город и собор Валенсии",
+      "en": "Valencia Cathedral"
+    },
+    "location": {
+      "ru": "Валенсия, Испания",
+      "en": "Valencia, Spain"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-88c13e49c12a",
+    "sourceRow": 208,
+    "commons": "Valencia_cathedral_2022_-_north_façade_dawn.jpg",
+    "coordinates": {
+      "latitude": 39.47583333,
+      "longitude": -0.375,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Valencia_Cathedral"
+    }
+  },
+  {
+    "id": "landmark-mercado-central-valencia",
+    "wiki": "Mercado_Central,_Valencia",
+    "name": {
+      "ru": "Рынок Mercado Central",
+      "en": "Mercado Central, Valencia"
+    },
+    "location": {
+      "ru": "Валенсия, Испания",
+      "en": "Valencia, Spain"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-1c23e3db7711",
+    "sourceRow": 209,
+    "commons": "Mercat_façana5.jpg",
+    "coordinates": {
+      "latitude": 39.47355806,
+      "longitude": -0.37892111,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Mercado_Central%2C_Valencia"
+    }
+  },
+  {
+    "id": "landmark-turia-gardens",
+    "wiki": "Turia_Gardens",
+    "name": {
+      "ru": "Сады Турии",
+      "en": "Turia Garden"
+    },
+    "location": {
+      "ru": "Валенсия, Испания",
+      "en": "Valencia, Spain"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-8f71477870bf",
+    "sourceRow": 210,
+    "wikidata": "Q2713406",
+    "commons": "Ciudad Ciencias y las artes en Valencia.jpg",
+    "coordinates": {
+      "latitude": 39.4801,
+      "longitude": -0.386109,
+      "source": "https://www.wikidata.org/wiki/Special:EntityData/Q2713406.json"
+    }
+  },
+  {
+    "id": "landmark-albufera",
+    "wiki": "Albufera",
+    "name": {
+      "ru": "Альбуфера",
+      "en": "Albufera de València"
+    },
+    "location": {
+      "ru": "Валенсия, Испания",
+      "en": "Valencia, Spain"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-facfa1ba1af3",
+    "sourceRow": 211,
+    "commons": "Albuf.JPG",
+    "coordinates": {
+      "latitude": 39.33166667,
+      "longitude": -0.35222222,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Albufera"
+    }
+  },
+  {
+    "id": "landmark-old-city-baku",
+    "wiki": "Old_City_(Baku)",
+    "name": {
+      "ru": "Старый город Ичери-шехер",
+      "en": "Old City (Baku)"
+    },
+    "location": {
+      "ru": "Баку, Азербайджан",
+      "en": "Baku, Azerbaijan"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-0ca57d3fd4ac",
+    "sourceRow": 212,
+    "commons": "Medieval street in Old City, Baku.jpg",
+    "coordinates": {
+      "latitude": 40.36666667,
+      "longitude": 49.83333333,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Old_City_%28Baku%29"
+    }
+  },
+  {
+    "id": "landmark-maiden-tower-baku",
+    "wiki": "Maiden_Tower_(Baku)",
+    "name": {
+      "ru": "Девичья башня (Гыз Галасы)",
+      "en": "Maiden Tower (Baku)"
+    },
+    "location": {
+      "ru": "Баку, Азербайджан",
+      "en": "Baku, Azerbaijan"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-44c7b07d1994",
+    "sourceRow": 213,
+    "commons": "Maiden_tower_IMG_8521.jpg",
+    "coordinates": {
+      "latitude": 40.3661,
+      "longitude": 49.8372,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Maiden_Tower_%28Baku%29"
+    }
+  },
+  {
+    "id": "landmark-palace-of-the-shirvanshahs",
+    "wiki": "Palace_of_the_Shirvanshahs",
+    "name": {
+      "ru": "Дворец Ширваншахов",
+      "en": "Palace of the Shirvanshahs"
+    },
+    "location": {
+      "ru": "Баку, Азербайджан",
+      "en": "Baku, Azerbaijan"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-94721dc58921",
+    "sourceRow": 214,
+    "commons": "Palace_of_Shirvanshahs_common.JPG",
+    "coordinates": {
+      "latitude": 40.366149,
+      "longitude": 49.833443,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Palace_of_the_Shirvanshahs"
+    }
+  },
+  {
+    "id": "baku",
+    "wiki": "Heydar_Aliyev_Center",
+    "name": {
+      "ru": "Центр Гейдара Алиева",
+      "en": "Heydar Aliyev Center"
+    },
+    "location": {
+      "ru": "Баку, Азербайджан",
+      "en": "Baku, Azerbaijan"
+    },
+    "color": "#596d82",
+    "origin": "catalogue",
+    "commons": "Heydar Aliyev International Conference Center Baku Azerbaijan.jpg",
+    "catalogueId": "place-14ab85d0cfbb",
+    "sourceRow": 215,
+    "coordinates": {
+      "latitude": 40.39527778,
+      "longitude": 49.86694444,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Heydar_Aliyev_Center"
+    }
+  },
+  {
+    "id": "landmark-flame-towers",
+    "wiki": "Flame_Towers",
+    "name": {
+      "ru": "Нагорный парк и Пламенные башни",
+      "en": "Flame Towers"
+    },
+    "location": {
+      "ru": "Баку, Азербайджан",
+      "en": "Baku, Azerbaijan"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-43a4aefe523e",
+    "sourceRow": 216,
+    "wikidata": "Q80499",
+    "commons": "Flame towers.jpg",
+    "coordinates": {
+      "latitude": 40.359722222222,
+      "longitude": 49.826111111111,
+      "source": "https://www.wikidata.org/wiki/Special:EntityData/Q80499.json"
+    }
+  },
+  {
+    "id": "landmark-baku-boulevard",
+    "wiki": "Baku_Boulevard",
+    "name": {
+      "ru": "Бакинский бульвар",
+      "en": "Baku Boulevard"
+    },
+    "location": {
+      "ru": "Баку, Азербайджан",
+      "en": "Baku, Azerbaijan"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-6c7d0e241de9",
+    "sourceRow": 217,
+    "commons": "Baku_Seaside_Bulevard.JPG",
+    "coordinates": {
+      "latitude": 40.36,
+      "longitude": 49.8371,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Baku_Boulevard"
+    }
+  },
+  {
+    "id": "landmark-azerbaijan-national-carpet-museum",
+    "wiki": "Azerbaijan_National_Carpet_Museum",
+    "name": {
+      "ru": "Азербайджанский музей ковра",
+      "en": "Azerbaijan Carpet Museum"
+    },
+    "location": {
+      "ru": "Баку, Азербайджан",
+      "en": "Baku, Azerbaijan"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-260c6ce6a023",
+    "sourceRow": 218,
+    "commons": "Azərbaycan_xalça_muzeyi.jpg",
+    "coordinates": {
+      "latitude": 40.35972222,
+      "longitude": 49.83555556,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Azerbaijan_National_Carpet_Museum"
+    }
+  },
+  {
+    "id": "landmark-nizami-street",
+    "wiki": "Nizami_Street",
+    "name": {
+      "ru": "Улица Низами и площадь Фонтанов",
+      "en": "Nizami Street"
+    },
+    "location": {
+      "ru": "Баку, Азербайджан",
+      "en": "Baku, Azerbaijan"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-e06b4eaf63f0",
+    "sourceRow": 219,
+    "commons": "Nizami_street_historical_buildings.JPG",
+    "coordinates": {
+      "latitude": 40.372944,
+      "longitude": 49.840395,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Nizami_Street"
+    }
+  },
+  {
+    "id": "landmark-gobustan-rock-art-cultural-landscape",
+    "wiki": "Gobustan_Rock_Art_Cultural_Landscape",
+    "name": {
+      "ru": "Гобустанский заповедник",
+      "en": "Gobustan Rock Art Cultural Landscape"
+    },
+    "location": {
+      "ru": "Баку, Азербайджан",
+      "en": "Baku, Azerbaijan"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-781d4ad6a3eb",
+    "sourceRow": 220,
+    "commons": "Petroglyphs_of_Qobustan_2.jpg",
+    "coordinates": {
+      "latitude": 40.125,
+      "longitude": 49.375,
+      "source": "https://www.wikidata.org/wiki/Special:EntityData/Q4313909.json"
+    }
+  },
+  {
+    "id": "landmark-mud-volcanoes-in-azerbaijan",
+    "wiki": "Mud_volcanoes_in_Azerbaijan",
+    "name": {
+      "ru": "Грязевые вулканы Гобустана",
+      "en": "Gobustan Mud Volcanoes"
+    },
+    "location": {
+      "ru": "Баку, Азербайджан",
+      "en": "Baku, Azerbaijan"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-5205c00a60e7",
+    "sourceRow": 221,
+    "commons": "Gobustan mud volcanoes 01.jpg",
+    "displayName": "Gobustan Mud Volcanoes",
+    "coordinates": {
+      "latitude": 39.996272,
+      "longitude": 49.405839,
+      "source": "https://commons.wikimedia.org/wiki/File:Gobustan_mud_volcanoes_01.jpg",
+      "kind": "photograph"
+    }
+  },
+  {
+    "id": "landmark-ateshgah-of-baku",
+    "wiki": "Ateshgah_of_Baku",
+    "name": {
+      "ru": "Храм огня Атешгях",
+      "en": "Ateshgah of Baku"
+    },
+    "location": {
+      "ru": "Баку, Азербайджан",
+      "en": "Baku, Azerbaijan"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-ffeddb7375a4",
+    "sourceRow": 222,
+    "commons": "Ateshgah_Fire_Temple.jpg",
+    "coordinates": {
+      "latitude": 40.41544167,
+      "longitude": 50.00861111,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Ateshgah_of_Baku"
+    }
+  },
+  {
+    "id": "landmark-yanar-dag",
+    "wiki": "Yanar_Dag",
+    "name": {
+      "ru": "Горящая гора Янардаг",
+      "en": "Yanar Dagh"
+    },
+    "location": {
+      "ru": "Баку, Азербайджан",
+      "en": "Baku, Azerbaijan"
+    },
+    "origin": "catalogue",
+    "catalogueId": "place-1fccaf33f1dd",
+    "sourceRow": 223,
+    "commons": "Yanar_Dagh.JPG",
+    "coordinates": {
+      "latitude": 40.50183333,
+      "longitude": 49.89125278,
+      "source": "https://en.wikipedia.org/api/rest_v1/page/summary/Yanar_Dag"
+    }
+  }
+]

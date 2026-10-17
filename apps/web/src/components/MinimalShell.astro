@@ -1,0 +1,45 @@
+---
+import '@fontsource-variable/geologica';
+import '@fontsource/ibm-plex-mono/400.css';
+import '../styles/minimal.css';
+import '../styles/ascii-studio.css';
+import LocalText from './LocalText.astro';
+import Wordmark from './Wordmark.astro';
+import copy from '../../../../content/minimal.json';
+import ru from '../i18n/ru.json';
+import en from '../i18n/en.json';
+import { paperPresentation } from '../presentations/paper/manifest';
+import { minimalPath } from '../lib/minimal-routes';
+interface Props { locale: 'ru' | 'en'; gallery?: boolean; }
+const { locale, gallery = false } = Astro.props;
+const t = locale === 'ru' ? ru.minimal : en.minimal;
+---
+<!doctype html>
+<html lang={locale} data-calm="false">
+  <head>
+    <meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>{gallery ? t.gallery : copy[locale].title}</title>
+    <meta name="description" content={copy[locale].description}/>
+    <link rel="canonical" href={new URL(minimalPath(locale, gallery), Astro.site)}/>
+    {gallery && <meta name="robots" content="noindex, follow"/>}
+    <meta name="theme-color" content="#f8f8f2"/>
+    <link rel="icon" href="/favicon.svg?v=keykomi-k-1" type="image/svg+xml"/>
+    <link rel="alternate" hreflang="ru" href={minimalPath('ru', gallery)}/><link rel="alternate" hreflang="en" href={minimalPath('en', gallery)}/>
+  </head>
+  <body data-page="home" data-presentation={paperPresentation.id} data-gallery={String(gallery)}>
+    <a class="skip" href="#main"><LocalText ru={ru.minimal.skip} en={en.minimal.skip}/></a>
+    <header class="paper-header">
+      <a class="signature" data-home-link href={minimalPath(locale)} aria-label="keykomi.com"><Wordmark/></a>
+      <nav class="language" aria-label={t.language} data-aria-ru={ru.minimal.language} data-aria-en={en.minimal.language}>
+        <a href={minimalPath('en', gallery)} data-language="en" lang="en" aria-current={locale === 'en' ? 'page' : undefined}>EN</a><span aria-hidden="true">/</span><a href={minimalPath('ru', gallery)} data-language="ru" lang="ru" aria-current={locale === 'ru' ? 'page' : undefined}>RU</a>
+      </nav>
+    </header>
+    <slot/>
+    <footer class="paper-footer">
+      <span class="footer-location" data-coordinates></span>
+      {gallery && <a data-home-link href={minimalPath(locale)}><LocalText ru={ru.minimal.home} en={en.minimal.home}/></a>}
+    </footer>
+    <span class="sr-only" role="status" data-language-status></span>
+    <script>import '../shell/minimal';</script>
+  </body>
+</html>

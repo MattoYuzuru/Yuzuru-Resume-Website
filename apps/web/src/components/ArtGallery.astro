@@ -1,0 +1,26 @@
+---
+import MinimalShell from './MinimalShell.astro';
+import Postcard from './Postcard.astro';
+import LocalText from './LocalText.astro';
+import manifest from '../../public/art/atlas/manifest.json';
+import ru from '../i18n/ru.json';
+import en from '../i18n/en.json';
+interface Props { locale: 'ru' | 'en'; }
+const { locale } = Astro.props;
+---
+<MinimalShell locale={locale} gallery>
+  <main id="main" class="art-gallery">
+    <Postcard locale={locale} gallery/>
+    <section class="gallery-info">
+      <LocalText tag="h1" ru={ru.minimal.gallery} en={en.minimal.gallery}/>
+      <LocalText tag="p" ru={ru.minimal.galleryNote} en={en.minimal.galleryNote}/>
+      <div class="gallery-controls">
+        <label><LocalText ru={ru.minimal.select} en={en.minimal.select}/><select data-place-select>{manifest.map(place => <option value={place.id} data-l10n data-ru={`${place.location.ru} — ${place.name.ru}`} data-en={`${place.location.en} — ${place.name.en}`}>{`${place.location[locale]} — ${place.name[locale]}`}</option>)}</select></label>
+        <div class="view-control" role="group" aria-label={locale === 'ru' ? ru.minimal.view : en.minimal.view} data-aria-ru={ru.minimal.view} data-aria-en={en.minimal.view}><button data-view="ascii" aria-pressed="true"><LocalText ru={ru.minimal.asciiView} en={en.minimal.asciiView}/></button><button data-view="photo" aria-pressed="false"><LocalText ru={ru.minimal.photoView} en={en.minimal.photoView}/></button></div>
+        <p class="mixed-alphabet"><LocalText ru={ru.minimal.mixedAlphabet} en={en.minimal.mixedAlphabet}/></p>
+
+      </div>
+      <div class="reference-photo"><LocalText tag="p" ru={ru.minimal.referencePhoto} en={en.minimal.referencePhoto}/><img data-reference-image alt="" loading="lazy" width="320" height="210"/><p class="glyph-stats"><LocalText ru={ru.minimal.cells} en={en.minimal.cells}/> <span data-cell-count>—</span><span aria-hidden="true"> · </span><LocalText ru={ru.minimal.alphabetChars} en={en.minimal.alphabetChars}/> <span data-glyph-count>—</span></p></div>
+    </section>
+  </main>
+</MinimalShell>
