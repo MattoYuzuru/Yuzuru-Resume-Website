@@ -10,7 +10,7 @@ release_id="${revision}-${run_id}-${attempt}"
 pnpm release
 archive="$(mktemp -t keykomi-release.XXXXXXXX)"
 trap 'rm -f "$archive"' EXIT
-tar -czf "$archive" -C apps/web/dist .
+COPYFILE_DISABLE=1 tar -czf "$archive" -C apps/web/dist .
 ssh -o BatchMode=yes "$ssh_target" "upload $release_id" < "$archive"
 ssh -o BatchMode=yes "$ssh_target" "activate $release_id"
 if ! python3 deploy/smoke.py https://keykomi.com "$revision"; then
