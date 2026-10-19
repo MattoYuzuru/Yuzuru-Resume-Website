@@ -22,6 +22,16 @@
   .paper-header { height: 108px; padding: 0 5.2%; display: flex; align-items: center; justify-content: space-between; }
   .signature { font-size: 30px; font-weight: 620; text-decoration: none; letter-spacing: -.1em; line-height: 1; }
   .signature span { color: #73816c; }
+  .header-controls { display: flex; align-items: center; gap: 22px; }
+  .place-dice-control { position: relative; }
+  .place-dice { display: grid; place-items: center; width: 36px; height: 36px; padding: 0; border: 0; border-radius: 8px; background: transparent; color: var(--muted); transition: color .18s, background .18s; }
+  .place-dice:hover, .place-dice:focus-visible { color: var(--ink); background: #e8eddf; }
+  .place-dice:disabled { cursor: default; }
+  .place-dice[aria-disabled=true] { cursor: progress; }
+  .place-dice svg { display: block; }
+  .place-dice-tooltip { position: absolute; z-index: 5; top: calc(100% + 8px); right: 0; width: max-content; max-width: 240px; padding: 8px 11px; border: 1px solid #d4d9cc; border-radius: 5px; background: var(--paper); box-shadow: 0 4px 16px #30363008; color: var(--muted); font-size: 11px; line-height: 1.5; opacity: 0; visibility: hidden; transition: opacity .15s, visibility .15s; }
+  .place-dice-tooltip::before { content: ''; position: absolute; top: -9px; left: 0; right: 0; height: 9px; }
+  .place-dice-control:not([data-tooltip-dismissed]):is(:hover, :focus-within) .place-dice-tooltip { opacity: 1; visibility: visible; }
   .language { display: flex; align-items: center; gap: 10px; font: 11px 'IBM Plex Mono', monospace; letter-spacing: .04em; }
   .language a { text-decoration: none; padding: 12px 4px; color: var(--muted); }
   .language a[aria-current] { color: var(--ink); text-decoration: underline; text-underline-offset: 5px; }
@@ -41,7 +51,6 @@
     .personal-lines { list-style: none; padding: 0; display: grid; gap: 16px; font-size: 16px; line-height: 1.7; letter-spacing: -.026em; }
     .personal-lines li { padding-left: 19px; position: relative; }
     .personal-lines li::before { content: '–'; position: absolute; left: 0; color: #8b9283; }
-    .university-cross { color: var(--muted); padding-inline: 2px; }
     .ink-link { position: relative; text-decoration-line: underline; text-decoration-color: #7f8977; text-decoration-thickness: 1px; text-underline-offset: 4px; transition: color .18s, text-decoration-color .18s, background .18s; border-radius: 1px; }
     .ink-link:hover { color: #496943; text-decoration-color: #496943; background: #e8eddf; box-shadow: 3px 0 #e8eddf, -3px 0 #e8eddf; }
     .profile-links { display: flex; flex-wrap: wrap; gap: 32px; margin-top: 32px; font-size: 15px; font-weight: 440; letter-spacing: -.03em; }
@@ -103,6 +112,7 @@
   }
 }
 @media (max-width: 700px) {
+  .place-dice-control { display: none; }
   .paper-header { height: 78px; padding-inline: 28px; }
   .paper-footer { padding: 18px 28px 24px; min-height: 85px; }
   .footer-location, .art-entry, .deck-entry [data-l10n] { display: none !important; }

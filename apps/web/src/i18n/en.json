@@ -7,6 +7,8 @@
     "next": "Next place",
     "previous": "Previous place",
     "shuffle": "Random place",
+    "rollPlace": "Show another place",
+    "placesBeen": "Places I’ve been to",
     "interaction": "Move for colour · click for a ripple",
     "deck": "The other side",
     "home": "Back home",
