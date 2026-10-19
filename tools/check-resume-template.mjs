@@ -18,5 +18,24 @@ for(let i=0;i<8;i++)long.experience.push({company:`Example Studio ${i+1}`,role:{
 await writeFile(path.join(dir,'long.json'),JSON.stringify(long)); build(path.join(dir,'long.json'));
 for(const lang of ['ru','en']) { const pdf=path.join(dir,`long-cv-${lang}.pdf`); assert.match(run('pdfinfo',[pdf]).stdout,/Pages:\s+2\b/); assert.ok(run('pdftotext',[pdf,'-']).stdout.includes('8.4')); }
 long.pdf.max_pages=1; await writeFile(path.join(dir,'over-budget.json'),JSON.stringify(long)); const failed=build(path.join(dir,'over-budget.json'),false);assert.match(failed.stderr,/budget is 1/);
+const single = structuredClone(source);
+single.pdf = { filename: 'single-entry-cv', max_pages: 3, sections: ['experience'] };
+single.experience = [{ company: 'One long engagement', role: 'Software Engineer', bullets: Array.from({length:50}, (_,i) => ({
+  ru: `Пункт ${i+1}: проверяем продолжение одной длинной записи на следующих страницах, сохранность текста и отсутствие скрытого выхода за границы листа.`,
+  en: `Item ${i+1}: verify that one long entry continues across pages, preserves every paragraph and never silently runs beyond the page boundaries.`
+})) }];
+await writeFile(path.join(dir,'single-entry.json'),JSON.stringify(single)); build(path.join(dir,'single-entry.json'));
+for (const lang of ['ru','en']) {
+  const pdf = path.join(dir,`single-entry-cv-${lang}.pdf`);
+  const pages = Number(run('pdfinfo',[pdf]).stdout.match(/Pages:\s+(\d+)/)[1]);
+  assert.ok(pages > 1 && pages <= 3, 'a long entry must flow across pages');
+  assert.ok(run('pdftotext',[pdf,'-']).stdout.includes(lang==='ru'?'Пункт 50':'Item 50'));
+  const bbox = run('pdftotext',['-bbox',pdf,'-']).stdout;
+  for (const page of bbox.matchAll(/<page width="([\d.]+)" height="([\d.]+)">([\s\S]*?)<\/page>/g)) {
+    for (const word of page[3].matchAll(/<word xMin="([\d.-]+)" yMin="([\d.-]+)" xMax="([\d.-]+)" yMax="([\d.-]+)"/g)) {
+      assert.ok(Number(word[1]) >= 0 && Number(word[2]) >= 0 && Number(word[3]) <= Number(page[1]) && Number(word[4]) <= Number(page[2]), 'text must stay within the page');
+    }
+  }
+}
 assert.deepEqual(await hashes(),before);
-console.log('Different names, optional sections, literal punctuation, both languages, 1/2-page layouts, overflow refusal and unchanged public PDFs passed.');
+console.log('Different names, optional sections, literal punctuation, both languages, 1/2-page layouts, a multi-page entry, overflow refusal and unchanged public PDFs passed.');

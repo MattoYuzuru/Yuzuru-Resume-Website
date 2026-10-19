@@ -50,7 +50,7 @@
     left,
     if right != none { text(size: 9pt, fill: muted, right) } else { [] })
   let bullets(values) = if values.len() > 0 { list(..values.map(tr)) }
-  let group(entry) = block(above: 0pt, below: 4pt, breakable: false, entry)
+  let group(entry) = block(above: 0pt, below: 4pt, breakable: true, entry)
   let skill-rows(values) = for skill in values [
     #text(weight: "bold", tr(skill.category) + ": ")#skill.items.map(tr).join(", ")
     #v(2pt)
