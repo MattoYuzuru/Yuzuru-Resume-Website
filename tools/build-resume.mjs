@@ -3,11 +3,11 @@ import { createRequire } from 'node:module';
 import { spawnSync } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
 import path from 'node:path';
-import { validateResume, assertPublishTarget } from './resume-data.mjs';
+import { validateResume, assertPublishTarget, DEFAULT_THEME } from './resume-data.mjs';
 
 const root = fileURLToPath(new URL('../', import.meta.url));
 const canonical = path.join(root, 'content/resume/resume.yaml');
-const options = { source: canonical, output: path.join(root, 'output/pdf'), theme: 'white', lang: 'both', publish: false };
+const options = { source: canonical, output: path.join(root, 'output/pdf'), theme: DEFAULT_THEME, lang: 'both', publish: false };
 const args = process.argv.slice(2).filter(arg => arg !== '--');
 for (let i = 0; i < args.length; i++) {
   const key = args[i];
@@ -48,7 +48,7 @@ const base = data.pdf?.filename ?? 'cv';
 const results = [];
 try {
   for (const lang of locales) {
-    const filename = `${base}-${lang}${options.theme === 'paper' ? '-paper' : ''}.pdf`;
+    const filename = `${base}-${lang}${options.theme === DEFAULT_THEME ? '' : `-${options.theme}`}.pdf`;
     const output = path.join(staging, filename);
     run('typst', ['compile', '--root', root, '--font-path', path.join(root, 'resume/fonts'), '--creation-timestamp', '1792368000', '--input', `lang=${lang}`, '--input', `theme=${options.theme}`, '--input', `source=${path.relative(path.join(root, 'resume'), input)}`, path.join(root, 'resume/main.typ'), output]);
     const info = run('pdfinfo', [output]);

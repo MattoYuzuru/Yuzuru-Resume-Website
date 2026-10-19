@@ -1,18 +1,19 @@
 // Keykomi CV: a reusable single-column layout. All personal content comes from data.
-#let keykomi-cv(cv, lang: "en", theme: "white") = {
+#let keykomi-cv(cv, lang: "en", theme: "paper") = {
   assert(lang in ("ru", "en"), message: "lang must be ru or en")
   assert(theme in ("white", "paper"), message: "theme must be white or paper")
   let ru = lang == "ru"
   let tr(value) = if type(value) == dictionary { value.at(lang) } else { value }
   let ink = rgb("272d28")
   let muted = rgb("61695e")
-  let accent = rgb("7d8e73")
+  // Matches the period after the website's contact heading.
+  let accent = rgb("7a8b6d")
   let rule = rgb("a2ae99")
   let paper = if theme == "paper" { rgb("f8f8f2") } else { white }
   let labels = if ru {
-    (profile: "Профиль", experience: "Опыт", projects: "Личные проекты", education: "Образование", skills: "Технические навыки", assisted_skills: "Практический опыт с AI", languages: "Языки")
+    (profile: "Профиль", experience: "Опыт", projects: "Личные проекты", education: "Образование", technical_radar: "Технический радар", skills: "Технические навыки", assisted_skills: "Практический опыт с AI", languages: "Языки")
   } else {
-    (profile: "Profile", experience: "Experience", projects: "Selected projects", education: "Education", skills: "Technical skills", assisted_skills: "AI-assisted project experience", languages: "Languages")
+    (profile: "Profile", experience: "Experience", projects: "Selected projects", education: "Education", technical_radar: "Technical radar", skills: "Technical skills", assisted_skills: "AI-assisted project experience", languages: "Languages")
   }
   for (key, value) in cv.at("pdf", default: (:)).at("labels", default: (:)) {
     assert(key in labels, message: "Unknown section label: " + key)
@@ -20,6 +21,21 @@
   }
   let sections = cv.at("pdf", default: (:)).at("sections", default: ("profile", "experience", "projects", "education", "skills", "assisted_skills", "languages"))
   let name = tr(cv.basics.name)
+  // Emphasis is literal data, scoped to body copy. No markup evaluation.
+  let emphasise(value, terms: ()) = {
+    let value = tr(value)
+    if terms.len() == 0 { value } else {
+      let pattern = terms.sorted(key: term => -term.len()).map(term => {
+        let chars = term.clusters()
+        let escaped = chars.map(char => if char in ("\\", ".", "^", "$", "|", "?", "*", "+", "(", ")", "[", "]", "{", "}") { "\\" + char } else { char }).join()
+        (if chars.first().match(regex("\\w")) != none { "\\b" } else { "" }) + escaped + (if chars.last().match(regex("\\w")) != none { "\\b" } else { "" })
+      }).join("|")
+      show regex(pattern): it => text(weight: 600, fill: accent, it)
+      value
+    }
+  }
+  let body-copy(value) = emphasise(value, terms: cv.at("pdf", default: (:)).at("content_highlights", default: ()))
+  let skill-copy(value) = emphasise(value, terms: cv.at("pdf", default: (:)).at("highlights", default: ()))
   set document(title: name + if ru { " - Резюме" } else { " - CV" }, author: name)
   set page(paper: "a4", margin: (x: 15mm, top: 13mm, bottom: 16mm), fill: paper,
     background: {
@@ -49,10 +65,13 @@
     columns: (1fr, auto), gutter: 12pt,
     left,
     if right != none { text(size: 9pt, fill: muted, right) } else { [] })
-  let bullets(values) = if values.len() > 0 { list(..values.map(tr)) }
+  let bullets(values) = if values.len() > 0 { list(..values.map(body-copy)) }
   let group(entry) = block(above: 0pt, below: 4pt, breakable: true, entry)
+  let subgroup(title) = block(above: 3pt, below: 2pt, sticky: true)[
+    #text(font: "Geologica", size: 7.6pt, weight: "bold", tracking: .035em, upper(title))
+  ]
   let skill-rows(values) = for skill in values [
-    #text(weight: "bold", tr(skill.category) + ": ")#skill.items.map(tr).join(", ")
+    #text(weight: "bold", tr(skill.category) + ": ")#skill.items.map(skill-copy).join(", ")
     #v(2pt)
   ]
   // Plain strings are never evaluated as Typst markup.
@@ -74,13 +93,13 @@
   ]
   for key in sections {
     assert(key in labels, message: "Unknown CV section: " + key)
-    let values = if key == "profile" { cv.basics.at("profile", default: none) } else { cv.at(key, default: ()) }
+    let values = if key == "profile" { cv.basics.at("profile", default: none) } else if key == "technical_radar" { cv.at("skills", default: ()) + cv.at("assisted_skills", default: ()) } else { cv.at(key, default: ()) }
     if values == none or values == () { continue }
     if key == "projects" and "project_order" in cv.at("pdf", default: (:)) {
       values = cv.pdf.project_order.map(name => values.find(project => project.name == name))
     }
     if key != "languages" { section(labels.at(key)) }
-    if key == "profile" { tr(values) }
+    if key == "profile" { body-copy(values) }
     else if key == "experience" {
       for exp in values { group([
         #row(text(weight: "bold", tr(exp.company)), right: if "dates" in exp { tr(exp.dates) } else { none })
@@ -110,6 +129,11 @@
         #text(size: 9.6pt, tr(edu.degree))
         #for detail in edu.at("details", default: ()) [#v(1pt)#text(size: 9.3pt, fill: muted, tr(detail))]
       ]) }
+    } else if key == "technical_radar" {
+      for skill-key in ("skills", "assisted_skills") {
+        let rows = cv.at(skill-key, default: ())
+        if rows.len() > 0 { subgroup(labels.at(skill-key)); skill-rows(rows) }
+      }
     } else if key in ("skills", "assisted_skills") { skill-rows(values) }
     else if key == "languages" { block(above: 4pt)[#text(weight: "bold", labels.at(key) + ": ")#values.map(item => tr(item.name) + " " + tr(item.level)).join("; ")] }
   }
