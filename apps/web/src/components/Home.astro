@@ -19,7 +19,7 @@ const r = copy.ru, e = copy.en;
       <ul class="personal-lines">
         <li><LocalText ru={r.product} en={e.product}/></li>
         <li><LocalText ru={r.ai} en={e.ai}/></li>
-        <li><LocalText ru={r.studyBefore} en={e.studyBefore}/><a class="ink-link" href="https://www.hse.ru/en/ba/drip/" target="_blank" rel="noopener noreferrer"><LocalText ru={r.hse} en={e.hse}/></a><span class="university-cross"> × </span><a class="ink-link" href="https://cu.ru/about-eng" target="_blank" rel="noopener noreferrer"><LocalText ru={r.cu} en={e.cu}/></a><LocalText ru={r.studyAfter} en={e.studyAfter}/></li>
+        <li><LocalText ru={r.studyBefore} en={e.studyBefore}/><a class="ink-link" href={copy[locale].hseUrl} data-href-ru={r.hseUrl} data-href-en={e.hseUrl} target="_blank" rel="noopener noreferrer"><LocalText ru={r.hse} en={e.hse}/></a><LocalText ru={r.studyBetween} en={e.studyBetween}/><a class="ink-link" href={copy[locale].cuUrl} data-href-ru={r.cuUrl} data-href-en={e.cuUrl} target="_blank" rel="noopener noreferrer"><LocalText ru={r.cu} en={e.cu}/></a><LocalText ru={r.studyAfter} en={e.studyAfter}/></li>
         <li><LocalText ru={r.mnemaBefore} en={e.mnemaBefore}/><a class="ink-link" href="https://mnema.app" target="_blank" rel="noopener noreferrer">Mnema</a><LocalText ru={r.mnemaAfter} en={e.mnemaAfter}/></li>
       </ul>
       <hr class="profile-divider" aria-hidden="true"/>

@@ -90,7 +90,7 @@ export function mountAtlas(root: HTMLElement,initiallyCalm: boolean) {
       const next=gpu?[new Image(),new Image()] as [HTMLImageElement,HTMLImageElement]:undefined;
       if(next){next[0].src=entry.variants[DETAIL].texture;next[1].src=entry.variants[DETAIL].color;await Promise.all(next.map(image=>image.decode()));}
       if(destroyed||request!==loading)return;
-      images=next;current=entry;source.srcset=entry.poster;root.dataset.place=entry.id;delete root.dataset.error;
+      images=next;current=entry;source.srcset=entry.poster;root.dataset.place=entry.id;root.dataset.selection=entry.id;delete root.dataset.error;
       waves.clear();
       document.querySelectorAll<HTMLImageElement>('[data-reference-image]').forEach(el=>{el.src=entry.original;});
       if(gpu&&images){gpu.upload(...images);ready=true;resize();root.dataset.ready='true';root.dataset.backend='webgl2';}else root.dataset.backend='poster';
@@ -125,8 +125,9 @@ export function mountAtlas(root: HTMLElement,initiallyCalm: boolean) {
   const requested=gallery?params.get('place'):root.dataset.selection,initial=requested&&ids.includes(requested)?requested:gallery?ids[0]!:choosePostcard(ids,recent)!;
   // Chosen once per document, including mobile → desktop remounts. No default-poster flash.
   root.dataset.selection=initial;
-  void startGPU().then(()=>show(initial,false));
+  const initialLoad=startGPU().then(()=>show(initial,false));
   return{
+    async shuffle(){await initialLoad;if(destroyed)return;const next=choosePostcard(ids,gallery?[current.id]:recent);if(next)await show(next);},
     setCalm(value:boolean){calm=value||reduced.matches;root.dataset.motion=calm?'still':'interactive';hover=0;targetHover=0;movementEnd=0;waves.clear();cancelAnimationFrame(frame);frame=0;wake();},
     destroy(){destroyed=true;loading++;controller.abort();observer.disconnect();resizeObserver.disconnect();cancelAnimationFrame(frame);gpu?.destroy();delete root.dataset.ready;delete root.dataset.instance;canvas.width=0;images=undefined;},
   };

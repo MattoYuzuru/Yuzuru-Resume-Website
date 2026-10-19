@@ -30,9 +30,20 @@ const t = locale === 'ru' ? ru.minimal : en.minimal;
     <a class="skip" href="#main"><LocalText ru={ru.minimal.skip} en={en.minimal.skip}/></a>
     <header class="paper-header">
       <a class="signature" data-home-link href={minimalPath(locale)} aria-label="keykomi.com"><Wordmark/></a>
+      <div class="header-controls">
+        {!gallery && <div class="place-dice-control">
+          <button class="place-dice" type="button" data-place-dice disabled aria-label={t.rollPlace} data-aria-ru={ru.minimal.rollPlace} data-aria-en={en.minimal.rollPlace} aria-describedby="place-dice-tooltip">
+            <svg viewBox="0 0 24 24" width="23" height="23" fill="none" aria-hidden="true">
+              <rect x="3" y="3" width="18" height="18" rx="4.5" stroke="currentColor" stroke-width="1.4"/>
+              <g fill="currentColor"><circle cx="8" cy="8" r="1.2"/><circle cx="16" cy="8" r="1.2"/><circle cx="12" cy="12" r="1.2"/><circle cx="8" cy="16" r="1.2"/><circle cx="16" cy="16" r="1.2"/></g>
+            </svg>
+          </button>
+          <span class="place-dice-tooltip" id="place-dice-tooltip" role="tooltip"><LocalText ru={ru.minimal.placesBeen} en={en.minimal.placesBeen}/></span>
+        </div>}
       <nav class="language" aria-label={t.language} data-aria-ru={ru.minimal.language} data-aria-en={en.minimal.language}>
         <a href={minimalPath('en', gallery)} data-language="en" lang="en" aria-current={locale === 'en' ? 'page' : undefined}>EN</a><span aria-hidden="true">/</span><a href={minimalPath('ru', gallery)} data-language="ru" lang="ru" aria-current={locale === 'ru' ? 'page' : undefined}>RU</a>
       </nav>
+      </div>
     </header>
     <slot/>
     <footer class="paper-footer">
