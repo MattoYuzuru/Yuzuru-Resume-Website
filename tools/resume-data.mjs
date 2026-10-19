@@ -1,4 +1,5 @@
-const supportedSections = new Set(['profile', 'experience', 'projects', 'education', 'skills', 'assisted_skills', 'languages']);
+export const DEFAULT_THEME = 'paper';
+const supportedSections = new Set(['profile', 'experience', 'projects', 'education', 'technical_radar', 'skills', 'assisted_skills', 'languages']);
 
 export function validateResume(data, locales = ['ru', 'en']) {
   const fail = (path, message) => { throw new Error(`${path}: ${message}`); };
@@ -63,6 +64,12 @@ export function validateResume(data, locales = ['ru', 'en']) {
     object(data.pdf, 'pdf');
     if (!Number.isInteger(data.pdf.max_pages ?? 1) || (data.pdf.max_pages ?? 1) < 1 || (data.pdf.max_pages ?? 1) > 10) fail('pdf.max_pages', 'use an integer between 1 and 10');
     if (data.pdf.filename != null && !/^[a-z0-9][a-z0-9-]*$/u.test(data.pdf.filename)) fail('pdf.filename', 'use a filename slug');
+    for (const key of ['highlights', 'content_highlights']) if (data.pdf[key] != null) {
+      const terms = list(data.pdf[key], `pdf.${key}`);
+      if (terms.length > 20) fail(`pdf.${key}`, 'use at most 20 literal highlights');
+      terms.forEach((term, i) => text(term, `pdf.${key}[${i}]`));
+      if (new Set(terms).size !== terms.length) fail(`pdf.${key}`, 'duplicate highlight');
+    }
     if (data.pdf.labels != null) {
       object(data.pdf.labels, "pdf.labels");
       for (const [key, value] of Object.entries(data.pdf.labels)) {
@@ -80,13 +87,14 @@ export function validateResume(data, locales = ['ru', 'en']) {
       const sections = list(data.pdf.sections, 'pdf.sections');
       if (!sections.length || new Set(sections).size !== sections.length) fail('pdf.sections', 'use a non-empty list without duplicates');
       for (const section of sections) if (!supportedSections.has(section)) fail('pdf.sections', `unknown section: ${section}`);
+      if (sections.includes('technical_radar') && sections.some(section => ['skills', 'assisted_skills'].includes(section))) fail('pdf.sections', 'technical_radar already includes both skill groups');
     }
   }
   return data;
 }
 
 export function assertPublishTarget({ source, canonical, theme, locales }) {
-  if (source !== canonical || theme !== 'white' || locales.join(',') !== 'ru,en') {
-    throw new Error('Publishing requires the canonical resume.yaml, the white theme and both languages. Build other variants without --publish.');
+  if (source !== canonical || theme !== DEFAULT_THEME || locales.join(',') !== 'ru,en') {
+    throw new Error('Publishing requires the canonical resume.yaml, the paper theme and both languages. Build other variants without --publish.');
   }
 }

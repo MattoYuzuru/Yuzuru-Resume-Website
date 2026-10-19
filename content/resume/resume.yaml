@@ -19,8 +19,8 @@ basics:
     - label: keykomi.com
       url: https://keykomi.com
   profile:
-    ru: "Backend-разработчик с продуктовым мышлением и опытом в AI-native команде Т-Банка: от требований и архитектуры до выпуска и эксплуатации."
-    en: Product-minded backend engineer with experience on an AI-native team at T-Bank, from requirements and architecture to release and operations.
+    ru: Backend-разработчик с продуктовым мышлением. На стажировке в Т-Банке проектировал архитектуру нового сервиса, развивал код и работал с продактами, аналитиками и разработчиками смежных команд.
+    en: Product-minded backend engineer. As a T-Bank intern, helped shape a new service’s architecture, contributed to the codebase and worked with product managers, analysts and engineers across teams.
 education:
   - school:
       en: HSE University, Faculty of Computer Science × Central University
@@ -52,8 +52,8 @@ experience:
       en: T-Bank
       ru: Т-Банк
     role:
-      en: Backend Engineering Intern · Loyalty Platform
-      ru: Backend-разработчик (стажировка) · Платформа лояльности
+      en: Backend Engineering Intern · AI-native Loyalty Platform
+      ru: Backend-разработчик (стажировка) · AI-native платформа лояльности
     location:
       en: Moscow
       ru: Москва
@@ -63,14 +63,16 @@ experience:
       en: Jun 2026 - Sep 2026
       ru: Июнь 2026 - сентябрь 2026
     bullets:
-      - ru: Реализовал инкрементальный рескоринг аудиторий 10-50 млн клиентов в ClickHouse. В delta-сценариях расчётное время сократилось с более суток примерно до часа.
-        en: Implemented incremental ClickHouse audience rescoring for 10-50 million customers, reducing estimated delta-scenario processing from over a day to about an hour.
-      - ru: Перевёл MCP-прототип финансового AI-ассистента на персональные офферы и PostgreSQL cache-aside. Сократил ответ инструмента с 20-30% до 0,5-0,8% контекстного окна LLM при том же лимите выдачи.
-        en: Moved a financial AI assistant’s MCP prototype to personalised offers and PostgreSQL cache-aside. Cut tool responses from 20-30% to 0.5-0.8% of the LLM context window at the same result limit.
-      - ru: Спроектировал выдачу SMB-офферов через единый каталог, связав backend, Airflow, ClickHouse и смежные сервисы; убрал дублирование предложений.
-        en: Designed SMB offer delivery through a unified catalogue across backend services, Airflow and ClickHouse, eliminating duplicate offers.
-      - ru: "Создал AI-скилл синхронизации тестов с Allure TestOps, используемый за пределами команды; настроил автономную E2E-проверку для двух команд. Доработал Go LLM-шлюз: SSE, retries, отмена, учёт токенов и стоимости; метрики MCP и Grafana."
-        en: Built an Allure TestOps AI skill adopted beyond the team and autonomous agent E2E checks for two teams. Improved a Go LLM gateway’s SSE, retries, cancellation and token/cost accounting; added MCP metrics and Grafana.
+      - ru: "Реализовал инкрементальный рескоринг аудиторий 10-50 млн клиентов в ClickHouse. Аналитики смогли чаще проверять гипотезы: скоринг изменений сократился с более суток примерно до часа."
+        en: "Built incremental ClickHouse rescoring for audiences of 10-50 million customers. Enabled analysts to test hypotheses more often: rescoring changes took about an hour instead of over a day."
+      - ru: Разрабатывал MCP-сервер платформы лояльности для финансового AI-ассистента. Перевёл прототип с моков на персональные офферы реальных клиентов; разгрузил сервис офферов через PostgreSQL cache-aside.
+        en: Developed the loyalty platform’s MCP server for a financial AI assistant. Replaced mock data with real customers’ personalised offers and reduced offers-service load with PostgreSQL cache-aside.
+      - ru: "Оптимизировал контекст: сократил ответ MCP-сервера агенту с 20-30% до 0,5-0,8% контекстного окна LLM при прежнем качестве и том же лимите выдачи."
+        en: "Optimised context use: cut MCP responses to the agent from 20-30% to 0.5-0.8% of the LLM context window, preserving quality and the same result limit."
+      - ru: "Спроектировал каталог и выдачу SMB-офферов: backend, Airflow, ClickHouse и смежные сервисы."
+        en: "Designed a catalogue and SMB offer delivery across backend services, Airflow, ClickHouse and adjacent systems."
+      - ru: "Создавал AI-скиллы для внутреннего маркетплейса банка: синхронизацию Allure TestOps используют и другие команды. Настроил автономные E2E для двух команд; доработал Go LLM-шлюз (SSE, retries, отмена, токены/стоимость), метрики MCP и Grafana."
+        en: "Created AI skills for the bank’s internal marketplace; Allure TestOps synchronisation was adopted beyond the team. Set up autonomous E2E checks for two teams; improved a Go LLM gateway (SSE, retries, cancellation, token/cost accounting), MCP metrics and Grafana."
   - company:
       ru: ЦУ · практика при поддержке Т-Банка
       en: Central University · T-Bank-supported summer practice
@@ -97,28 +99,28 @@ projects:
       ru: Платформа для обучения по своим материалам
       en: Learning platform for personal study materials
     bullets:
-      - ru: Материалы с неизменяемыми ревизиями, семь механик упражнений и плановые повторения. AI-создание и проверка заданий, бюджетирование, OAuth 2.0/OIDC и медиахранилище S3.
-        en: Immutable study-material revisions, seven exercise types and scheduled review. AI authoring and answer checks, usage budgets, OAuth 2.0/OIDC and S3 media storage.
+      - ru: Совмещает кастомизацию и интервальные повторения Anki, упражнения Duolingo/Quizlet и свои учебные материалы с LLM. Собственный AI-harness управляет генерацией, проверкой, лимитами и стоимостью.
+        en: Combines Anki’s customisation and spaced repetition, Duolingo/Quizlet-style practice and personal learning materials created with LLMs. A dedicated AI harness manages generation, answer checks, usage limits and cost.
   - name: AeroChat
     links:
       repo: https://github.com/MattoYuzuru/AeroChat
       demo: null
     subtitle:
-      ru: Self-hosted мессенджер, alpha
-      en: Self-hosted messenger, alpha
+      ru: Приватный self-hosted мессенджер, alpha
+      en: Privacy-focused self-hosted messenger, alpha
     bullets:
-      - ru: Личные и групповые чаты, realtime-доставка, вложения и аудиозвонки. Go-сервисы, ConnectRPC, PostgreSQL и React-интерфейс с оконным рабочим столом.
-        en: Direct and group chats, realtime delivery, attachments and audio calls. Go services, ConnectRPC, PostgreSQL and a React interface with a windowed desktop.
+      - ru: Чаты, звонки и файлы на своём сервере, с приоритетом приватности и безопасности. Оконный интерфейс в духе Frutiger Aero и Windows Vista/7.
+        en: Chats, calls and files on your own server, prioritising privacy and security. A windowed interface inspired by Frutiger Aero and Windows Vista/7.
   - name: BPMN.Space
     links:
       repo: https://github.com/MattoYuzuru/BPMN.Space
       demo: https://bpmn.space
     subtitle:
-      ru: AI-ассистент для бизнес-процессов
-      en: AI assistant for business processes
+      ru: AI-first редактор бизнес-процессов
+      en: AI-first business-process editor
     bullets:
-      - ru: "Документы и голосовые заметки превращаются в редактируемые BPMN 2.0: вопросы с цитатами, привязка к источникам, версии схем и экспорт."
-        en: "Turns documents and voice notes into editable BPMN 2.0: clarifying questions with citations, source traceability, diagram versions and export."
+      - ru: "Проект с хакатона Интер РАО и Яндекса: AI-first генерация BPMN по документам и голосу, продуманный редактор, пошаговый онбординг и шаринг для совместной работы."
+        en: "An Inter RAO and Yandex hackathon project: AI-first BPMN generation from documents and voice, a polished editor, guided onboarding and sharing for collaboration."
   - name: yuzuru-skills
     links:
       repo: https://github.com/MattoYuzuru/yuzuru-skills
@@ -127,8 +129,8 @@ projects:
       ru: Инструменты вокруг AI-harness
       en: Tooling across AI harnesses
     bullets:
-      - ru: Развиваю skills, plugins, MCP, hooks и CLI для AI-harness; актуализирую адаптеры и документацию вслед за изменениями провайдеров.
-        en: Maintain skills, plugins, MCP tools, hooks and CLI helpers across agent harnesses; update adapters and documentation as provider APIs evolve.
+      - ru: Развиваю skills, plugins, MCP, hooks и CLI; обновляю адаптеры и документацию вслед за AI-провайдерами.
+        en: Build skills, plugins, MCP tools, hooks and CLI helpers; update adapters and documentation as AI providers evolve.
   - name: Terminal Western Card Game
     links:
       repo: https://github.com/MattoYuzuru/Terminal-Bang-like-Game
@@ -139,16 +141,16 @@ projects:
     bullets:
       - ru: Java/SSH-сервер, TUI, комнаты, состояния матчей и reconnect; PostgreSQL, Flyway и Testcontainers.
         en: Java SSH server, TUI, rooms, match state and reconnect; PostgreSQL, Flyway and Testcontainers.
-  - name: Alamo
+  - name: Guanxi
     links:
-      repo: null
+      repo: https://github.com/MattoYuzuru/Guanxi
       demo: null
     subtitle:
-      ru: Локальная среда для моделей Ollama, alpha
-      en: Local Ollama model workbench, alpha
+      ru: Единый агентный harness · в разработке
+      en: Unified agent harness · in development
     bullets:
-      - ru: Импорт моделей и сохраняемые Chat Jobs с replay, отменой и восстановлением; локальные вложения. TypeScript, Hono, React, SQLite и REST/SSE-контракты на Zod.
-        en: Model import and durable Chat Jobs with replay, cancellation and recovery; local attachments. TypeScript, Hono, React, SQLite and Zod REST/SSE contracts.
+      - ru: "Проектирую plugin-based harness для облачных API, подписок и локальных моделей по SSH: совместная работа агентов, MCP и управление с телефона. Фокус: долгие сессии с handoff и управлением контекстом на слабом железе, качество и безопасные tool calls; концепция self-evolving harness."
+        en: "Designing a plugin-based harness for cloud APIs, subscriptions and local models over SSH: collaborating agents, MCP and mobile control. Focused on long-running sessions with handoff and context management on limited hardware, prioritising quality and safe tool calls; a self-evolving harness concept."
 skills:
   - category:
       ru: Языки программирования
@@ -223,8 +225,7 @@ pdf:
     - experience
     - projects
     - education
-    - skills
-    - assisted_skills
+    - technical_radar
     - languages
   filename: matvei-riabushkin-cv
   project_order:
@@ -232,14 +233,34 @@ pdf:
     - AeroChat
     - BPMN.Space
     - yuzuru-skills
-    - Alamo
+    - Guanxi
   labels:
+    technical_radar:
+      ru: Технический радар
+      en: Technical radar
     skills:
-      ru: Глубоко разбираюсь
-      en: In-depth knowledge
+      ru: Глубоко разбираюсь / работал до AI
+      en: In-depth knowledge / experience without AI assistance
     assisted_skills:
       ru: Активно применял вместе с AI
       en: Applied with AI assistance
+  highlights:
+    - Kotlin
+    - Java
+    - Python
+    - SQL
+    - Spring Boot
+    - PostgreSQL
+    - Kafka
+    - Docker/Compose
+    - MCP
+    - Kubernetes/k3s
+  content_highlights:
+    - с более суток примерно до часа
+    - about an hour instead of over a day
+    - 20-30%
+    - 0,5-0,8%
+    - 0.5-0.8%
 assisted_skills:
   - category:
       ru: Разработка
@@ -253,8 +274,8 @@ assisted_skills:
       - RxJS/NgRx
       - Zustand
   - category:
-      ru: Инфраструктура и качество
-      en: Infrastructure & quality
+      ru: Инфра и QA
+      en: Infra & QA
     items:
       - Kubernetes/k3s
       - Airflow

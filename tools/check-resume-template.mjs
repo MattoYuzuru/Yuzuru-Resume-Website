@@ -13,6 +13,19 @@ const hashes = async () => Promise.all(['apps/web/public/cv.pdf','apps/web/publi
 const before = await hashes();
 await writeFile(path.join(dir,'short.json'),JSON.stringify(source)); build(path.join(dir,'short.json'));
 for(const lang of ['ru','en']) { const pdf=path.join(dir,`example-cv-${lang}.pdf`); assert.match(run('pdfinfo',[pdf]).stdout,/Pages:\s+1\b/); const text=run('pdftotext',[pdf,'-']).stdout; assert.ok(text.includes('#, _, [')); assert.ok(text.includes(lang==='ru'?'ТЕХНИЧЕСКИЕ НАВЫКИ':'TECHNICAL SKILLS'));  }
+const radar = structuredClone(source);
+radar.pdf = { filename: 'radar-cv', sections: ['technical_radar'], highlights: ['C++', 'Java'], content_highlights: ['0.5-0.8%'] };
+radar.skills = [{category:'Backend',items:['C++','Java','JavaScript']}];
+radar.assisted_skills = [{category:'Tooling',items:['Kubernetes/k3s']}];
+await writeFile(path.join(dir,'radar.json'),JSON.stringify(radar)); build(path.join(dir,'radar.json'));
+for (const lang of ['ru','en']) {
+  const pdf = path.join(dir,`radar-cv-${lang}.pdf`);
+  const text = run('pdftotext',[pdf,'-']).stdout;
+  assert.ok(text.includes('C++, Java, JavaScript'));
+  assert.ok(text.includes('Kubernetes/k3s'));
+  assert.equal(text.split(lang==='ru'?'ТЕХНИЧЕСКИЙ РАДАР':'TECHNICAL RADAR').length,2);
+  assert.match(run('pdffonts',[pdf]).stdout,/LibertinusSerif-Semibold/);
+}
 const long = structuredClone(source); long.pdf.filename='long-cv'; long.pdf.max_pages=2; long.experience=[];
 for(let i=0;i<8;i++)long.experience.push({company:`Example Studio ${i+1}`,role:{ru:'Разработчик программных систем',en:'Software Engineer'},dates:'2020 - 2026',bullets:Array.from({length:4},(_,n)=>({ru:`Запись ${i+1}.${n+1}: пример длинного описания проекта, работы с данными, тестирования и выпуска изменений без выдуманных личных достижений.`,en:`Entry ${i+1}.${n+1}: a long structural example covering data, testing and delivery without invented personal achievements. Each entry also covers design reviews, operational handover and verification of the delivered change.`}))});
 await writeFile(path.join(dir,'long.json'),JSON.stringify(long)); build(path.join(dir,'long.json'));
