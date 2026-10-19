@@ -1,0 +1,22 @@
+{
+  "basics": {
+    "name": {"ru": "Алексей Примеров", "en": "Alex Example"},
+    "headline": {"ru": "Backend-разработчик", "en": "Backend Engineer"},
+    "location": {"ru": "Удалённо", "en": "Remote"},
+    "email": "alex@example.com",
+    "links": [{"label": "GitHub", "url": "https://github.com/example"}]
+  },
+  "experience": [{
+    "company": "Example Studio",
+    "role": {"ru": "Разработчик", "en": "Software Engineer"},
+    "dates": {"ru": "2024 - настоящее время", "en": "2024 - present"},
+    "bullets": [{"ru": "Учебный пример структуры: замените содержание своими подтверждёнными фактами.", "en": "A structural example: replace this content with your own verified facts."}]
+  }],
+  "projects": [{
+    "name": "Example Project",
+    "subtitle": {"ru": "Пример проекта", "en": "Example project"},
+    "bullets": [{"ru": "Строки печатаются как текст: #, _, [скобки], C++ и 100%.", "en": "Strings print as plain text: #, _, [brackets], C++ and 100%."}]
+  }],
+  "skills": [{"category": {"ru": "Backend", "en": "Backend"}, "items": ["Java", "PostgreSQL"]}],
+  "pdf": {"filename": "example-cv", "max_pages": 1, "sections": ["experience", "projects", "skills"]}
+}
