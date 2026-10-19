@@ -233,6 +233,13 @@ pdf:
     - BPMN.Space
     - yuzuru-skills
     - Alamo
+  labels:
+    skills:
+      ru: Глубоко разбираюсь
+      en: In-depth knowledge
+    assisted_skills:
+      ru: Активно применял вместе с AI
+      en: Applied with AI assistance
 assisted_skills:
   - category:
       ru: Разработка

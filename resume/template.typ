@@ -10,9 +10,13 @@
   let rule = rgb("a2ae99")
   let paper = if theme == "paper" { rgb("f8f8f2") } else { white }
   let labels = if ru {
-    (profile: "Профиль", experience: "Опыт", projects: "Личные проекты", education: "Образование", skills: "Глубоко разбираюсь", assisted_skills: "Активно применял вместе с AI", languages: "Языки")
+    (profile: "Профиль", experience: "Опыт", projects: "Личные проекты", education: "Образование", skills: "Технические навыки", assisted_skills: "Практический опыт с AI", languages: "Языки")
   } else {
-    (profile: "Profile", experience: "Experience", projects: "Selected projects", education: "Education", skills: "In-depth knowledge", assisted_skills: "Applied with AI assistance", languages: "Languages")
+    (profile: "Profile", experience: "Experience", projects: "Selected projects", education: "Education", skills: "Technical skills", assisted_skills: "AI-assisted project experience", languages: "Languages")
+  }
+  for (key, value) in cv.at("pdf", default: (:)).at("labels", default: (:)) {
+    assert(key in labels, message: "Unknown section label: " + key)
+    labels.insert(key, tr(value))
   }
   let sections = cv.at("pdf", default: (:)).at("sections", default: ("profile", "experience", "projects", "education", "skills", "assisted_skills", "languages"))
   let name = tr(cv.basics.name)

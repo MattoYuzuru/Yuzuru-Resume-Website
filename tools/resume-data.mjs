@@ -63,6 +63,13 @@ export function validateResume(data, locales = ['ru', 'en']) {
     object(data.pdf, 'pdf');
     if (!Number.isInteger(data.pdf.max_pages ?? 1) || (data.pdf.max_pages ?? 1) < 1 || (data.pdf.max_pages ?? 1) > 10) fail('pdf.max_pages', 'use an integer between 1 and 10');
     if (data.pdf.filename != null && !/^[a-z0-9][a-z0-9-]*$/u.test(data.pdf.filename)) fail('pdf.filename', 'use a filename slug');
+    if (data.pdf.labels != null) {
+      object(data.pdf.labels, "pdf.labels");
+      for (const [key, value] of Object.entries(data.pdf.labels)) {
+        if (!supportedSections.has(key)) fail("pdf.labels", `unknown section: ${key}`);
+        local(value, `pdf.labels.${key}`);
+      }
+    }
     if (data.pdf.project_order != null) {
       const names = list(data.pdf.project_order, "pdf.project_order");
       const known = new Set((data.projects ?? []).map(project => project.name));
