@@ -31,7 +31,7 @@
   .place-dice svg { display: block; }
   .place-dice-tooltip { position: absolute; z-index: 5; top: calc(100% + 8px); right: 0; width: max-content; max-width: 240px; padding: 8px 11px; border: 1px solid #d4d9cc; border-radius: 5px; background: var(--paper); box-shadow: 0 4px 16px #30363008; color: var(--muted); font-size: 11px; line-height: 1.5; opacity: 0; visibility: hidden; transition: opacity .15s, visibility .15s; }
   .place-dice-tooltip::before { content: ''; position: absolute; top: -9px; left: 0; right: 0; height: 9px; }
-  .place-dice-control:not([data-tooltip-dismissed]):is(:hover, :focus-within) .place-dice-tooltip { opacity: 1; visibility: visible; }
+  .place-dice-control:not([data-tooltip-dismissed]):is(:hover, :has(.place-dice:focus-visible)) .place-dice-tooltip { opacity: 1; visibility: visible; }
   .language { display: flex; align-items: center; gap: 10px; font: 11px 'IBM Plex Mono', monospace; letter-spacing: .04em; }
   .language a { text-decoration: none; padding: 12px 4px; color: var(--muted); }
   .language a[aria-current] { color: var(--ink); text-decoration: underline; text-underline-offset: 5px; }
