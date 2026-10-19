@@ -1,0 +1,10 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import { validateResume, assertPublishTarget } from './resume-data.mjs';
+const simple = () => ({ basics: { name: {ru: 'Имя', en: 'Name'}, headline: 'Engineer', location: 'Remote' } });
+test('a different person may omit optional sections and contacts', () => { assert.doesNotThrow(() => validateResume(simple())); });
+test('missing translations fail before rendering', () => { const cv = simple(); delete cv.basics.name.ru; assert.throws(() => validateResume(cv), /basics.name.ru/); assert.doesNotThrow(() => validateResume(cv, ['en'])); });
+test('unfilled facts and active-content links are rejected', () => { const cv = simple(); cv.basics.profile = '{{impact}}'; assert.throws(() => validateResume(cv), /unfilled placeholder/); delete cv.basics.profile; cv.basics.links = [{label: 'Portfolio', url: 'javascript:alert(1)'}]; assert.throws(() => validateResume(cv), /http\(s\)/); });
+test('project selection cannot silently drop an unknown name', () => { const cv = simple(); cv.projects = [{name:'Project'}]; cv.pdf = {project_order:['Typo']}; assert.throws(() => validateResume(cv), /unknown project: Typo/); cv.pdf.project_order = ['Project']; assert.doesNotThrow(() => validateResume(cv)); });
+test('duplicate or misspelled section names fail', () => { const cv = simple(); cv.pdf = {sections:['skills','skills']}; assert.throws(() => validateResume(cv), /duplicates/); cv.pdf.sections = ['skillz']; assert.throws(() => validateResume(cv), /unknown section/); });
+test('custom resumes and colour previews cannot replace website downloads', () => { const base = {source:'/canonical.yaml',canonical:'/canonical.yaml',theme:'white',locales:['ru','en']}; assert.doesNotThrow(() => assertPublishTarget(base)); for (const change of [{source:'/other.json'},{theme:'paper'},{locales:['en']}]) assert.throws(() => assertPublishTarget({...base,...change}), /Publishing requires/); });

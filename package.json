@@ -10,7 +10,7 @@
     "dev": "pnpm --filter @keykomi/web dev --host 127.0.0.1",
     "build": "pnpm --filter @keykomi/web build && pnpm minimal:check",
     "check": "pnpm --filter @keykomi/web check",
-    "test": "node --test apps/web/src/lib/atlas-selection.test.ts apps/web/src/lib/minimal-routes.test.ts apps/web/src/lib/atlas-waves.test.ts",
+    "test": "node --test apps/web/src/lib/atlas-selection.test.ts apps/web/src/lib/minimal-routes.test.ts apps/web/src/lib/atlas-waves.test.ts tools/resume-data.test.mjs",
     "verify": "pnpm check && pnpm test && pnpm atlas:check && python3 -B -m unittest discover -s deploy -p test_receive.py",
     "minimal:check": "node tools/check-minimal-build.mjs",
     "resume": "node tools/build-resume.mjs",
@@ -19,6 +19,8 @@
     "atlas:review": "node tools/run-atlas.mjs review",
     "atlas:check": "node tools/check-atlas.mjs",
     "release": "node tools/prepare-release.mjs",
-    "deploy": "bash deploy/deploy.sh"
+    "deploy": "bash deploy/deploy.sh",
+    "resume:publish": "node tools/build-resume.mjs --publish",
+    "resume:check": "node --test tools/resume-data.test.mjs && node tools/check-resume-template.mjs"
   }
 }

@@ -2,7 +2,7 @@
 
 This is the public source for keykomi.com. English lives at /, Russian at /ru/.
 
-Use pnpm and Node >=26.9. Run pnpm verify and pnpm build for code changes. The PDFs and compiled atlas assets are checked in, so a normal build needs neither Python nor Typst. Rebuild those only when their source changes.
+Use pnpm and Node >=26.9. Run pnpm verify and pnpm build for code changes. The PDFs and compiled atlas assets are checked in, so a normal build needs neither Python nor Typst. Rebuild those only when their source changes. CV previews use pnpm resume; only pnpm resume:publish updates the website PDFs. Read resume/README.md and resume/AI-GUIDE.md before tailoring a CV.
 
 Keep UI strings bilingual. Text belongs in the DOM; canvas is decorative. Language changes preserve the art instance. Honour prefers-reduced-motion and the mobile text-only layout.
 

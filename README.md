@@ -22,7 +22,7 @@ pnpm verify
 pnpm build
 ```
 
-The build is in `apps/web/dist`. Existing PDF resumes are included; `pnpm resume` rebuilds them with Typst and Poppler.
+The build is in `apps/web/dist`. Existing PDF resumes are included; `pnpm resume` builds previews with Typst and Poppler; `pnpm resume:publish` explicitly updates the website copies. [CV template](resume/README.md).
 
 Copy is in `content/minimal.json`. Resume facts are in `content/resume/resume.yaml`. Image sources and licences are recorded in `content/atlas/source-lock.json` and available from each postcard's caption.
 
